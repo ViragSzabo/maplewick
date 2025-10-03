@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Bed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Device/BloodPressureMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Device/BloodPressureRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Device/HeartRateMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Device/HeartRateRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Building/Device/MedicalDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Patient/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Patient/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Staff/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Staff/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/Staff/StaffMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/System/ICU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/Hospital/Implementation/System/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/Hospital_Part2/CodeBlackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/User/UserStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/User/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/Validation/AgeValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/Validation/EmailValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/Validation/PasswordValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/Validation/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Implementation/UserValidation/ValidationRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Apps/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Apps/AppStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Apps/AppleAppStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Apps/GoogleAppStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Conditions/DownloadNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Conditions/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Users/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/Implementation/Users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Airplane/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Airplane/CommercialAirplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Airplane/PrivateAirplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Flight/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Flight/Flight24Uploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Flight/FlightBookingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Flight/FlightStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Luggage/Luggage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Luggage/LuggageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Travel/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Travel/BookStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Travel/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/Airport/Travel/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Guests/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Guests/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Hotel/HotelBookingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Hotel/Housekeeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Hotel/Receptionist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/HotelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Rooms/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Rooms/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Implementation/EndAssignment/Rooms/Suite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ArtGallery/BuyerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ArtGallery/ExhibitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/CafeManagement/CafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ComicStoreSystem/AuthorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ComicStoreSystem/ComicSeriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ComicStoreSystem/ComicVolumeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ComicStoreSystem/PublisherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/ComicStoreSystem/Shop/PublishingControlRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/LibrarySystem/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/LibrarySystem/People/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/LibrarySystem/Transaction/BorrowTransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/NuclearPowerplant/STENDAANIUMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/NuclearPowerplant/SlittingRods/STENDAANIUMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/SchoolSystem/Subjects/GradeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/SchoolSystem/Users/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/SmartBBQ/Meal/FridgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/VegetableGarden/AsparagusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/VegetableGarden/GardenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/YogaStudio/Members/StandardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/YogaStudio/Teachers/YogaInstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/ExamPreparation/Implementation/YogaStudio/YogaStudioManagementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week1/Hospital/Implementation/Building/BedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week1/Hospital/Implementation/Building/Device/HeartRateRecordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week1/Hospital/Implementation/Patient/PatientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week1/Hospital/Implementation/System/ICUTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week2/Implementation/UserValidation/User/UserStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week2/Implementation/UserValidation/User/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week2/Implementation/UserValidation/User/UserValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week3/Implementation/Apps/AppStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week3/Implementation/Users/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Airplane/CommercialAirplaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Airplane/PrivateAirplaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Flight/FlightBookingSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Luggage/LuggageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Travel/AirportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Travel/BookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/Airport/Travel/PassengerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Guests/BookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Guests/GuestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Hotel/HotelBookingSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Hotel/HousekeepingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Rooms/NormalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java/Week4/Implementation/EndAssignment/Rooms/SuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/Assignment_Hospital_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Assignment_Hospital_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/Assignment_KingdomsAndQuests_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Assignment_KingdomsAndQuests_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Assignment_Hospital_Part2_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Assignment_Hospital_Part2_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Assignment_UserValidation_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Assignment_UserValidation_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/Assignment_AppStores_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/Assignment_AppStores_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Assignment_FlightBooking_INT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Assignment_FlightBooking_INT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/._oop2-flightbooking-main" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/._oop2-flightbooking-main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._Airport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._Airport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._src" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/._src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/._com" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/._com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/._nhlstenden" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/._nhlstenden" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._BookingAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._BookingAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._DistanceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._DistanceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._flight" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._flight" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._flight24" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._flight24" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._luggage" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._luggage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._plane" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._plane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._seat" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/._seat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight/._Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight/._Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight/._Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight/._Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight24/._Flight24.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight24/._Flight24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight24/._Flight24Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/flight24/._Flight24Uploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/luggage/._Luggage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/luggage/._Luggage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/luggage/._LuggageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/luggage/._LuggageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._CommercialPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._CommercialPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._PrivatePlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/plane/._PrivatePlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/seat/._Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/seat/._Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/seat/._SeatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/__MACOSX/oop2-flightbooking-main/src/com/nhlstenden/seat/._SeatType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/Airport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/Airport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/BookingAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/BookingAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/DistanceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/DistanceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight24/Flight24.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight24/Flight24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight24/Flight24Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/flight24/Flight24Uploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/luggage/Luggage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/luggage/Luggage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/luggage/LuggageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/luggage/LuggageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/CommercialPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/CommercialPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/PrivatePlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/plane/PrivatePlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/seat/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/seat/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/seat/SeatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/oop2-flightbooking-main/oop2-flightbooking-main/src/com/nhlstenden/seat/SeatType.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="325mnwBQSvC7fNUEwMRGVx5p9qe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="d92c909e-18db-45ea-a397-29ce7dd2cb86" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="week5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="week5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="" />
+      <created>1756718977548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756718977548</updated>
+      <workItem from="1756718978768" duration="589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
