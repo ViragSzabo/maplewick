@@ -1,33 +1,51 @@
 [⬅️ Back to README](README.md)
 
-# 🧪 Running Tests
-This document explains how to run the unit tests included in this repository.
+# 🧪 Alchemy Labs – Testing in Maplewick
+*Where code potions are brewed and tested under the autumn leaves.*
 
-## Requirements
+This document explains how to run the unit tests included in the Maplewick repository.  
+Every spell (class/function) is carefully verified in the **Alchemy Labs** to ensure it behaves as intended.
+
+---
+
+## 🗺️ Lab Map
+- 📁 [Week 1](https://github.com/ViragSzabo/maplewick/tree/main/implementation/test/implementation/week1/) — *Hospital I* and *King's Quests*
+- 📁 [Week 2](https://github.com/ViragSzabo/maplewick/tree/main/implementation/test/implementation/week2/Implementation/UserValidation/User) — *User Validation*
+- 📁 [Week 3](https://github.com/ViragSzabo/maplewick/tree/main/implementation/test/implementation/week3/Implementation) — *App Store*
+- 📁 [Week 4](https://github.com/ViragSzabo/maplewick/tree/main/implementation/test/implementation/week4/Implementation) — *Flight Booking*
+
+---
+
+## ⚙️ Requirements
 - IntelliJ IDEA (latest version recommended)
 - Java 17 or higher
 - JUnit 5
 
-## Running Tests in IntelliJ
-1. Open the project in IntelliJ IDEA.
-2. Navigate to the implementation/test/implementation folder in the Project Explorer.
-3. Right-click the folder (or a specific test class) and select Run 'All Tests'.
-4. The Run window will display the results of all executed tests.
-5. Green = passed, Red = failed.
+---
 
-## Running Tests from Command Line (Optional)
-If your project uses Gradle or Maven:
+## 🔮 Running Tests in IntelliJ
+1. Open the Maplewick project in IntelliJ IDEA.
+2. Navigate to `implementation/test/implementation` in the Project Explorer.
+3. Right-click the folder (or a specific test class) and select **Run 'All Tests'**.
+4. The Run window will show the results:
+    - 🍃 Green = passed
+    - 🍂 Red = failed
+
+## 🏰 Running Tests from Command Line (Optional)
+If your project uses **Gradle** or **Maven**:
+
 
 ### Gradle
-```bash
+```bash 
 ./gradlew test
 ```
 
 ### Maven
-```bash
+```bash 
 mvn test
 ```
 
-## Notes
+## Notes from the Sage
 - All tests are written using JUnit 5.
-- Tests cover all major classes and functionalities for the assignments.
+- They cover all major classes and functionalities for your assignments.
+- Think of each test as a magical incantation verifying the correctness of your spells.
