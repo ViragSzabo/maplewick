@@ -5,27 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update, work on the vegetable garden. Exam prep.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/MeatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/BellPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Corn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Sausage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Measurable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/Statusable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/BBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/BBQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/SmartBBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/SmartBBQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Thermometer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Enums/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Classification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Enums/Types.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Exceptions/FridgeIsEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/FridgeIsEmptyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Exceptions/NoMoreFoodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/NoMoreFoodException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Fridge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Meat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Vegetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/MeltdownException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/MeltdownException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/ControlRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/CoolingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/NuclearPowerPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/NHLIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/NHLIUM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/STENDAANIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/STENDAANIUM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/SplittingRod.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +81,9 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week5" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week8" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
   </component>
   <component name="RunManager" selected="Application.BBQ">
@@ -227,7 +223,7 @@
       <workItem from="1756891898561" duration="22000" />
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
-      <workItem from="1759491300239" duration="6990000" />
+      <workItem from="1759491300239" duration="8492000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
