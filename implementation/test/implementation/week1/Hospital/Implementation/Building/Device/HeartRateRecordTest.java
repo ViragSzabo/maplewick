@@ -1,5 +1,7 @@
-package implementation.week1.Hospital.Implementation.Building.Device;
+package test.implementation.week1.Hospital.Implementation.Building.Device;
 
+import implementation.week1.Hospital.Implementation.Building.Device.HeartRateMonitor;
+import implementation.week1.Hospital.Implementation.Building.Device.HeartRateRecord;
 import implementation.week1.Hospital.Implementation.Patient.Gender;
 import implementation.week1.Hospital.Implementation.Patient.Patient;
 import org.junit.jupiter.api.BeforeEach;

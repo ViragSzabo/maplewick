@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add King Quest">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GardenBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GridGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/Greenhouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Colour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Kale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/maplewick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maplewick.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST.md" beforeDir="false" afterPath="$PROJECT_DIR$/TEST.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Asparagus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Asparagus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/Garden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Pepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/TooManyVegetablesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/TooManyVegetablesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Vegetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/VeggieGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/VeggieGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/WeatherGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/WeatherGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/BedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/BedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/Device/HeartRateRecordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/Device/HeartRateRecordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Patient/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Patient/PatientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,26 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.VeggieGarden.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\test" />
@@ -66,7 +88,7 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.VeggieGarden">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -146,8 +168,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VeggieGarden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week6.VegetableGarden.VeggieGarden" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week6.VegetableGarden.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VeggieGarden" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -175,7 +211,7 @@
       <workItem from="1756891898561" duration="22000" />
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
-      <workItem from="1759491300239" duration="883000" />
+      <workItem from="1759491300239" duration="4110000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />

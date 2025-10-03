@@ -1,5 +1,7 @@
-package implementation.week1.Hospital.Implementation.Patient;
+package test.implementation.week1.Hospital.Implementation.Patient;
 
+import implementation.week1.Hospital.Implementation.Patient.Gender;
+import implementation.week1.Hospital.Implementation.Patient.Patient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

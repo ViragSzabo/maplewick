@@ -1,5 +1,6 @@
-package implementation.week1.Hospital.Implementation.Building;
+package test.implementation.week1.Hospital.Implementation.Building;
 
+import implementation.week1.Hospital.Implementation.Building.Bed;
 import implementation.week1.Hospital.Implementation.Patient.*;
 
 import java.time.LocalDate;
