@@ -1,32 +1,38 @@
 package implementation.week7.SmartBBQ.BBQ;
 
-import implementation.week7.SmartBBQ.Enums.Types;
-import implementation.week7.SmartBBQ.Exceptions.*;
-import implementation.week7.SmartBBQ.Meal.Fridge;
-import implementation.week7.SmartBBQ.Meal.Meat;
-import implementation.week7.SmartBBQ.Meal.Vegetable;
+import implementation.week7.SmartBBQ.Fridge.*;
+import implementation.week7.SmartBBQ.Food.Meat;
+import implementation.week7.SmartBBQ.Food.Vegetable;
+import implementation.week7.SmartBBQ.Measures.Thermometer;
 
 public class BBQ
 {
     public static void main(String[] args) throws NoMoreFoodException, FridgeIsEmptyException
     {
         SmartBBQ bbq = new SmartBBQ();
-        Fridge fridge = Fridge.getInstance();
+        Thermometer thermometer = new Thermometer();
+        Meat meat;
 
         // Add food to fridge
-        fridge.addFood(new Vegetable());
-        fridge.addFood(new Meat(Types.CHICKEN));
-        fridge.addFood(new Meat(Types.PIG));
-        fridge.addFood(new Meat(Types.COW));
+        Fridge.getInstance().addFood(new Hamburger());
+        Fridge.getInstance().addFood(new Sausage());
+        Fridge.getInstance().addFood(new Corn());
+        Fridge.getInstance().addFood(new BellPepper());
 
-        // Add food to BBQ
-        bbq.addFood(fridge.getNextMeat());
-        bbq.addFood(fridge.getNextVegetable());
+        try
+        {
+            meat = Fridge.getInstance().getNextMeat();
+            bbq.addFood(meat);
+            bbq.addFood(Fridge.getInstance().getNextMeat());
+            bbq.turnOn(180);
 
-        // Turn on BBQ
-        bbq.turnOn(180);
-
-        // Increase BBQ temperature
-        bbq.setTemperature(200);
+            thermometer.measure(meat);
+            bbq.setTemperature(200);
+            thermometer.measure(meat);
+        }
+        catch (NoMoreFoodException | FridgeIsEmptyException e)
+        {
+            System.out.println(e.getMessage());
+        }
     }
 }

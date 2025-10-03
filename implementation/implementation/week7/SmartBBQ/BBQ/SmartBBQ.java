@@ -1,101 +1,64 @@
 package implementation.week7.SmartBBQ.BBQ;
 
-import implementation.week7.SmartBBQ.Meal.*;
+import implementation.week7.SmartBBQ.Food.*;
+import implementation.week7.SmartBBQ.Measures.Measurable;
+
+import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SmartBBQ
+public class SmartBBQ extends TimerTask implements Measurable
 {
+    private final ArrayList<Food> food;
     private int temperature;
-    private boolean isOn = false;
-    private final Food[] foodItems = new Food[6];
-    private Timer bbqTimer;
+    private Timer timer;
+
+    public SmartBBQ()
+    {
+        this.food = new ArrayList<>();
+        this.temperature = 0;
+    }
+
+    public double getTemperature()
+    {
+        return temperature;
+    }
 
     public void setTemperature(int temperature)
     {
         this.temperature = temperature;
     }
 
-    public Object getFood(int i)
+    public ArrayList<Food> getFood()
     {
-        return foodItems[i];
+        return food;
     }
 
-    public int getTemperature()
+    public void addFood(Food food)
     {
-        return temperature;
+        this.food.add(food);
     }
 
-    public void turnOn(int temp) throws IllegalArgumentException
+    public void turnOn(int temp)
     {
-        if (temperature > 250)
+        this.temperature = temp;
+        this.timer = new Timer();
+        this.timer.schedule(this, 0, 1000);
+    }
+
+    public void turnOff()
+    {
+        this.temperature = 0;
+        this.timer.cancel();
+        this.timer = null;
+    }
+
+    @Override
+    public void run()
+    {
+        for(Food food : food)
         {
-            this.temperature = temp;
-            this.isOn = true;
-            System.out.println("Turning on " + this.temperature + "°C");
-            startGrilling();
-        }
-        else
-        {
-            throw new IllegalArgumentException("Max temperature must be 250°C");
-        }
-    }
-
-    public void turnOff(int temp)
-    {
-        isOn = false;
-        if(bbqTimer != null)
-        {
-            bbqTimer.cancel();
-        }
-        System.out.println("SmartBBQ is turned off.");
-    }
-
-    private void startGrilling()
-    {
-        bbqTimer = new Timer();
-        TimerTask task = new TimerTask()
-        {
-            @Override
-            public void run() {
-                grillFoodItems();
-            }
-        };
-        bbqTimer.scheduleAtFixedRate(task, 0, 1000);
-    }
-
-    public void addFood(Food food) throws IllegalStateException
-    {
-        for(int i = 0; i < foodItems.length; i++)
-        {
-            if(foodItems[i] == null)
-            {
-                foodItems[i] = food;
-                System.out.println("Added: " + food);
-                return;
-            }
-        }
-        throw new IllegalStateException("No space available on SmartBBQ.");
-    }
-
-    public void increaseTemperature(int newTemp)
-    {
-        if (newTemp > 250) throw new IllegalArgumentException("Max temperature is 250°C");
-        this.temperature = newTemp;
-        System.out.println("Temperature increased to " + newTemp + "°C.");
-    }
-
-    public void grillFoodItems()
-    {
-        if(isOn)
-        {
-            for(Food food : foodItems)
-            {
-                if(food != null) {
-                    food.grill(temperature);
-                    System.out.println(food + "is being grilled.");
-                }
-            }
+            food.grill(this.temperature);
         }
     }
 }

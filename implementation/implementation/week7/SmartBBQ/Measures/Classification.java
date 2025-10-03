@@ -1,4 +1,4 @@
-package implementation.week7.SmartBBQ.Enums;
+package implementation.week7.SmartBBQ.Measures;
 
 public enum Classification {
     COLD,

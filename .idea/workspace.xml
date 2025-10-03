@@ -4,27 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add King Quest">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GardenBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GridGarden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/Greenhouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Sellable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Colour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Kale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/maplewick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maplewick.iml" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update, work on the vegetable garden. Exam prep.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/MeatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/BellPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Corn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Fridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Sausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Measurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Asparagus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Asparagus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/Garden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Pepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/TooManyVegetablesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/TooManyVegetablesException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/VeggieGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/VeggieGarden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/WeatherGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/WeatherGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/BedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/BedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/Device/HeartRateRecordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Building/Device/HeartRateRecordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Patient/PatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week1/Hospital/Implementation/Patient/PatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/BBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/BBQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/SmartBBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/SmartBBQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Thermometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Enums/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Classification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Enums/Types.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Exceptions/FridgeIsEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/FridgeIsEmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Exceptions/NoMoreFoodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/NoMoreFoodException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Fridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Meal/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Vegetable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.BBQ.executor": "Run",
     "Application.VeggieGarden.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -88,7 +90,7 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VeggieGarden">
+  <component name="RunManager" selected="Application.BBQ">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -168,6 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week7.SmartBBQ.BBQ.BBQ" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week7.SmartBBQ.BBQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VeggieGarden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week6.VegetableGarden.VeggieGarden" />
       <module name="maplewick" />
@@ -183,6 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BBQ" />
         <item itemvalue="Application.VeggieGarden" />
         <item itemvalue="Application.App" />
       </list>
@@ -211,7 +227,7 @@
       <workItem from="1756891898561" duration="22000" />
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
-      <workItem from="1759491300239" duration="4110000" />
+      <workItem from="1759491300239" duration="6990000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -247,7 +263,8 @@
     <MESSAGE value="Assignments implementation" />
     <MESSAGE value="Huge cleanup!" />
     <MESSAGE value="Add King Quest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add King Quest" />
+    <MESSAGE value="Update, work on the vegetable garden. Exam prep." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update, work on the vegetable garden. Exam prep." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
