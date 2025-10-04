@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update, work on the vegetable garden. Exam prep.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/Statusable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/EcoFriendlyTravelPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Planner/TravelPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/TravelOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Walking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/MeltdownException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/MeltdownException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/ControlRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/CoolingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/NuclearPowerPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactors/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/NHLIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/NHLIUM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/STENDAANIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/STENDAANIUM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/SlittingRods/SplittingRod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/PaperCompany/MichaelScottPaperCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/PaperCompany/MichaelScottPaperCompany.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,9 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.BBQ.executor": "Run",
+    "Application.DunderAndMifflinPaperCompany.executor": "Run",
+    "Application.EcoFriendlyTravelPlanner.executor": "Run",
+    "Application.MichaelScottPaperCompany.executor": "Run",
     "Application.VeggieGarden.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -86,7 +87,7 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BBQ">
+  <component name="RunManager" selected="Application.EcoFriendlyTravelPlanner">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -153,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week1.KingsQuests.Implementation.App" />
-      <module name="oop2-homework-2025-2026-ViragSzabo" />
+    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week7.SmartBBQ.BBQ.BBQ" />
+      <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week1.KingsQuests.Implementation.*" />
+          <option name="PATTERN" value="implementation.week7.SmartBBQ.BBQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +167,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week7.SmartBBQ.BBQ.BBQ" />
+    <configuration name="DunderAndMifflinPaperCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.PaperCompany.DunderAndMifflinPaperCompany" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week7.SmartBBQ.BBQ.*" />
+          <option name="PATTERN" value="implementation.week9.PaperCompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcoFriendlyTravelPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.EcoFriendlyTravelPlanner.EcoFriendlyTravelPlanner" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week9.EcoFriendlyTravelPlanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MichaelScottPaperCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.PaperCompany.MichaelScottPaperCompany" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week9.PaperCompany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,9 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EcoFriendlyTravelPlanner" />
+        <item itemvalue="Application.DunderAndMifflinPaperCompany" />
+        <item itemvalue="Application.MichaelScottPaperCompany" />
         <item itemvalue="Application.BBQ" />
         <item itemvalue="Application.VeggieGarden" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +252,8 @@
       <workItem from="1756891898561" duration="22000" />
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
-      <workItem from="1759491300239" duration="8492000" />
+      <workItem from="1759491300239" duration="9452000" />
+      <workItem from="1759567051488" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
