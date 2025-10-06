@@ -4,19 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/EcoFriendlyTravelPlanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Planner/TravelPlanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/TravelOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoFriendlyTravelPlanner/Vehicles/Walking.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add an ecofriendly travel planner">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Attendee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/DUPLICATESEXCEPTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/Bookable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/EventTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/SOLDOUTEXCEPTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/Schedulable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/NOTFOUNDEXCEPTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/READ.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Discountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/MaplewickTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/TicketType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/VIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/AttendeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Tickets/MaplewickTicketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/PaperCompany/MichaelScottPaperCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/PaperCompany/MichaelScottPaperCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Remembering/Remembering.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Remembering/Remembering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,15 +61,22 @@
     "Application.DunderAndMifflinPaperCompany.executor": "Run",
     "Application.EcoFriendlyTravelPlanner.executor": "Run",
     "Application.MichaelScottPaperCompany.executor": "Run",
+    "Application.Remembering.executor": "Run",
     "Application.VeggieGarden.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AttendeeTest.executor": "Run",
+    "JUnit.MaplewickEventTest.executor": "Run",
+    "JUnit.MaplewickTicketTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo",
+    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick/implementation/out/test/src/implementation/week9/Events",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,22 +91,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\test" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week1\Hospital" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week4" />
-      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week5" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week8" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week9.EventPlanningAndTicketing.Events" />
+      <recent name="implementation.week9.EventPlanningAndTicketing.Tickets" />
+      <recent name="implementation.week9.EventPlanningAndTicketing" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.EcoFriendlyTravelPlanner">
+  <component name="RunManager" selected="JUnit.MaplewickEventTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -154,32 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week7.SmartBBQ.BBQ.BBQ" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week7.SmartBBQ.BBQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DunderAndMifflinPaperCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week9.PaperCompany.DunderAndMifflinPaperCompany" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week9.PaperCompany.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EcoFriendlyTravelPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week9.EcoFriendlyTravelPlanner.EcoFriendlyTravelPlanner" />
       <module name="maplewick" />
@@ -193,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MichaelScottPaperCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week9.PaperCompany.MichaelScottPaperCompany" />
+    <configuration name="Remembering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.Remembering.Remembering" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week9.PaperCompany.*" />
+          <option name="PATTERN" value="implementation.week9.Remembering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,26 +207,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VeggieGarden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week6.VegetableGarden.VeggieGarden" />
+    <configuration name="AttendeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week6.VegetableGarden.*" />
+          <option name="PATTERN" value="test.implementation.week9.EventPlanningAndTicketing.Tickets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.implementation.week9.EventPlanningAndTicketing" />
+      <option name="MAIN_CLASS_NAME" value="test.implementation.week9.EventPlanningAndTicketing.AttendeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaplewickEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.implementation.week9.EventPlanningAndTicketing.Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Events" />
+      <option name="MAIN_CLASS_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Events.MaplewickEventTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaplewickTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.implementation.week9.EventPlanningAndTicketing.Tickets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Tickets" />
+      <option name="MAIN_CLASS_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Tickets.MaplewickTicketTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaplewickEventTest" />
+        <item itemvalue="JUnit.MaplewickTicketTest" />
+        <item itemvalue="JUnit.AttendeeTest" />
+        <item itemvalue="Application.Remembering" />
         <item itemvalue="Application.EcoFriendlyTravelPlanner" />
-        <item itemvalue="Application.DunderAndMifflinPaperCompany" />
-        <item itemvalue="Application.MichaelScottPaperCompany" />
-        <item itemvalue="Application.BBQ" />
-        <item itemvalue="Application.VeggieGarden" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +286,7 @@
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
       <workItem from="1759491300239" duration="9452000" />
-      <workItem from="1759567051488" duration="4031000" />
+      <workItem from="1759567051488" duration="15387000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -279,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756818179065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add an ecofriendly travel planner">
+      <option name="closed" value="true" />
+      <created>1759571148774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759571148774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +331,8 @@
     <MESSAGE value="Huge cleanup!" />
     <MESSAGE value="Add King Quest" />
     <MESSAGE value="Update, work on the vegetable garden. Exam prep." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update, work on the vegetable garden. Exam prep." />
+    <MESSAGE value="Add an ecofriendly travel planner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add an ecofriendly travel planner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
