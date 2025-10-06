@@ -1,3 +1,7 @@
+![Java](https://img.shields.io/badge/Java-17-blue) 
+![License](https://img.shields.io/badge/License-MIT-green)
+![Maplewick](https://img.shields.io/badge/Made%20in-Maplewick-orange)
+
 # 🍁 Maplewick – OOP2 Homework 2025-2026
 *Where Java spells are brewed and echoed under the autumn leaves on the quiet streets of Maplewick.*
 
@@ -87,13 +91,6 @@ Maplewick is more than a repository — it’s a **study town** where principles
 - Virág Szabó  
 - [GitHub Profile](https://github.com/ViragSzabo)
 - Maintained for course submission at NHL Stenden
-
----
-
-## 📜 License
-![Java](https://img.shields.io/badge/Java-17-blue) 
-![License](https://img.shields.io/badge/License-MIT-green)
-![Maplewick](https://img.shields.io/badge/Made%20in-Maplewick-orange)
 
 ---
 
