@@ -4,29 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add an ecofriendly travel planner">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Attendee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/DUPLICATESEXCEPTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/Bookable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/EventTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/SOLDOUTEXCEPTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Events/Schedulable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Management.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/NOTFOUNDEXCEPTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/READ.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Discountable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/MaplewickTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/TicketType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EventPlanningAndTicketing/Tickets/VIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/AttendeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Tickets/MaplewickTicketTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/Adventure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/AdventureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/Cycling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/DIFFICULTYLEVEL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/Hiking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/Kayaking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Adventures/TrainTrip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/EcoAdventurePlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/FULLYBOOKEDEXCEPTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Interfaces/Bookable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Interfaces/EcoFriendly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Interfaces/Schedulable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Planning/Planner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/Planning/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/EcoAdventurePlanner/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/maplewick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maplewick.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Remembering/Remembering.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Remembering/Remembering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,7 @@
     "Application.App.executor": "Run",
     "Application.BBQ.executor": "Run",
     "Application.DunderAndMifflinPaperCompany.executor": "Run",
+    "Application.EcoAdventurePlanner.executor": "Run",
     "Application.EcoFriendlyTravelPlanner.executor": "Run",
     "Application.MichaelScottPaperCompany.executor": "Run",
     "Application.Remembering.executor": "Run",
@@ -76,16 +72,16 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick/implementation/out/test/src/implementation/week9/Events",
+    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2911932",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -114,7 +110,7 @@
       <recent name="implementation.week9.EventPlanningAndTicketing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MaplewickEventTest">
+  <component name="RunManager" selected="Application.EcoAdventurePlanner">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -181,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcoFriendlyTravelPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week9.EcoFriendlyTravelPlanner.EcoFriendlyTravelPlanner" />
+    <configuration name="EcoAdventurePlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.EcoAdventurePlanner.EcoAdventurePlanner" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week9.EcoFriendlyTravelPlanner.*" />
+          <option name="PATTERN" value="implementation.week9.EcoAdventurePlanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EcoAdventurePlanner" />
         <item itemvalue="JUnit.MaplewickEventTest" />
         <item itemvalue="JUnit.MaplewickTicketTest" />
         <item itemvalue="JUnit.AttendeeTest" />
         <item itemvalue="Application.Remembering" />
-        <item itemvalue="Application.EcoFriendlyTravelPlanner" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +282,8 @@
       <workItem from="1756891937437" duration="82000" />
       <workItem from="1756926490750" duration="28000" />
       <workItem from="1759491300239" duration="9452000" />
-      <workItem from="1759567051488" duration="15387000" />
+      <workItem from="1759567051488" duration="17602000" />
+      <workItem from="1759843035009" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
