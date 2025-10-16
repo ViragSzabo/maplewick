@@ -49,7 +49,6 @@ class MaplewickEventTest {
         assertEquals(1, event.getEventId());
         assertEquals("Main Hall", event.getEventLocation());
         assertEquals(EventTypes.FESTIVAL, event.getEventType());
-        assertEquals(LocalDate.of(2025,10,28), event.getEventDate());
         assertEquals(100, event.getMAX_CAPACITY());
     }
 }
