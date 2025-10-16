@@ -5,6 +5,7 @@ import implementation.week9.ChefMyFridge.Exceptions.IngredientNotFoundException;
 import implementation.week9.ChefMyFridge.Ingredients.Ingredient;
 import implementation.week9.ChefMyFridge.Interfaces.Cookable;
 import implementation.week9.ChefMyFridge.Interfaces.Storable;
+import implementation.week9.ChefMyFridge.Meals.Recipe;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -95,5 +96,12 @@ public class SmartFridge {
                             : "Room temperature OK";
                     System.out.println(i.getName() + ": " + temp);
                 });
+    }
+
+    /** Show the cookable recipes */
+    public void showCookableRecipes(List<Recipe> recipes) {
+        recipes.stream()
+                .filter(r -> r.canBeCooked(this))
+                .forEach(r -> System.out.println("✅ Can cook: " + r.getName()));
     }
 }

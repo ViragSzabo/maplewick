@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/ChefApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Enums/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Enums/FreshnessStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Exceptions/FridgeFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Exceptions/IngredientNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Fridge/SmartFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Ingredients/Dairy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Ingredients/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Ingredients/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Ingredients/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Interfaces/Cookable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Interfaces/Storable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/ChefMyFridge/Fridge/SmartFridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/ChefMyFridge/Ingredients/IngredientTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add Chef&amp;My Fridge - part 1.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Interfaces/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Meals/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/People/Chef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week9/EventPlanningAndTicketing/Events/MaplewickEventTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/ChefApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/ChefApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Fridge/SmartFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Fridge/SmartFridge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,7 +104,7 @@
       <recent name="implementation.week9.EventPlanningAndTicketing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.implementation.week9.ChefMyFridge in maplewick">
+  <component name="RunManager" selected="Application.ChefApp">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -252,8 +241,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.implementation.week9.ChefMyFridge in maplewick" />
         <item itemvalue="Application.ChefApp" />
+        <item itemvalue="JUnit.implementation.week9.ChefMyFridge in maplewick" />
         <item itemvalue="Application.PetAdoptionApp" />
         <item itemvalue="Application.EcoAdventurePlanner" />
         <item itemvalue="JUnit.MaplewickEventTest" />
@@ -288,7 +277,7 @@
       <workItem from="1759843035009" duration="5683000" />
       <workItem from="1760021167731" duration="3411000" />
       <workItem from="1760183872657" duration="602000" />
-      <workItem from="1760609523133" duration="5725000" />
+      <workItem from="1760609523133" duration="10764000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -338,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760024590828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Chef&amp;My Fridge - part 1.">
+      <option name="closed" value="true" />
+      <created>1760615578180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760615578180</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +349,8 @@
     <MESSAGE value="Add an ecofriendly travel planner" />
     <MESSAGE value="EcoFriendly adventure practice." />
     <MESSAGE value="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions." />
+    <MESSAGE value="Add Chef&amp;My Fridge - part 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Chef&amp;My Fridge - part 1." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
