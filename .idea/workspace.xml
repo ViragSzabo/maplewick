@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add Chef&amp;My Fridge - part 1.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Interfaces/Cooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Meals/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/People/Chef.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update the Chef&amp;My Fridge prep exam.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/MembershipType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Sales/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/ChefApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/ChefApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Fridge/SmartFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/ChefMyFridge/Fridge/SmartFridge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -42,6 +46,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.BBQ.executor": "Run",
+    "Application.Blockbuster.executor": "Run",
     "Application.ChefApp.executor": "Run",
     "Application.DunderAndMifflinPaperCompany.executor": "Run",
     "Application.EcoAdventurePlanner.executor": "Run",
@@ -104,7 +109,7 @@
       <recent name="implementation.week9.EventPlanningAndTicketing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChefApp">
+  <component name="RunManager" selected="Application.Blockbuster">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -171,6 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Blockbuster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week9.Blockbuster.Blockbuster" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week9.Blockbuster.Rental.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChefApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week9.ChefMyFridge.ChefApp" />
       <module name="maplewick" />
@@ -210,21 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaplewickEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.implementation.week9.EventPlanningAndTicketing.Events.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Events" />
-      <option name="MAIN_CLASS_NAME" value="test.implementation.week9.EventPlanningAndTicketing.Events.MaplewickEventTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="implementation.week9.ChefMyFridge in maplewick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
@@ -241,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Blockbuster" />
         <item itemvalue="Application.ChefApp" />
         <item itemvalue="JUnit.implementation.week9.ChefMyFridge in maplewick" />
         <item itemvalue="Application.PetAdoptionApp" />
         <item itemvalue="Application.EcoAdventurePlanner" />
-        <item itemvalue="JUnit.MaplewickEventTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +280,7 @@
       <workItem from="1759843035009" duration="5683000" />
       <workItem from="1760021167731" duration="3411000" />
       <workItem from="1760183872657" duration="602000" />
-      <workItem from="1760609523133" duration="10764000" />
+      <workItem from="1760609523133" duration="17302000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -335,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760615578180</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update the Chef&amp;My Fridge prep exam.">
+      <option name="closed" value="true" />
+      <created>1760646487958</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760646487958</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +361,8 @@
     <MESSAGE value="EcoFriendly adventure practice." />
     <MESSAGE value="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions." />
     <MESSAGE value="Add Chef&amp;My Fridge - part 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Chef&amp;My Fridge - part 1." />
+    <MESSAGE value="Update the Chef&amp;My Fridge prep exam." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the Chef&amp;My Fridge prep exam." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
