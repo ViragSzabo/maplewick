@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update the Chef&amp;My Fridge prep exam.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/MembershipType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Rentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Sales/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Carlos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Connie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Eliza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Hannah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Timmy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Intern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Rental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,46 +50,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.BBQ.executor": "Run",
-    "Application.Blockbuster.executor": "Run",
-    "Application.ChefApp.executor": "Run",
-    "Application.DunderAndMifflinPaperCompany.executor": "Run",
-    "Application.EcoAdventurePlanner.executor": "Run",
-    "Application.EcoFriendlyTravelPlanner.executor": "Run",
-    "Application.MichaelScottPaperCompany.executor": "Run",
-    "Application.PetAdoptionApp.executor": "Run",
-    "Application.Remembering.executor": "Run",
-    "Application.VeggieGarden.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AttendeeTest.executor": "Run",
-    "JUnit.MaplewickEventTest.executor": "Run",
-    "JUnit.MaplewickTicketTest.executor": "Run",
-    "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2911932",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Blockbuster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChefApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DunderAndMifflinPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoAdventurePlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoFriendlyTravelPlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MichaelScottPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PetAdoptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remembering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VeggieGarden.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AttendeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week9.ChefMyFridge in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2911932&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />

@@ -5,57 +5,57 @@ import implementation.week9.Blockbuster.Members.Member;
 import implementation.week9.Blockbuster.Sales.Movie;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class Management {
     private final List<Member> members;
     private final List<Employee> employees;
     private final List<Movie> movies;
-    private final HashMap<Movie, Member> rents;
+    private final List<Rental> rentals;
 
-    /** Constructor */
     public Management() {
-        this.members = new ArrayList<Member>();
-        this.employees = new ArrayList<>();
-        this.movies = new ArrayList<>();
-        this.rents = new HashMap<>();
+        members = new ArrayList<>();
+        employees = new ArrayList<>();
+        movies = new ArrayList<>();
+        rentals = new ArrayList<>();
     }
 
-    /** Getters - Setters */
-    public List<Member> getMembers() { return members; }
-    public List<Employee> getEmployees() { return employees; }
-    public List<Movie> getMovies() { return movies; }
-    public HashMap<Movie, Member> getRents() { return rents; }
-
-    /** Add, remove methods */
     public void addMember(Member member) { members.add(member); }
     public void addEmployee(Employee employee) { employees.add(employee); }
     public void addMovie(Movie movie) { movies.add(movie); }
-    public void addRent(Movie movie, Member member) { rents.put(movie, member); }
 
     public void showAllMovies() {
-        for(Movie movie : movies) {
-            System.out.println(movie.getTitle());
-        }
+        movies.forEach(Movie::showDetails);
     }
 
     public void rent(Member member, Movie movie) {
-        if(rents.containsKey(member)) {
-            System.out.println("❌ " + movie.getTitle() + " is already rented!");
-        } else {
-            rents.put(movie, member);
-            System.out.println("✅ " + member.getFirstName() + " rented " + movie.getTitle());
-            System.out.println("💸 Price: " + movie.calculateRentalPrice() + "€");
+        if (rentals.stream().anyMatch(r -> r.getMovie().equals(movie) && !r.isReturned())) {
+            System.out.println("❌ " + movie.getTitle() + " is already rented.");
+            return;
         }
+        Rental rental = new Rental(member, movie);
+        rentals.add(rental);
+        System.out.println("✅ " + member.getFullName() + " rented " + movie.getTitle() + ".");
     }
 
     public void bringBack(Movie movie) {
-        if(rents.containsKey(movie)) {
-            rents.remove(movie);
-            System.out.println("🎞️ " + movie.getTitle() + " has been returned.");
+        Rental rental = rentals.stream()
+                .filter(r -> r.getMovie().equals(movie) && !r.isReturned())
+                .findFirst().orElse(null);
+
+        if (rental != null) {
+            rental.markReturned();
+            System.out.println("📀 " + movie.getTitle() + " has been returned.");
         } else {
-            System.out.println("⚠️ Movie not currently rented!");
+            System.out.println("⚠️ This movie was not rented.");
         }
+    }
+
+    public double getDiscountedPrice(Member member, Movie movie) {
+        double price = movie.calculateRentalPrice();
+        if(member.getMembership() != null) {
+            price *= (1 - member.getMembership().getType().getDiscountRate());
+        }
+        return price;
     }
 }
