@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update the Chef&amp;My Fridge prep exam.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Carlos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Connie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Eliza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Hannah.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Characters/Timmy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Intern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Rental.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update Blockbuster app. :)">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/STUDY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Blockbuster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Employment/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Members/Membership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week9/Blockbuster/Rental/Management.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +84,8 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10" />
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10\QuickMorningSprints" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week5" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week8" />
@@ -289,6 +276,7 @@
       <workItem from="1760021167731" duration="3411000" />
       <workItem from="1760183872657" duration="602000" />
       <workItem from="1760609523133" duration="17302000" />
+      <workItem from="1760902831162" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -354,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760646487958</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update Blockbuster app. :)">
+      <option name="closed" value="true" />
+      <created>1760783655134</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760783655135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +366,8 @@
     <MESSAGE value="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions." />
     <MESSAGE value="Add Chef&amp;My Fridge - part 1." />
     <MESSAGE value="Update the Chef&amp;My Fridge prep exam." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the Chef&amp;My Fridge prep exam." />
+    <MESSAGE value="Update Blockbuster app. :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Blockbuster app. :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
