@@ -5,23 +5,26 @@
 
 ### 🧩 Key Concepts
 * **OOP (Object-Oriented Programming):** 
-Programming model that organizes code 
-into objects (data + behavior).
+Programming model that organizes code into objects (data + behavior).
 * **Encapsulation:** 
-Hiding internal data; 
-using properties and methods 
-to control access.
+Hiding internal data; using properties and methods to control access.
 * **Collections (List<T>):** 
-Dynamic array-like structures 
-that store multiple objects.
+Dynamic array-like structures that store multiple objects.
 * **Iteration:** 
-Looping through elements in a collection 
-(e.g. foreach).
+Looping through elements in a collection(e.g. foreach).
 
 ### 💻 Practice
 * Create a Plant class with properties (Name, GrowthRate, DaysSincePlanted).
 * A Garden manages a List<Plant> → add, water, and harvest plants.
 * Test by calling WaterAll() several times and printing harvest results.
+
+// Create a list
+    List<Plant> plants = new ArrayList<>();
+
+// Iterate
+    for (Plant p : plants) {
+        p.setDaysSincePlanted(p.getDaysSincePlanted() + 1);
+    }
 
 ## 🔥 Tuesday – SmartBBQ
 **Topics:** ⚡ Events • Delegates • Encapsulation • Observer Pattern

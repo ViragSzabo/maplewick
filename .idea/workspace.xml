@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update Blockbuster app. :)">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/STUDY.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Monday/Garden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Monday/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Monday/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/STUDY.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/STUDY.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,46 +38,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BBQ.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Blockbuster.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChefApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DunderAndMifflinPaperCompany.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EcoAdventurePlanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EcoFriendlyTravelPlanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MichaelScottPaperCompany.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PetAdoptionApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Remembering.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VeggieGarden.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.AttendeeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.implementation.week9.ChefMyFridge in maplewick.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2911932&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.BBQ.executor": "Run",
+    "Application.Blockbuster.executor": "Run",
+    "Application.ChefApp.executor": "Run",
+    "Application.DunderAndMifflinPaperCompany.executor": "Run",
+    "Application.EcoAdventurePlanner.executor": "Run",
+    "Application.EcoFriendlyTravelPlanner.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MichaelScottPaperCompany.executor": "Run",
+    "Application.PetAdoptionApp.executor": "Run",
+    "Application.Remembering.executor": "Run",
+    "Application.VeggieGarden.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AttendeeTest.executor": "Run",
+    "JUnit.MaplewickEventTest.executor": "Run",
+    "JUnit.MaplewickTicketTest.executor": "Run",
+    "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.2911932",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />
@@ -104,7 +108,7 @@
       <recent name="implementation.week9.EventPlanningAndTicketing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blockbuster">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -197,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcoAdventurePlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week9.EcoAdventurePlanner.EcoAdventurePlanner" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Monday.Main" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week9.EcoAdventurePlanner.*" />
+          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.Monday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Blockbuster" />
         <item itemvalue="Application.ChefApp" />
         <item itemvalue="JUnit.implementation.week9.ChefMyFridge in maplewick" />
         <item itemvalue="Application.PetAdoptionApp" />
-        <item itemvalue="Application.EcoAdventurePlanner" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +280,8 @@
       <workItem from="1760021167731" duration="3411000" />
       <workItem from="1760183872657" duration="602000" />
       <workItem from="1760609523133" duration="17302000" />
-      <workItem from="1760902831162" duration="3064000" />
+      <workItem from="1760902831162" duration="3346000" />
+      <workItem from="1760934640759" duration="3248000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -350,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760783655135</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Planning morning: Oct. 20-24">
+      <option name="closed" value="true" />
+      <created>1760905961923</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760905961923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +380,8 @@
     <MESSAGE value="Add Chef&amp;My Fridge - part 1." />
     <MESSAGE value="Update the Chef&amp;My Fridge prep exam." />
     <MESSAGE value="Update Blockbuster app. :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Blockbuster app. :)" />
+    <MESSAGE value="Planning morning: Oct. 20-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Planning morning: Oct. 20-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

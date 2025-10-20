@@ -12,18 +12,45 @@ Each day:
 ⏱️ **Estimated time:** 25 minutes
 
 **Tasks:**
-* Create a class _Plant_ with properties _Name_, _GrowthRate_, and _DaysSincePlanted_.
-* Create a class _Garden_ that holds a _List<Plant>_.
+* ✅ Create a class _Plant_ with properties _Name_, _GrowthRate_, and _DaysSincePlanted_.
+* ✅ Create a class _Garden_ that holds a _List<Plant>_.
 
 **Methods:**
-* _AddPlant(Plant plant)_
-* _WaterAll()_ → increases each plant’s _DaysSincePlanted by 1_.
-* _HarvestReady()_ → returns a list of plants with _DaysSincePlanted >= 7_.
+* ✅ _AddPlant(Plant plant)_
+* ✅ _WaterAll()_ → increases each plant’s _DaysSincePlanted by 1_.
+* ✅ _HarvestReady()_ → returns a list of plants with _DaysSincePlanted >= 7_.
 
 **Test:**
-* Add 3 plants.
-* Call WaterAll() 7 times.
-* Print harvested plants' names.
+* ✅ Add 3 plants.
+* ✅ Call WaterAll() 7 times.
+* ✅ Print harvested plants' names.
+
+**Conclusion:**
+🌿 Code Quality (4.5 / 5)
+Great naming, consistent style, and logical structure.
+Respected encapsulation and kept classes single-purpose.
+Very readable and easy to extend for later days.
+Polishing: could make the harvest() method return the harvested list instead of just printing (for later integration).
+*Printing “Harvesting ready” even when there’s none could be conditional — but that’s minor.
+
+🧩 Concept Coverage (3.5 / 3.5)
+OOP basics: class structure, properties, methods
+Collections: List usage and iteration
+Encapsulation: clear and consistent
+Constructor usage: check!
+toString() override: nice touch
+
+🧪 Testing & Output (1.5 / 1.5)
+Main properly simulates a garden cycle
+Output is clear and easy to read
+Tested the loop logic thoroughly (7x watering)
+
+✨ Bonus for Clarity (+0.5)
+Perfectly commented and clean formatting
+Could easily serve as a study reference example for OOP + collections
+
+Final grade: 🏅 9.5 / 10
+It sets up perfectly for next challenge (SmartBBQ)
 
 ## 🔥 Tuesday – SmartBBQ (Events & Delegates)
 **Goal:** Review delegates, events, and encapsulation.
