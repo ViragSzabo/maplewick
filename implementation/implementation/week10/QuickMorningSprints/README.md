@@ -11,64 +11,89 @@ Each day:
 **Goal:** Review OOP + List iteration + encapsulation.
 ⏱️ **Estimated time:** 25 minutes
 
-**Tasks:**
+### **Tasks:**
 * ✅ Create a class _Plant_ with properties _Name_, _GrowthRate_, and _DaysSincePlanted_.
 * ✅ Create a class _Garden_ that holds a _List<Plant>_.
 
-**Methods:**
+### **Methods:**
 * ✅ _AddPlant(Plant plant)_
 * ✅ _WaterAll()_ → increases each plant’s _DaysSincePlanted by 1_.
 * ✅ _HarvestReady()_ → returns a list of plants with _DaysSincePlanted >= 7_.
 
-**Test:**
+### **Test:**
 * ✅ Add 3 plants.
 * ✅ Call WaterAll() 7 times.
 * ✅ Print harvested plants' names.
 
-**Conclusion:**
-🌿 Code Quality (4.5 / 5)
-Great naming, consistent style, and logical structure.
-Respected encapsulation and kept classes single-purpose.
+### **Conclusion:**
+#### 🌿 Code Quality (4.5 / 5)
+Great naming, consistent style, and sses single-purpose.
 Very readable and easy to extend for later days.
 Polishing: could make the harvest() method return the harvested list instead of just printing (for later integration).
 *Printing “Harvesting ready” even when there’s none could be conditional — but that’s minor.
 
-🧩 Concept Coverage (3.5 / 3.5)
+#### 🧩 Concept Coverage (3.5 / 3.5)
 OOP basics: class structure, properties, methods
 Collections: List usage and iteration
 Encapsulation: clear and consistent
 Constructor usage: check!
 toString() override: nice touch
 
-🧪 Testing & Output (1.5 / 1.5)
+#### 🧪 Testing & Output (1.5 / 1.5)
 Main properly simulates a garden cycle
 Output is clear and easy to read
 Tested the loop logic thoroughly (7x watering)
 
-✨ Bonus for Clarity (+0.5)
+#### ✨ Bonus for Clarity (+0.5)
 Perfectly commented and clean formatting
 Could easily serve as a study reference example for OOP + collections
 
-Final grade: 🏅 9.5 / 10
+**Final grade:** 🏅 9.5 / 10
 It sets up perfectly for next challenge (SmartBBQ)
 
 ## 🔥 Tuesday – SmartBBQ (Events & Delegates)
 **Goal:** Review delegates, events, and encapsulation.
 ⏱️ **Estimated time:** 25 minutes
 
-**Tasks:**
+### **Tasks:**
 * Simulate a **smart grill** that sends a notification when the temp. is too high.
 
-**Methods:**
+### **Methods:**
 * _Grill_ class with _Temperature_ property.
 * An event _TemperatureTooHigh_.
 * Method _IncreaseTemperature(int amount)_ that raises the event if _Temperature > 250_.
 * A _BBQApp_ class subscribing to this event and printing a warning.
 
-**Test:**
+### **Test:**
 * Create a grill.
 * Subscribe with the app.
 * Increase temp. several times.
+
+### **Conclusion:**
+#### 🌿 OOP fundamentals (4/4)
+* **Classes:** Grill, BBQApp, WARNING (clear roles)
+* Constructor initialization and getters/setters ✅
+* Encapsulation and method calls between classes ✅
+
+#### 🧩 Error Handling (Exceptions) (2/2)
+* Custom exception (WARNING) for grill overheating
+* try–catch structure demonstrates checked exception handling perfectly
+
+#### 🧪 Flow Control (2/2)
+* Logical temperature checks, consistent method calls. 
+
+#### ✨ Event-like concept (1/2)
+* It uses try/catch instead of actual event-delegate pattern.
+
+**Final grade:** 🏅 9 / 10
+Solid implementation, very readable and well-structured.
+Prepared for the next challenge (NuclearPowerPlant).
+
+#### 🔥 Extra tip
+##### Polymorphism/Interfaces
+* Create an interface like TemperatureMonitor, 
+then BBQApp could implement it to react when grill temp changes
+— that’s how to bring events/delegates into play.
 
 ## ⚛️ Wednesday – NuclearPowerPlant (Interfaces & Polymorphism)
 **Goal:** Practice interfaces, polymorphism, and abstraction.
