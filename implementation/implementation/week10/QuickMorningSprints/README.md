@@ -84,16 +84,11 @@ It sets up perfectly for next challenge (SmartBBQ)
 
 #### ✨ Event-like concept (1/2)
 * It uses try/catch instead of actual event-delegate pattern.
+* Added!
 
 **Final grade:** 🏅 9 / 10
 Solid implementation, very readable and well-structured.
 Prepared for the next challenge (NuclearPowerPlant).
-
-#### 🔥 Extra tip
-##### Polymorphism/Interfaces
-* Create an interface like TemperatureMonitor, 
-then BBQApp could implement it to react when grill temp changes
-— that’s how to bring events/delegates into play.
 
 ## ⚛️ Wednesday – NuclearPowerPlant (Interfaces & Polymorphism)
 **Goal:** Practice interfaces, polymorphism, and abstraction.

@@ -14,12 +14,4 @@ public class BBQApp {
     public void setGrill(Grill grill) {
         this.grill = grill;
     }
-
-    public void checkTemp() throws WARNING {
-        if(grill.getTemperature() > 250) {
-            throw new WARNING();
-        } else {
-            System.out.println("Grill's temp.: " + grill.getTemperature());
-        }
-    }
 }

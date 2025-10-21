@@ -4,6 +4,7 @@ public class Grill {
 
     /** Properties */
     private int temperature;
+    private TemperatureMonitor listener;
 
     /** Constructor */
     public Grill(int temperature) {
@@ -19,8 +20,16 @@ public class Grill {
         this.temperature = temperature;
     }
 
+    public void setListener(TemperatureMonitor listener) {
+        this.listener = listener;
+    }
+
     /** Increase temperature of the grill */
-    public void increaseTemperature(int amount) {
+    public void increaseTemperature(int amount) throws WARNING {
         this.setTemperature(temperature += amount);
+        System.out.println("Temperature increased to " + temperature + "°C");
+        if (temperature > 250 && listener != null) {
+            listener.onOverheat();
+        }
     }
 }
