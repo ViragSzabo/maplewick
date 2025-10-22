@@ -12,6 +12,8 @@ public class Main {
 
         for (IReactor reactor : nuclearPowerPlant.getReactors()) {
             System.out.println(reactor.getStatus());
+            reactor.start();
+            reactor.shutDown();
         }
     }
 }
