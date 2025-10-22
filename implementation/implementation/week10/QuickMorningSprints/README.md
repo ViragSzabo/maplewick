@@ -108,6 +108,24 @@ Prepared for the next challenge (NuclearPowerPlant).
 * Iterate through them.
 * Call their methods.
 
+### **Conclusion:**
+#### 🌿 Core Concepts (6/6)
+* **Interface definition:** IReactor defines the correct 3 methods clearly. (2/2)
+* **Implementation:** Both reactors implement the interface properly and override all methods. (2/2)
+* **Polymorphism Usage:** You store FusionReactor and FissionReactor in a List<IReactor> and iterate — excellent. (2/2)
+
+#### 🎨 Code Design & Readability (2/2 points)
+* **Naming & Structure:** Classes, methods, and packages are all clearly named and logically organized. (1/1)
+* **Formatting:** Consistent indentation and documentation comments in some places. (1/1)
+
+#### ⚙️ Behavior & Logic Accuracy (1.5/2 points)
+* **Minor mix-up:** FusionReactor and FissionReactor have their messages swapped.
+
+#### 💡 Bonus / Potential Improvement (+0.5)
+* Add System.out.println lines to start() and shutDown() (e.g., “Starting reactor…” / “Shutting down reactor safely.”).
+
+**Final grade:** 🏅 9.5 / 10
+
 ## 🌾 Thursday – Cross-System Integration (Composition & Error Handling)
 **Goal:** Combine systems and test composition + exception handling.
 ⏱️ **Estimated time:** 30 minutes

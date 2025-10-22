@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/TemperatureMonitor.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Wednesday/FissionReactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Wednesday/FusionReactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Wednesday/IReactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Wednesday/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Wednesday/NuclearPowerPlant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/BBQApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/BBQApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/Grill.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/Grill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Tuesday/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +55,7 @@
     "Application.Remembering.executor": "Run",
     "Application.VeggieGarden.executor": "Run",
     "Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor": "Run",
+    "Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AttendeeTest.executor": "Run",
     "JUnit.MaplewickEventTest.executor": "Run",
@@ -115,7 +117,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.implementation.week10.QuickMorningSprints.Tuesday.Main">
+  <component name="RunManager" selected="Application.implementation.week10.QuickMorningSprints.Wednesday.Main">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -208,19 +210,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChefApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week9.ChefMyFridge.ChefApp" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week9.ChefMyFridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Monday.Main" />
       <module name="maplewick" />
@@ -247,13 +236,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="implementation.week10.QuickMorningSprints.Wednesday.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Wednesday.Main" />
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.Wednesday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.implementation.week10.QuickMorningSprints.Wednesday.Main" />
         <item itemvalue="Application.implementation.week10.QuickMorningSprints.Tuesday.Main" />
         <item itemvalue="Application.BBQApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Blockbuster" />
-        <item itemvalue="Application.ChefApp" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +290,8 @@
       <workItem from="1760609523133" duration="17302000" />
       <workItem from="1760902831162" duration="3346000" />
       <workItem from="1760934640759" duration="3557000" />
-      <workItem from="1761022376719" duration="2892000" />
+      <workItem from="1761022376719" duration="2984000" />
+      <workItem from="1761108922196" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -386,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761024323091</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated to automate event triggering!">
+      <option name="closed" value="true" />
+      <created>1761025324441</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761025324441</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +417,8 @@
     <MESSAGE value="Planning morning: Oct. 20-24" />
     <MESSAGE value="Monday: VegetableGarden (OOP Basics &amp; Collections)" />
     <MESSAGE value="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)" />
+    <MESSAGE value="Updated to automate event triggering!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to automate event triggering!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
