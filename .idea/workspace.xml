@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add start and shutdown method into main.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/FUELEXCEPTION.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Thursday: EcoSystemManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
     </list>
@@ -289,7 +287,7 @@
       <workItem from="1760902831162" duration="3346000" />
       <workItem from="1760934640759" duration="3557000" />
       <workItem from="1761022376719" duration="2984000" />
-      <workItem from="1761108922196" duration="6867000" />
+      <workItem from="1761108922196" duration="7635000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -411,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761111367379</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Thursday: EcoSystemManager">
+      <option name="closed" value="true" />
+      <created>1761198217628</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761198217629</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +440,8 @@
     <MESSAGE value="Updated to automate event triggering!" />
     <MESSAGE value="Wednesday: NuclearPowerPant (Interfaces &amp; Polymorphism)" />
     <MESSAGE value="Add start and shutdown method into main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add start and shutdown method into main." />
+    <MESSAGE value="Thursday: EcoSystemManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thursday: EcoSystemManager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

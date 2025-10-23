@@ -165,19 +165,42 @@ The simulation feels coherent — the Garden produces resources, the BBQ consume
 Excellent job! You fully demonstrated composition, error handling, and system coordination. 
 The code looks ready for an exam-level submission — only micro-polish would make it textbook perfect.
 
-## 🌍 Friday – Final Exam Simulation (All-in-One Integration)
-**Goal:** Full OOP system integration — event handling, interfaces, error catching, and simple file I/O.
+## 🌍 Friday – Final Exam Simulation (All-in-One + Automation & File I/O)
+**Goal:**
+- 🧩 Combine all subsystems into a single simulation that runs over several days.
+- 💾 Demonstrate automation, persistence (file I/O), and cross-class coordination.
 ⏱️ **Estimated time:** 30 minutes
 
-**Tasks:** You’re the Maplewick Facility Manager.
+**Tasks:** Build a MaplewickFacility class that manages everything:
+* Holds references to Garden, Grill, and NuclearPowerPlant.
+* Adds a simple loop that simulates several “days”.
+* Each day: 
+  - 🌱Waters the plants.
+  - 🍂 Harvest when ready → convert harvest count into “biofuel.”
+  - 🔥 Heat the BBQ using that fuel.
+  - ⚛️ Monitor reactors and display their status.
+  - 💾 Log all activity to a text file (simulation_log.txt).
 
 **Methods:**
 A single run sequence _SimulateDay()_ that:
-* Water plants,
-* Harvests if ready,
-* Generates fuel,
-* Powers BBQ,
-* Monitors reactor.
+* simulateDay(int day) – runs one day’s sequence.
+* runSimulation(int days) – loops and calls simulateDay().
+* saveLog(String message) – writes to file using FileWriter.
 
 **Test:**
-* Run one SimulateDay().
+* Run one automatic simulation.
+
+### **Conclusion:**
+#### 🌿 Core Concepts (?/10)
+
+
+#### 🎨 Readability & Code Structure (?/10)
+
+
+#### ⚙️ Realism of Simulation (?/10)
+
+
+#### 💡Testing Approach (?/10)
+
+
+**Final grade:** 🏅 ? / 10
