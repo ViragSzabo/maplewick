@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update Friday">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" afterDir="false" />
     </list>
@@ -291,7 +291,7 @@
       <workItem from="1760934640759" duration="3557000" />
       <workItem from="1761022376719" duration="2984000" />
       <workItem from="1761108922196" duration="7763000" />
-      <workItem from="1761281625091" duration="1021000" />
+      <workItem from="1761281625091" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -429,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761198982348</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update Friday">
+      <option name="closed" value="true" />
+      <created>1761282676147</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761282676147</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

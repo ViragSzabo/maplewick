@@ -204,7 +204,7 @@ Very well organized: packages by weekday, class responsibilities clearly split.
 simulateDay() is tidy and reads like a small real-world scenario.
 Great naming convention — easy to see what each part represents.
 
-#### 💡Testing Approach (9.8/10)
+#### 💡Testing Approach (9.9/10)
 The main loop in Final effectively simulates multiple days.
 Smart that you reuse the Thursday logic directly, showing incremental build-up from previous sprints.
 Could be even more dynamic if you added day counters or randomized plant growth (totally optional polish).

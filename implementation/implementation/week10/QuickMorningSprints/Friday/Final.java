@@ -9,8 +9,9 @@ public class Final {
         EcoSystemManager manager = new EcoSystemManager();
         try {
             for(int day = 0; day < 7; day++) {
-                System.out.println("=== Simulating Day " + day + " ====");
+                System.out.println("=== 🌅 DAY " + (day + 1) + " SIMULATION START ===");
                 manager.simulateDay();
+                System.out.println();
             }
         } catch (WARNING | FUELEXCEPTION e) {
             System.err.println(e.getMessage());
