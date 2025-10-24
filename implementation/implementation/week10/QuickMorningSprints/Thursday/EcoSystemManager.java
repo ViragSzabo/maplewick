@@ -28,8 +28,8 @@ public class EcoSystemManager {
             throw new FUELEXCEPTION();
         }
 
-        garden.addPlant(new Plant("Pumpkin", 4, 6));
-        garden.addPlant(new Plant("Rose", 2, 6));
+        garden.addPlant(new Plant("Pumpkin", 4, 5));
+        garden.addPlant(new Plant("Rose", 2, 5));
         garden.waterAll();
         garden.waterAll();
         garden.waterAll();

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Thursday: EcoSystemManager">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     "Application.EcoAdventurePlanner.executor": "Run",
     "Application.EcoFriendlyTravelPlanner.executor": "Run",
     "Application.EcoSystemManager.executor": "Run",
+    "Application.Final.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MichaelScottPaperCompany.executor": "Run",
     "Application.PetAdoptionApp.executor": "Run",
@@ -113,7 +116,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.EcoSystemManager">
+  <component name="RunManager" selected="Application.Final">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -206,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Monday.Main" />
+    <configuration name="Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Friday.Final" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.Monday.*" />
+          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.Friday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Final" />
         <item itemvalue="Application.EcoSystemManager" />
         <item itemvalue="Application.implementation.week10.QuickMorningSprints.Wednesday.Main" />
         <item itemvalue="Application.implementation.week10.QuickMorningSprints.Tuesday.Main" />
         <item itemvalue="Application.BBQApp" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +290,8 @@
       <workItem from="1760902831162" duration="3346000" />
       <workItem from="1760934640759" duration="3557000" />
       <workItem from="1761022376719" duration="2984000" />
-      <workItem from="1761108922196" duration="7635000" />
+      <workItem from="1761108922196" duration="7763000" />
+      <workItem from="1761281625091" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -417,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761198217629</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update Friday">
+      <option name="closed" value="true" />
+      <created>1761198982348</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761198982348</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +453,8 @@
     <MESSAGE value="Wednesday: NuclearPowerPant (Interfaces &amp; Polymorphism)" />
     <MESSAGE value="Add start and shutdown method into main." />
     <MESSAGE value="Thursday: EcoSystemManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thursday: EcoSystemManager" />
+    <MESSAGE value="Update Friday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Friday" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

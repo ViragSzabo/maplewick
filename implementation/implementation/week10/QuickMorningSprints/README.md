@@ -191,16 +191,30 @@ A single run sequence _SimulateDay()_ that:
 * Run one automatic simulation.
 
 ### **Conclusion:**
-#### 🌿 Core Concepts (?/10)
+#### 🌿 Core Concepts (10/10)
+Strong grasp of composition and system orchestration — the Final class acts as a controller loop for multiple days.
 
+#### 🎨 Readability & Code Structure (9.7/10)
+Excellent inclusion of custom exceptions (FUELEXCEPTION, WARNING), both caught in the top-level Final simulation.
+The try-catch in Final properly wraps the daily runs.
+Could slightly improve by logging or printing the message instead of re-throwing RuntimeException.
 
-#### 🎨 Readability & Code Structure (?/10)
+#### ⚙️ Realism of Simulation (10/10)
+Very well organized: packages by weekday, class responsibilities clearly split.
+simulateDay() is tidy and reads like a small real-world scenario.
+Great naming convention — easy to see what each part represents.
 
+#### 💡Testing Approach (9.8/10)
+The main loop in Final effectively simulates multiple days.
+Smart that you reuse the Thursday logic directly, showing incremental build-up from previous sprints.
+Could be even more dynamic if you added day counters or randomized plant growth (totally optional polish).
 
-#### ⚙️ Realism of Simulation (?/10)
+💾 Suggested Micro-Enhancements
+Add a simple print line to mark each day: System.out.println("=== Simulating Day " + currentDay + " ===");
+Add a method to log the day’s summary into a text file — just a few lines with FileWriter.
+Reuse your simulateDay() return data for insights, e.g., harvest count or reactor statuses.
 
-
-#### 💡Testing Approach (?/10)
-
-
-**Final grade:** 🏅 ? / 10
+**Final grade:** 🏅 9.9 / 10
+You’ve built a complete, testable, and conceptually strong system across five days.
+The Final + EcoSystemManager perfectly demonstrate: OOP structure, Polymorphism, Error handling, Composition & Realistic simulation.
+It’s exam-ready — you could literally get full marks with this structure.
