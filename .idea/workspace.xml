@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update Friday">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week10/QuickMorningSprints/Monday/GardenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week10/QuickMorningSprints/Monday/PlantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week10/QuickMorningSprints/Tuesday/BBQAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week10/QuickMorningSprints/Tuesday/GrillTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week10/QuickMorningSprints/Wednesday/NuclearPowerPlantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Friday/Final.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Thursday/EcoSystemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Monday/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week10/QuickMorningSprints/Monday/Garden.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,52 +40,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.BBQ.executor": "Run",
-    "Application.BBQApp.executor": "Run",
-    "Application.Blockbuster.executor": "Run",
-    "Application.ChefApp.executor": "Run",
-    "Application.DunderAndMifflinPaperCompany.executor": "Run",
-    "Application.EcoAdventurePlanner.executor": "Run",
-    "Application.EcoFriendlyTravelPlanner.executor": "Run",
-    "Application.EcoSystemManager.executor": "Run",
-    "Application.Final.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MichaelScottPaperCompany.executor": "Run",
-    "Application.PetAdoptionApp.executor": "Run",
-    "Application.Remembering.executor": "Run",
-    "Application.VeggieGarden.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AttendeeTest.executor": "Run",
-    "JUnit.MaplewickEventTest.executor": "Run",
-    "JUnit.MaplewickTicketTest.executor": "Run",
-    "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2911932",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Blockbuster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChefApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DunderAndMifflinPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoAdventurePlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoFriendlyTravelPlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoSystemManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Final.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MichaelScottPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PetAdoptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remembering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VeggieGarden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AttendeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week10.QuickMorningSprints in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week9.ChefMyFridge in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2911932&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />
@@ -104,11 +109,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week10.QuickMorningSprints.Wednesday" />
+      <recent name="implementation.week10.QuickMorningSprints.Tuesday" />
+      <recent name="implementation.week10.QuickMorningSprints.Monday" />
       <recent name="implementation.week9.ChefMyFridge.Fridge" />
       <recent name="implementation.week9.ChefMyFridge.Ingredients" />
-      <recent name="implementation.week9.EventPlanningAndTicketing.Events" />
-      <recent name="implementation.week9.EventPlanningAndTicketing.Tickets" />
-      <recent name="implementation.week9.EventPlanningAndTicketing" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -116,7 +121,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Final">
+  <component name="RunManager" selected="JUnit.implementation.week10.QuickMorningSprints in maplewick">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -183,19 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BBQApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Tuesday.BBQApp" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.Tuesday.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EcoSystemManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week10.QuickMorningSprints.Thursday.EcoSystemManager" />
       <module name="maplewick" />
@@ -248,13 +240,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="implementation.week10.QuickMorningSprints in maplewick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week10.QuickMorningSprints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week10.QuickMorningSprints" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.implementation.week10.QuickMorningSprints in maplewick" />
         <item itemvalue="Application.Final" />
         <item itemvalue="Application.EcoSystemManager" />
         <item itemvalue="Application.implementation.week10.QuickMorningSprints.Wednesday.Main" />
         <item itemvalue="Application.implementation.week10.QuickMorningSprints.Tuesday.Main" />
-        <item itemvalue="Application.BBQApp" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +297,8 @@
       <workItem from="1760934640759" duration="3557000" />
       <workItem from="1761022376719" duration="2984000" />
       <workItem from="1761108922196" duration="7763000" />
-      <workItem from="1761281625091" duration="1859000" />
+      <workItem from="1761281625091" duration="3037000" />
+      <workItem from="1761666978100" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -437,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761282676147</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update simulation">
+      <option name="closed" value="true" />
+      <created>1761283562995</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761283562995</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +477,8 @@
     <MESSAGE value="Add start and shutdown method into main." />
     <MESSAGE value="Thursday: EcoSystemManager" />
     <MESSAGE value="Update Friday" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Friday" />
+    <MESSAGE value="Update simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update simulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

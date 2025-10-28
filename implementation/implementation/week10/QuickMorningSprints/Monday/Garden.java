@@ -33,7 +33,6 @@ public class Garden {
     /** Water the plants */
     public void waterAll() {
         int increase = 0;
-
         for (Plant plant : plants) {
             increase = plant.getDaysSincePlanted() + 1;
             plant.setDaysSincePlanted(increase);
