@@ -28,8 +28,18 @@ A **Librarian** class manages reading cycles, and handles exceptions.
 
 ## ✅ Grading Rubric (self-check)
 | Category               | Max    | You |
-| ---------------------- |--------| --- |
-| Structure & OOP Design | 6      |     |
-| Exception Handling     | 2      |     |
-| Clarity & Testing      | 2      |     |
-| **Total**              | **10** |     |
+| ---------------------- |--------|-----|
+| Structure & OOP Design | 6      | 6   |
+| Exception Handling     | 2      | 2   |
+| Clarity & Testing      | 2      | 1.8 |
+| **Total**              | **10** | 9.8 |
+
+### 💡 Small improvement idea
+* add a short Thread.sleep()
+* or “---” separator between nights for realism, 
+* or add another Book subclass 
+* (e.g., CookBook or HistoryBook) 
+* to expand testing coverage
+* Logging feature: how many times each book has been read
+* Add BookGenres (enums)
+* Add a Bookshelf class that groups books by type or genre
