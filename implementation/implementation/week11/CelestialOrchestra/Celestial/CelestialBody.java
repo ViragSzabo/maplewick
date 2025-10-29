@@ -2,8 +2,9 @@ package implementation.week11.CelestialOrchestra.Celestial;
 
 import implementation.week11.CelestialOrchestra.Enums.Tone;
 import implementation.week11.CelestialOrchestra.Exceptions.OverchargeException;
+import implementation.week11.CelestialOrchestra.Interfaces.Resonant;
 
-public abstract class CelestialBody {
+public abstract class CelestialBody implements Resonant {
     /** Protected Attributes */
     protected String name;
     protected Tone tone;

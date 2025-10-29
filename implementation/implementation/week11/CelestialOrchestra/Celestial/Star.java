@@ -2,10 +2,12 @@ package implementation.week11.CelestialOrchestra.Celestial;
 
 import implementation.week11.CelestialOrchestra.Enums.Tone;
 import implementation.week11.CelestialOrchestra.Exceptions.OverchargeException;
+import implementation.week11.CelestialOrchestra.Exceptions.ResonanceDistributionException;
 import implementation.week11.CelestialOrchestra.Interfaces.Harmonic;
 import implementation.week11.CelestialOrchestra.Interfaces.Rebellious;
+import implementation.week11.CelestialOrchestra.Interfaces.Resonant;
 
-public class Star extends CelestialBody implements Rebellious, Harmonic {
+public class Star extends CelestialBody implements Rebellious, Harmonic, Resonant {
 
     /** Constructor */
     public Star(String name, Tone tone) {
@@ -32,5 +34,11 @@ public class Star extends CelestialBody implements Rebellious, Harmonic {
     @Override
     public void tuning() {
         System.out.println(this.name + " adjusts its solar rhythm.");
+    }
+
+    @Override
+    public void reactTo(CelestialBody source) throws ResonanceDistributionException {
+        System.out.println(this.name + " amplifies the tone of " + source.getName());
+        charge(source.getTone().getResonancePower() / 2);
     }
 }

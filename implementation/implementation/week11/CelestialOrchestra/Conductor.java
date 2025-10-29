@@ -2,6 +2,7 @@ package implementation.week11.CelestialOrchestra;
 
 import implementation.week11.CelestialOrchestra.Celestial.CelestialBody;
 import implementation.week11.CelestialOrchestra.Exceptions.OverchargeException;
+import implementation.week11.CelestialOrchestra.Exceptions.ResonanceDistributionException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +38,20 @@ public class Conductor {
                 b.perform();
             } catch (OverchargeException e) {
                 throw new OverchargeException();
+            }
+        }
+    }
+
+    public void orchestrateResonance() throws OverchargeException {
+        for (CelestialBody source : bodies) {
+            for (CelestialBody target : bodies) {
+                if (source != target) {
+                    try {
+                        target.reactTo(source);
+                    } catch (ResonanceDistributionException e) {
+                        System.out.println(e.getMessage());
+                    }
+                }
             }
         }
     }

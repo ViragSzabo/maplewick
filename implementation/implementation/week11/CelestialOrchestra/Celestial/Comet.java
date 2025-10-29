@@ -2,6 +2,7 @@ package implementation.week11.CelestialOrchestra.Celestial;
 
 import implementation.week11.CelestialOrchestra.Enums.Tone;
 import implementation.week11.CelestialOrchestra.Exceptions.OverchargeException;
+import implementation.week11.CelestialOrchestra.Exceptions.ResonanceDistributionException;
 import implementation.week11.CelestialOrchestra.Interfaces.Harmonic;
 
 public class Comet extends CelestialBody implements Harmonic {
@@ -26,5 +27,15 @@ public class Comet extends CelestialBody implements Harmonic {
     @Override
     public void tuning() {
         System.out.println(this.name + " crackling unpredictably.");
+    }
+
+    @Override
+    public void reactTo(CelestialBody source) throws ResonanceDistributionException {
+        if(source.getTone() == Tone.CHAOTIC) {
+            throw new ResonanceDistributionException();
+        } else {
+            charge(source.getTone().getResonancePower());
+            System.out.println(this.name + " flickers with excitement.");
+        }
     }
 }

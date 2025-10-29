@@ -12,10 +12,11 @@ public class CelestialFestival {
         c.addBody(new Moon("Lun", Tone.SOFT));
         c.addBody(new Comet("Eru", Tone.CHAOTIC));
 
-        for(int night = 1; night <= 4; night++) {
+        for(int night = 1; night <= 2; night++) {
             System.out.println("Night " + night + " begins...");
             try {
                 c.orchestrate();
+                c.orchestrateResonance();
             } catch (OverchargeException e) {
                 System.out.println(e.getMessage());
             }

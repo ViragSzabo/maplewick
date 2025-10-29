@@ -40,4 +40,15 @@ class ConductorTest {
             throw new RuntimeException(e);
         }
     }
+
+    @Test
+    void orchestrateResonance() {
+        c.addBody(moon);
+        assertTrue(c.getCurrentOrchestra().contains(moon));
+        try {
+            c.orchestrateResonance();
+        } catch (OverchargeException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
