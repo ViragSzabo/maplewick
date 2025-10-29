@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Celestial Ball 2.0">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Celestial Ball 2.0 = Score">
+      <change afterPath="$PROJECT_DIR$/implementation/VERDICT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/CelestialFestival.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/CelestialFestival.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Conductor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/README_2.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/README_2.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week11/CelestialOrchestra/ConductorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week11/CelestialOrchestra/ConductorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +302,7 @@
       <workItem from="1761108922196" duration="7763000" />
       <workItem from="1761281625091" duration="3037000" />
       <workItem from="1761666978100" duration="5712000" />
-      <workItem from="1761731250837" duration="5933000" />
+      <workItem from="1761731250837" duration="6285000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -499,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761737886031</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Celestial Ball 2.0 = Score">
+      <option name="closed" value="true" />
+      <created>1761738454886</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1761738454886</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +535,8 @@
     <MESSAGE value="Celestial Ball" />
     <MESSAGE value="Celestial Ball 1.0" />
     <MESSAGE value="Celestial Ball 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Celestial Ball 2.0" />
+    <MESSAGE value="Celestial Ball 2.0 = Score" />
+    <option name="LAST_COMMIT_MESSAGE" value="Celestial Ball 2.0 = Score" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
