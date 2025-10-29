@@ -4,6 +4,7 @@ import implementation.week11.CelestialOrchestra.Celestial.CelestialBody;
 import implementation.week11.CelestialOrchestra.Celestial.Moon;
 import implementation.week11.CelestialOrchestra.Enums.Tone;
 import implementation.week11.CelestialOrchestra.Exceptions.OverchargeException;
+import implementation.week11.CelestialOrchestra.Exceptions.ResonanceDistributionException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -34,10 +35,12 @@ class ConductorTest {
     void orchestrate() {
         c.addBody(moon);
         assertTrue(c.getCurrentOrchestra().contains(moon));
-        try {
-            c.orchestrate();
-        } catch (OverchargeException e) {
-            throw new RuntimeException(e);
+        for (int night = 1; night <= 4; night++) {
+            try {
+                c.orchestrate();
+            } catch (OverchargeException e) {
+                assertThrows(OverchargeException.class, () -> c.orchestrate());
+            }
         }
     }
 
@@ -45,10 +48,12 @@ class ConductorTest {
     void orchestrateResonance() {
         c.addBody(moon);
         assertTrue(c.getCurrentOrchestra().contains(moon));
-        try {
-            c.orchestrateResonance();
-        } catch (OverchargeException e) {
-            throw new RuntimeException(e);
+        for (int night = 1; night <= 4; night++) {
+            try {
+                c.orchestrateResonance();
+            } catch (ResonanceDistributionException e) {
+                assertThrows(ResonanceDistributionException.class, () -> c.orchestrateResonance());
+            }
         }
     }
 }

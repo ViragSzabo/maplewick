@@ -42,7 +42,7 @@ public class Conductor {
         }
     }
 
-    public void orchestrateResonance() throws OverchargeException {
+    public void orchestrateResonance() throws ResonanceDistributionException {
         for (CelestialBody source : bodies) {
             for (CelestialBody target : bodies) {
                 if (source != target) {
