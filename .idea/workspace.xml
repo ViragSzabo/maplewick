@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Celestial/CelestialBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Celestial/Comet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Celestial/Moon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Celestial/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/CelestialFestival.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Conductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Enums/Tone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Exceptions/OverchargeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Interfaces/Harmonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/Interfaces/Rebellious.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/BookGenres/BookGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week11/CelestialOrchestra/ConductorTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Celestial Ball">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Books/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Books/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Books/Novel.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Books/Novel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Books/Spellbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Books/Spellbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Exceptions/WhisperTooLoudException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Exceptions/WhisperTooLoudException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/Interfaces/Cursed.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/Interfaces/Cursed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/MidnightLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/People/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/People/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/MidnightLibrary/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week11/CelestialOrchestra/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +298,7 @@
       <workItem from="1761108922196" duration="7763000" />
       <workItem from="1761281625091" duration="3037000" />
       <workItem from="1761666978100" duration="5712000" />
-      <workItem from="1761731250837" duration="3424000" />
+      <workItem from="1761731250837" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -489,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761688676845</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Celestial Ball">
+      <option name="closed" value="true" />
+      <created>1761735916822</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761735916823</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +504,8 @@
     <MESSAGE value="Update simulation" />
     <MESSAGE value="Update tests and add new nighty practice" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Celestial Ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="Celestial Ball" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
