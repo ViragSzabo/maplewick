@@ -1,9 +1,11 @@
-package implementation.week11.Books;
+package implementation.week11.MidnightLibrary.Books;
+
+import implementation.week11.MidnightLibrary.BookGenres.BookGenre;
 
 public class Diary extends Book {
     /** Constructor **/
-    public Diary(String title) {
-        super(title);
+    public Diary(String title, BookGenre genre) {
+        super(title, genre);
     }
 
     @Override

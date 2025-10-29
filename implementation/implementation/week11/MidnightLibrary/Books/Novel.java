@@ -1,9 +1,11 @@
-package implementation.week11.Books;
+package implementation.week11.MidnightLibrary.Books;
+
+import implementation.week11.MidnightLibrary.BookGenres.BookGenre;
 
 public class Novel extends Book {
     /** Constructor **/
-    public Novel(String title) {
-        super(title);
+    public Novel(String title, BookGenre genre) {
+        super(title, genre);
     }
 
     @Override

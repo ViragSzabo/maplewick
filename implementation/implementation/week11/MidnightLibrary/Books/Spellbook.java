@@ -1,12 +1,13 @@
-package implementation.week11.Books;
+package implementation.week11.MidnightLibrary.Books;
 
-import implementation.week11.Exceptions.WhisperTooLoudException;
-import implementation.week11.Interfaces.Cursed;
+import implementation.week11.MidnightLibrary.BookGenres.BookGenre;
+import implementation.week11.MidnightLibrary.Exceptions.WhisperTooLoudException;
+import implementation.week11.MidnightLibrary.Interfaces.Cursed;
 
 public class Spellbook extends Book implements Cursed {
     /** Constructor **/
-    public Spellbook(String title) {
-        super(title);
+    public Spellbook(String title, BookGenre genre) {
+        super(title, genre);
     }
 
     @Override

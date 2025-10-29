@@ -1,8 +1,8 @@
-package implementation.week11.People;
+package implementation.week11.MidnightLibrary.People;
 
-import implementation.week11.Books.Book;
-import implementation.week11.Books.Spellbook;
-import implementation.week11.Exceptions.WhisperTooLoudException;
+import implementation.week11.MidnightLibrary.BookGenres.BookGenre;
+import implementation.week11.MidnightLibrary.Books.Book;
+import implementation.week11.MidnightLibrary.Exceptions.WhisperTooLoudException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,8 +38,17 @@ public class Librarian {
         for (Book b : this.books) {
             try {
                 b.read();
+                System.out.println("---");
             } catch (WhisperTooLoudException e) {
                 System.out.println(e.getMessage());
+            }
+        }
+    }
+
+    public void getFantasyBooks() {
+        for (Book b : this.books) {
+            if (b.getGenre().equals(BookGenre.FANTASY)) {
+                System.out.println(b.getTitle() + ": " + b.getMinutesRead() + " minutes read");
             }
         }
     }
