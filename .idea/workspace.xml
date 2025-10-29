@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Celestial Ball 2.0 = Score">
-      <change afterPath="$PROJECT_DIR$/implementation/VERDICT.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Verdict according to AI.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +302,7 @@
       <workItem from="1761108922196" duration="7763000" />
       <workItem from="1761281625091" duration="3037000" />
       <workItem from="1761666978100" duration="5712000" />
-      <workItem from="1761731250837" duration="6285000" />
+      <workItem from="1761731250837" duration="6580000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -504,14 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1761738454886</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Verdict according to AI.">
+      <option name="closed" value="true" />
+      <created>1761738787550</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761738787550</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignments implementation" />
     <MESSAGE value="Huge cleanup!" />
     <MESSAGE value="Add King Quest" />
     <MESSAGE value="Update, work on the vegetable garden. Exam prep." />
@@ -536,7 +543,8 @@
     <MESSAGE value="Celestial Ball 1.0" />
     <MESSAGE value="Celestial Ball 2.0" />
     <MESSAGE value="Celestial Ball 2.0 = Score" />
-    <option name="LAST_COMMIT_MESSAGE" value="Celestial Ball 2.0 = Score" />
+    <MESSAGE value="Verdict according to AI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Verdict according to AI." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

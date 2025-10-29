@@ -1,4 +1,5 @@
-![Java](https://img.shields.io/badge/Java-17-blue) 
+![Java](https://img.shields.io/badge/Java-17-blue)
+![JUnit](https://img.shields.io/badge/Tests-JUnit%205-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Maplewick](https://img.shields.io/badge/Made%20in-Maplewick-orange)
 
@@ -37,6 +38,8 @@ It demonstrates mastery of:
 - 📁 [Week 7](implementation/implementation/week7/) — *Smart BBQ* (exam prep)
 - 📁 [Week 8](implementation/implementation/week8/) — *Nuclear Powerplant* (exam prep)
 - 📁 [Week 9](implementation/implementation/week9/) — Exam preparation materials
+- 📁 [Week 10](implementation/implementation/week9/) — Quick morning sprints (exam prep)
+- 📁 [Week 11](implementation/implementation/week9/) — Creative materials (exam prep)
 
 ---
 
