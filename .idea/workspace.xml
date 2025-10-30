@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update the main README file">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/FileHandling/FileHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/FileHandling/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/FileHandling/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/ParentChild/ParentClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/TryCatch/ArithmeticExampleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week10/Examination/TryCatch/TryCatch.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Little brain training">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/ClockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/DreamClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/HumanClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/LunarClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clock/MechanicalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/ClockManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Clockmaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Interface/Repairable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Interface/SyncException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/Interface/Synchronizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week11/Clockmaker/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -48,6 +53,7 @@
     "Application.Blockbuster.executor": "Run",
     "Application.CelestialFestival.executor": "Run",
     "Application.ChefApp.executor": "Run",
+    "Application.Clockmaker.executor": "Run",
     "Application.CodeChef.executor": "Run",
     "Application.DunderAndMifflinPaperCompany.executor": "Run",
     "Application.EcoAdventurePlanner.executor": "Run",
@@ -130,7 +136,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.implementation.week10.Examination.TryCatch.TryCatch">
+  <component name="RunManager" selected="Application.Clockmaker">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -197,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeChef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week10.Examination.ParentChild.CodeChef" />
+    <configuration name="Clockmaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week11.Clockmaker.Clockmaker" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week10.Examination.ParentChild.*" />
+          <option name="PATTERN" value="implementation.week11.Clockmaker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week10.Examination.FileHandling" />
+    <configuration name="CodeChef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week10.Examination.ParentChild.CodeChef" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week10.Examination.TryCatch.*" />
+          <option name="PATTERN" value="implementation.week10.Examination.ParentChild.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clockmaker" />
         <item itemvalue="Application.implementation.week10.Examination.TryCatch.TryCatch" />
         <item itemvalue="Application.implementation.week10.Examination.TryCatch.CodeChef" />
         <item itemvalue="Application.TryCatch" />
         <item itemvalue="Application.CodeChef" />
-        <item itemvalue="Application.FileHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +313,8 @@
       <workItem from="1761108922196" duration="7763000" />
       <workItem from="1761281625091" duration="3037000" />
       <workItem from="1761666978100" duration="5712000" />
-      <workItem from="1761731250837" duration="9968000" />
+      <workItem from="1761731250837" duration="11367000" />
+      <workItem from="1761839235201" duration="7669000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -525,14 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1761739103010</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Little brain training">
+      <option name="closed" value="true" />
+      <created>1761743927709</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761743927709</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add King Quest" />
     <MESSAGE value="Update, work on the vegetable garden. Exam prep." />
     <MESSAGE value="Add an ecofriendly travel planner" />
     <MESSAGE value="EcoFriendly adventure practice." />
@@ -557,7 +571,8 @@
     <MESSAGE value="Celestial Ball 2.0 = Score" />
     <MESSAGE value="Verdict according to AI." />
     <MESSAGE value="Update the main README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the main README file" />
+    <MESSAGE value="Little brain training" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little brain training" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
