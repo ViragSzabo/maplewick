@@ -4,79 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Exam: remade after first tutoring lesson.">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Change names">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/Household.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/exception/BlackoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/sources/PowerSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Diagram/Airport.asta" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/diagram/Airport.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Diagram/FlightBooking-ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/diagram/FlightBooking-ClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Airplane/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Airplane/CommercialAirplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Airplane/CommercialAirplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Airplane/PrivateAirplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Airplane/PrivateAirplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Flight/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Flight/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Flight/Flight24Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Flight/Flight24Uploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Flight/FlightBookingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Flight/FlightBookingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Flight/FlightStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Flight/FlightStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Luggage/Luggage.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Luggage/Luggage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Luggage/LuggageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Luggage/LuggageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Travel/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Travel/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Travel/BookStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Travel/BookStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Travel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Travel/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Airport/Travel/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Airport/Travel/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Guests/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Guests/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Guests/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Guests/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Hotel/HotelBookingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Hotel/HotelBookingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Hotel/Housekeeping.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Hotel/Housekeeping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Hotel/Receptionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Hotel/Receptionist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/HotelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/HotelExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Rooms/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Rooms/Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week4/Implementation/Hotel/Rooms/Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week4/implementation/Hotel/Rooms/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/VeggieGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/VeggieGarden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/Garden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GardenBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GardenBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/GridGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GridGarden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/garden/TooManyVegetablesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/TooManyVegetablesException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/Greenhouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/greenhouse/Greenhouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/greenhouse/WeatherGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/greenhouse/WeatherGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/market/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Sellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Asparagus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Asparagus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Kale.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Kale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Pepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/VegetableGarden/vegetable/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/BBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/BBQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/BBQ/SmartBBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/SmartBBQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Meat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/MeatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/MeatType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Food/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/BellPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/BellPepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Corn.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Corn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Fridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/FridgeIsEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/FridgeIsEmptyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/NoMoreFoodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/NoMoreFoodException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Sausage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Fridge/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Types.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Classification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Measurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Measurable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/SmartBBQ/Measures/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Thermometer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Airplane/CommercialAirplaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Airplane/CommercialAirplaneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Airplane/PrivateAirplaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Airplane/PrivateAirplaneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Flight/FlightBookingSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Flight/FlightBookingSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Luggage/LuggageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Luggage/LuggageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Travel/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Travel/AirportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Travel/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Travel/BookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Airport/Travel/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Airport/Travel/PassengerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Guests/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Guests/BookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Guests/GuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Guests/GuestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Hotel/HotelBookingSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Hotel/HotelBookingSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Hotel/HousekeepingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Hotel/HousekeepingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Rooms/NormalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Rooms/NormalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week4/Implementation/Hotel/Rooms/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week4/implementation/Hotel/Rooms/SuiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,66 +37,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.ArtherForge.executor": "Run",
-    "Application.BBQ.executor": "Run",
-    "Application.BBQApp.executor": "Run",
-    "Application.Blockbuster.executor": "Run",
-    "Application.CelestialFestival.executor": "Run",
-    "Application.ChefApp.executor": "Run",
-    "Application.Clockmaker.executor": "Run",
-    "Application.CodeChef.executor": "Run",
-    "Application.DunderAndMifflinPaperCompany.executor": "Run",
-    "Application.EcoAdventurePlanner.executor": "Run",
-    "Application.EcoFriendlyTravelPlanner.executor": "Run",
-    "Application.EcoSystemManager.executor": "Run",
-    "Application.FileHandling.executor": "Run",
-    "Application.Final.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MichaelScottPaperCompany.executor": "Run",
-    "Application.MidnightLibrary.executor": "Run",
-    "Application.PetAdoptionApp.executor": "Run",
-    "Application.Remembering.executor": "Run",
-    "Application.TryCatch.executor": "Run",
-    "Application.VeggieGarden.executor": "Run",
-    "Application.World.executor": "Run",
-    "Application.implementation.week10.Examination.CodeChef.executor": "Run",
-    "Application.implementation.week10.Examination.TryCatch.TryCatch.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AttendeeTest.executor": "Run",
-    "JUnit.ConductorTest.executor": "Run",
-    "JUnit.ConductorTest.orchestrateResonance.executor": "Run",
-    "JUnit.InventoryTest.executor": "Run",
-    "JUnit.MaplewickEventTest.executor": "Run",
-    "JUnit.MaplewickTicketTest.executor": "Run",
-    "JUnit.implementation.week10.QuickMorningSprints in maplewick.executor": "Run",
-    "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2911932",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArtherForge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Blockbuster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CelestialFestival.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChefApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Clockmaker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CodeChef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DunderAndMifflinPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoAdventurePlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoFriendlyTravelPlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoSystemManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Final.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MichaelScottPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MidnightLibrary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PetAdoptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remembering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VeggieGarden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.World.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.Examination.CodeChef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.Examination.TryCatch.TryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AttendeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConductorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConductorTest.orchestrateResonance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InventoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week10.QuickMorningSprints in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week9.ChefMyFridge in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2911932&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />
@@ -335,10 +268,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InventoryTest" />
-        <item itemvalue="Application.World" />
-        <item itemvalue="Application.ArtherForge" />
-        <item itemvalue="Application.Clockmaker" />
         <item itemvalue="Application.implementation.week10.Examination.TryCatch.TryCatch" />
+        <item itemvalue="Application.World" />
+        <item itemvalue="Application.Clockmaker" />
+        <item itemvalue="Application.ArtherForge" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +318,8 @@
       <workItem from="1762164362374" duration="2330000" />
       <workItem from="1763415377432" duration="499000" />
       <workItem from="1765800114846" duration="2897000" />
-      <workItem from="1765814868934" duration="15157000" />
+      <workItem from="1765814868934" duration="24698000" />
+      <workItem from="1766320956823" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -651,14 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765846346065</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Change names">
+      <option name="closed" value="true" />
+      <created>1765881800675</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1765881800677</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update the Chef&amp;My Fridge prep exam." />
     <MESSAGE value="Update Blockbuster app. :)" />
     <MESSAGE value="Planning morning: Oct. 20-24" />
     <MESSAGE value="Monday: VegetableGarden (OOP Basics &amp; Collections)" />
@@ -683,7 +624,8 @@
     <MESSAGE value="Cleanup + confidence boost." />
     <MESSAGE value="Last practice before the exam. I'm ready." />
     <MESSAGE value="Exam: remade after first tutoring lesson." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam: remade after first tutoring lesson." />
+    <MESSAGE value="Change names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
