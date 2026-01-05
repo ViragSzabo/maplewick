@@ -16,7 +16,7 @@ public class TreatmentResult
         return message;
     }
 
-    public void setMessage(String message)
+    public void setMessage(String message) throws IllegalArgumentException
     {
         if (message.isEmpty() || message.isBlank())
         {
@@ -32,7 +32,7 @@ public class TreatmentResult
         return successful;
     }
 
-    public void setSuccessful(boolean successful) {
+    public void setSuccessful(boolean successful) throws IllegalArgumentException {
         if (!successful)
         {
             throw new IllegalArgumentException("Failed treatment");

@@ -13,7 +13,7 @@ public class Hospital
         }
         catch (MalpracticeException e)
         {
-            patient.getWorse(10);
+            patient.worsen(10);
         }
     }
 }

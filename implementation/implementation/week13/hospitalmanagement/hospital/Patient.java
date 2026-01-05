@@ -1,7 +1,5 @@
 package implementation.week13.hospitalmanagement.hospital;
 
-import implementation.week13.hospitalmanagement.exceptions.NotInsuredException;
-
 public class Patient
 {
     private String name;
@@ -35,7 +33,7 @@ public class Patient
         return conditionSeverity;
     }
 
-    public void setConditionSeverity(int conditionSeverity)
+    public void setConditionSeverity(int conditionSeverity) throws IllegalArgumentException
     {
         if (conditionSeverity < 0 || conditionSeverity > 100)
         {
@@ -50,7 +48,7 @@ public class Patient
         return insured;
     }
 
-    public void setInsured(boolean insured)
+    public void setInsured(boolean insured) throws IllegalArgumentException
     {
         if (!insured)
         {
@@ -60,13 +58,15 @@ public class Patient
         this.insured = true;
     }
 
-    public void getWorse(int amount)
+    public void worsen(int amount) throws IllegalArgumentException
     {
-        this.conditionSeverity -= amount;
+        int condition = this.conditionSeverity - amount;
+        setConditionSeverity(condition);
     }
 
-    public void getImprove(int amount)
+    public void improve(int amount) throws IllegalArgumentException
     {
-        this.conditionSeverity += amount;
+        int condition = this.conditionSeverity + amount;
+        setConditionSeverity(condition);
     }
 }

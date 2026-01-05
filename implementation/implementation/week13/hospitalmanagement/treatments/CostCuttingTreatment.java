@@ -13,13 +13,13 @@ public class CostCuttingTreatment extends TreatmentStrategy
     @Override
     public void treat(Patient patient) throws MalpracticeException
     {
-        if (patient.getConditionSeverity() > 80)
+        if (patient.getConditionSeverity() <= 5)
         {
-            throw new MalpracticeException("Treatment denied due to cost");
+            throw new MalpracticeException("Treatment cannot happen");
         }
 
-        patient.getImprove(5);
+        patient.improve(5);
 
-        new TreatmentResult(false, "Minimal treatment applied");
+        new TreatmentResult(true, "Treatment applied");
     }
 }

@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add test to the strategy">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/exceptions/MalpracticeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/exceptions/NotInsuredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/EthicalTreatment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatmentTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="A little The Resident practice">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/AIReflectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/AIapi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/DecisionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/DutyBasedStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/Scenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/UtilitarianStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/EthicalTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/EthicalTreatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,6 +91,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
@@ -139,7 +144,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CostCuttingTreatmentTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -206,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week11.Elements.World" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week13.companion.Main" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week11.Elements.*" />
+          <option name="PATTERN" value="implementation.week13.companion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CostCuttingTreatmentTest" />
         <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="JUnit.InventoryTest" />
         <item itemvalue="Application.implementation.week10.Examination.TryCatch.TryCatch" />
-        <item itemvalue="Application.World" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +338,7 @@
       <workItem from="1765814868934" duration="24698000" />
       <workItem from="1766320956823" duration="5059000" />
       <workItem from="1766401236792" duration="5154000" />
-      <workItem from="1767527764826" duration="19968000" />
+      <workItem from="1767527764826" duration="27545000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -631,14 +636,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767626286709</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="A little The Resident practice">
+      <option name="closed" value="true" />
+      <created>1767634202710</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1767634202710</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Monday: VegetableGarden (OOP Basics &amp; Collections)" />
     <MESSAGE value="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)" />
     <MESSAGE value="Updated to automate event triggering!" />
     <MESSAGE value="Wednesday: NuclearPowerPant (Interfaces &amp; Polymorphism)" />
@@ -663,7 +675,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Update nuclear power plant project" />
     <MESSAGE value="Add test to the strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test to the strategy" />
+    <MESSAGE value="A little The Resident practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="A little The Resident practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
