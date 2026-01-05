@@ -53,16 +53,14 @@ public abstract class Strategy
     public double payOffDebtsByGoods(StrategyResult strategyResult)
     {
         double totalValueSeized = 0.0;
-        int currentYear = LocalDate.now().getYear();
-        String description = "Seizure by High Court";
 
-        HashSet<Good> goodsToSeize = this.getWrit().getStrategyResult().getGoodsToBeSeized();
+        HashSet<Good> goodsToSeize = strategyResult.getGoodsToBeSeized();
 
         if (goodsToSeize != null)
         {
             for (Good good : goodsToSeize)
             {
-                double value = good.getValue(LocalDate.ofEpochDay(currentYear));
+                double value = good.getValue(LocalDate.now());
                 totalValueSeized += value;
                 strategyResult.addGoodsToBeSeized(good);
             }
