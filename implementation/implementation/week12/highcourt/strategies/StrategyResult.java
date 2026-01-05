@@ -22,11 +22,13 @@ public class StrategyResult
 
     public void addGoodsToBeSeized(Good good)
     {
+        // validation
         this.goodsToBeSeized.add(good);
     }
 
     public void removeGoodsToBeSeized(Good good)
     {
+        // validation
         this.goodsToBeSeized.remove(good);
     }
 

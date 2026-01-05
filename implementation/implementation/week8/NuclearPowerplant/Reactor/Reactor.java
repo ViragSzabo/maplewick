@@ -6,47 +6,56 @@ import implementation.week8.NuclearPowerplant.Fuel.MeltdownException;
 import implementation.week8.NuclearPowerplant.Fuel.SplittingRod;
 
 import java.util.HashSet;
-import java.util.List;
 
-public class Reactor implements Statusable {
-    private final HashSet<SplitResult> splitResults;
+public class Reactor implements Statusable
+{
+    private final HashSet<SplittingRod> splittingRods;
 
     public Reactor()
     {
-        this.splitResults = new HashSet<>();
+        this.splittingRods = new HashSet<>();
     }
 
-    public void addCore(SplitResult splitResult)
+    public HashSet<SplittingRod> getSplittingRods()
     {
-        this.splitResults.add(splitResult);
+        return this.splittingRods;
+    }
+
+    public void addCore(SplittingRod core)
+    {
+        if (this.splittingRods.contains(core))
+        {
+            throw new IllegalArgumentException();
+        }
+
+        this.splittingRods.add(core);
     }
 
     public SplitResult run(int time, int temperature) throws MeltdownException
     {
-        List<SplitResult> result = this.splitResults.stream()
-                .map(splittingRod -> {
-                    try {
-                        return splittingRod.split(time, temperature);
-                    } catch (MeltdownException e) {
-                        throw new RuntimeException(e);
-                    }
-                })
-                .toList();
+        double totalSteam = 0;
+        double totalResidualHeat = 0;
 
-        return new SplitResult(result.stream().mapToDouble(SplitResult::getSteamInCubicMeters).sum(),
-                result.stream().mapToDouble(SplitResult::getResidualHeat).sum()) {
-            @Override
-            public SplitResult split(int time, int temperature) throws MeltdownException {
-                return this.split(time, temperature);
+        for (SplittingRod splittingRod : this.splittingRods)
+        {
+            if (this.splittingRods.contains(splittingRod))
+            {
+                SplitResult result = splittingRod.split(time, temperature);
+                totalSteam += result.getSteamInCubicMeters();
+                totalResidualHeat += result.getResidualHeat();
             }
-        };
+        }
+
+        return new SplitResult(totalSteam, totalResidualHeat);
     }
 
     public Status getStatus()
     {
-        for (SplittingRod fuel : this.splitResults)
+        final double CHECK_MELTDOWN_NUMBER = 0.1;
+
+        for (SplittingRod fuel : this.splittingRods)
         {
-            if (fuel.getPercentageLeft() <= 0.1)
+            if (fuel.getPercentageLeft() <= CHECK_MELTDOWN_NUMBER)
             {
                 return Status.NEEDS_ATTENTION;
             }

@@ -3,7 +3,8 @@ package implementation.week8.NuclearPowerplant.Reactor;
 import implementation.week8.NuclearPowerplant.Fuel.MeltdownException;
 import implementation.week8.NuclearPowerplant.Fuel.SplittingRod;
 
-public abstract class SplitResult extends SplittingRod {
+public class SplitResult extends SplittingRod
+{
     private final double steamInCubicMeters;
     private final double residualHeat;
 
@@ -21,5 +22,11 @@ public abstract class SplitResult extends SplittingRod {
     public double getResidualHeat()
     {
         return this.residualHeat;
+    }
+
+    @Override
+    public SplitResult split(int time, int temperature) throws MeltdownException
+    {
+        return this;
     }
 }

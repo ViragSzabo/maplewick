@@ -1,19 +1,16 @@
 package implementation.week12.highcourt.inventory;
 
 import java.time.LocalDate;
-import java.util.HashSet;
 
 public abstract class Good
 {
     private String description;
     private LocalDate productionDate;
-    private HashSet<Good> goodsToBeSeized;
 
     public Good(String description, LocalDate productionDate)
     {
         this.setDescription(description);
         this.setProductionDate(productionDate);
-        this.goodsToBeSeized = new HashSet<>();
     }
 
     public String getDescription()
@@ -44,21 +41,6 @@ public abstract class Good
         }
 
         this.productionDate = productionDate;
-    }
-
-    public HashSet<Good> getGoodsToBeSeized()
-    {
-        return goodsToBeSeized;
-    }
-
-    public void addGoodsToBeSeized(Good good)
-    {
-        this.goodsToBeSeized.add(good);
-    }
-
-    public void removeGoodsToBeSeized(Good good)
-    {
-        this.goodsToBeSeized.remove(good);
     }
 
     public abstract double getValue(LocalDate date);

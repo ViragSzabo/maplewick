@@ -1,18 +1,21 @@
 package implementation.week12.highcourt.court;
 
 import implementation.week12.highcourt.Client;
+import implementation.week12.highcourt.inventory.Good;
 import implementation.week12.highcourt.strategies.StrategyResult;
+
+import java.util.HashSet;
 
 public class Writ
 {
     private Client client;
-    private StrategyResult strategyResult;
+    // private StrategyResult strategyResult; created in a method as a result of something
     private double outstandingDebt;
+    private HashSet<Good> goodsToSeized;
 
-    public Writ(Client client, StrategyResult strategyResult, double outstandingDebt)
+    public Writ(Client client, double outstandingDebt)
     {
         this.setClient(client);
-        this.setStrategyResult(strategyResult);
         this.setOutstandingDebt(outstandingDebt);
     }
 
@@ -25,7 +28,7 @@ public class Writ
     {
         if (client == null)
         {
-            throw new NullPointerException("cliet is null");
+            throw new NullPointerException("client is null");
         }
 
         this.client = client;
@@ -46,18 +49,5 @@ public class Writ
         this.outstandingDebt = outstandingDebt;
     }
 
-    public StrategyResult getStrategyResult()
-    {
-        return strategyResult;
-    }
-
-    public void setStrategyResult(StrategyResult strategyResult)
-    {
-        if (strategyResult == null)
-        {
-            throw new NullPointerException("strategy is null");
-        }
-
-        this.strategyResult = strategyResult;
-    }
+    // Getters, add and remove from the hashset
 }

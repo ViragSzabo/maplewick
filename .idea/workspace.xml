@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Change names">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/Household.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/exception/BlackoutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week12/smarthome/sources/PowerSource.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/court/HighCourt.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/court/HighCourt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/court/Writ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/court/Writ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/inventory/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/inventory/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/inventory/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/FirstSeizure.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/FirstSeizure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/StrategyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/StrategyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/MeltdownException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/MeltdownException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/NHLIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Nhlium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/STENDAANIUM.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +144,42 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.InventoryTest">
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="week5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="week5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -229,42 +277,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="week5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="week5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InventoryTest" />
@@ -319,7 +331,9 @@
       <workItem from="1763415377432" duration="499000" />
       <workItem from="1765800114846" duration="2897000" />
       <workItem from="1765814868934" duration="24698000" />
-      <workItem from="1766320956823" duration="3573000" />
+      <workItem from="1766320956823" duration="5059000" />
+      <workItem from="1766401236792" duration="5154000" />
+      <workItem from="1767527764826" duration="13367000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -593,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765881800677</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Update">
+      <option name="closed" value="true" />
+      <created>1766348615343</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1766348615343</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +633,6 @@
     <MESSAGE value="Update Friday" />
     <MESSAGE value="Update simulation" />
     <MESSAGE value="Update tests and add new nighty practice" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Celestial Ball" />
     <MESSAGE value="Celestial Ball 1.0" />
     <MESSAGE value="Celestial Ball 2.0" />
@@ -625,7 +646,8 @@
     <MESSAGE value="Last practice before the exam. I'm ready." />
     <MESSAGE value="Exam: remade after first tutoring lesson." />
     <MESSAGE value="Change names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change names" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,8 +2,8 @@ package implementation.week8.NuclearPowerplant.Fuel;
 
 public class MeltdownException extends Exception
 {
-    public MeltdownException()
+    public MeltdownException(String message)
     {
-        super("Oh My God! Something went wrong.");
+        super(message);
     }
 }

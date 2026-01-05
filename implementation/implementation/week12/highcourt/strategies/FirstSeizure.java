@@ -16,7 +16,7 @@ public class FirstSeizure extends Strategy
         // Step 1: Setup
         double currentDebt = this.getWrit().getOutstandingDebt();
 
-        StrategyResult strategyResult = new StrategyResult(0);
+        StrategyResult strategyResult = new StrategyResult(0); // result is created here
 
         // Step 2: Pay off debts by goods
         currentDebt -= payOffDebtsByGoods(strategyResult);

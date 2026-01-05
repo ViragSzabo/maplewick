@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Inventory extends Good
 {
-    private static final int MAX_NUMBER_OF_PRODUCTION_YEAR = 1;
+    private static final int MAX_NUMBER_OF_PRODUCTION_YEARS = 1;
     private static final double DEFAULT_VALUE_FOR_ELECTRONICS = 20.0;
     private static final double LAST_YEAR_VALUE_FOR_ELECTRONICS = 200.0;
     private static final double LAST_YEAR_VALUE_FOR_KITCHEN_APPLIANCES = 100.0;
@@ -52,7 +52,7 @@ public class Inventory extends Good
         int productionYear = getProductionDate().getYear();
         int currentYear = date.getYear();
 
-        if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEAR)
+        if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEARS)
         {
             return LAST_YEAR_VALUE_FOR_ELECTRONICS;
         }
@@ -67,7 +67,7 @@ public class Inventory extends Good
         int productionYear = getProductionDate().getYear();
         int currentYear = date.getYear();
 
-        if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEAR)
+        if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEARS)
         {
             return LAST_YEAR_VALUE_FOR_KITCHEN_APPLIANCES;
         }

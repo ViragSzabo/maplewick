@@ -16,5 +16,8 @@ public abstract class SplittingRod
         return this.remainPercentage;
     }
 
-    public abstract SplitResult split(int time, int temperature) throws MeltdownException;
+    public SplitResult split(int time, int temperature) throws MeltdownException
+    {
+        return new SplitResult(time, temperature);
+    }
 }

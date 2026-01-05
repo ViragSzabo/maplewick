@@ -4,16 +4,16 @@ import java.util.HashSet;
 
 public class HighCourt
 {
-    private HashSet<Writ> wrists;
+    private HashSet<Writ> writs;
 
     public HighCourt()
     {
-        this.wrists = new HashSet<>();
+        this.writs = new HashSet<>();
     }
 
     public HashSet<Writ> getWrists()
     {
-        return this.wrists;
+        return this.writs;
     }
 
     public void addWrit(Writ writ)
@@ -23,7 +23,7 @@ public class HighCourt
             throw new IllegalArgumentException("Writ cannot be null");
         }
 
-        this.wrists.add(writ);
+        this.writs.add(writ);
     }
 
     public void removeWrit(Writ writ)
@@ -33,14 +33,14 @@ public class HighCourt
             throw new IllegalArgumentException("Writ cannot be null");
         }
 
-        this.wrists.remove(writ);
+        this.writs.remove(writ);
     }
 
     public double getTotalDebts()
     {
         double totalDebt = 0;
 
-        for (Writ writ : this.wrists)
+        for (Writ writ : this.writs)
         {
             totalDebt += writ.getOutstandingDebt();
         }

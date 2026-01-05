@@ -13,18 +13,24 @@ public class ControlRoom
 
     public void add(Statusable statusable)
     {
+        if (statusable == null)
+        {
+            throw new IllegalArgumentException();
+        }
+
         this.statuses.add(statusable);
     }
 
     public boolean isStable()
     {
-        for(Statusable statusable : this.statuses)
+        for (Statusable statusable : this.statuses)
         {
-            if(statusable.getStatus() != Status.STABLE)
+            if (statusable.getStatus() != Status.STABLE)
             {
                 return false;
             }
         }
+
         return true;
     }
 }
