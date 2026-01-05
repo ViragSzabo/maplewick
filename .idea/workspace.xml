@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Update nuclear power plant project">
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week8/NuclearPowerplant/Fuel/StendaaniumTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Add test to the strategy">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/exceptions/MalpracticeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/exceptions/NotInsuredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/hospital/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/EthicalTreatment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hospitalmanagement/treatments/TreatmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week13/hospitalmanagement/treatments/CostCuttingTreatmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week12/highcourt/strategies/Strategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +76,7 @@
     "JUnit.AttendeeTest.executor": "Run",
     "JUnit.ConductorTest.executor": "Run",
     "JUnit.ConductorTest.orchestrateResonance.executor": "Run",
+    "JUnit.CostCuttingTreatmentTest.executor": "Run",
     "JUnit.InventoryTest.executor": "Run",
     "JUnit.MaplewickEventTest.executor": "Run",
     "JUnit.MaplewickTicketTest.executor": "Run",
@@ -118,11 +127,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week13.hospitalmanagement.treatments" />
       <recent name="implementation.week8.NuclearPowerplant.Fuel" />
       <recent name="implementation.week12.highcourt.inventory" />
       <recent name="implementation.week11.CelestialOrchestra" />
       <recent name="implementation.week10.QuickMorningSprints.Wednesday" />
-      <recent name="implementation.week10.QuickMorningSprints.Tuesday" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -130,7 +139,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StendaaniumTest">
+  <component name="RunManager" selected="JUnit.CostCuttingTreatmentTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -197,19 +206,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clockmaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week11.Clockmaker.Clockmaker" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week11.Clockmaker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week11.Elements.World" />
       <module name="maplewick" />
@@ -232,6 +228,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CostCuttingTreatmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week13.hospitalmanagement.treatments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week13.hospitalmanagement.treatments" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week13.hospitalmanagement.treatments.CostCuttingTreatmentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CostCuttingTreatmentTest" />
         <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="JUnit.InventoryTest" />
         <item itemvalue="Application.implementation.week10.Examination.TryCatch.TryCatch" />
         <item itemvalue="Application.World" />
-        <item itemvalue="Application.Clockmaker" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +333,7 @@
       <workItem from="1765814868934" duration="24698000" />
       <workItem from="1766320956823" duration="5059000" />
       <workItem from="1766401236792" duration="5154000" />
-      <workItem from="1767527764826" duration="14560000" />
+      <workItem from="1767527764826" duration="19968000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -612,14 +623,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767625065103</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add test to the strategy">
+      <option name="closed" value="true" />
+      <created>1767626286709</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1767626286709</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Planning morning: Oct. 20-24" />
     <MESSAGE value="Monday: VegetableGarden (OOP Basics &amp; Collections)" />
     <MESSAGE value="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)" />
     <MESSAGE value="Updated to automate event triggering!" />
@@ -644,7 +662,8 @@
     <MESSAGE value="Change names" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update nuclear power plant project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update nuclear power plant project" />
+    <MESSAGE value="Add test to the strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test to the strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
