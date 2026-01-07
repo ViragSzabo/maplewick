@@ -6,7 +6,9 @@
 > **Status:** Production Ready (3-hour Deadline Met)
 
 ## 📖 Overview
-This project implements the control software for a new experimental Bio-Refinery. The system simulates and manages the biological and chemical processes of fermentation, distillation, and waste filtration. It includes strict safety monitoring protocols and robust error handling for contamination events.
+This project implements the control software for a new experimental Bio-Refinery. 
+The system simulates and manages the biological and chemical processes of fermentation, distillation, and waste filtration. 
+It includes strict safety monitoring protocols and robust error handling for contamination events.
 
 ## 🏗 System Architecture
 
@@ -43,7 +45,8 @@ The system supports polymorphic bacterial cultures with distinct behaviors.
 
 ## ⚠️ Safety Protocols
 
-Due to the volatile nature of bio-chemistry, the system implements strict safety checks using `ContaminationException` and a central monitoring system.
+Due to the volatile nature of bio-chemistry, the system implements strict safety checks
+using `ContaminationException` and a central monitoring system.
 
 ### 1. Contamination Events (`ContaminationException`)
 The process halts immediately if critical limits are breached:
@@ -73,25 +76,3 @@ All components implement the `checkSystem()` method returning one of three statu
 2.  **Exception Handling:** Implemented `ContaminationException` with specific trigger logic for each bacteria type.
 3.  **Monitoring System:** Created the `Monitorable` interface, `Status` enum, and the `CentralMonitor` to aggregate system health.
 4.  **Quality Assurance:** Comprehensive Unit Tests for **SuperBacteria** using JUnit 5, verifying vitality logic and production calculations.
-
-## 🚀 Usage
-
-To run the simulation batch process:
-
-```java
-BioRefinery refinery = new BioRefinery();
-
-try {
-    // Process a batch: 100g sugar for 60 seconds
-    double fuelProduced = refinery.processBatch(100, 60);
-    System.out.println("Fuel Produced: " + fuelProduced + " Liters");
-    
-    // Check system health
-    if (refinery.checkSystemStatus()) {
-        System.out.println("System Status: OK");
-    } else {
-        System.out.println("System Status: ATTENTION REQUIRED");
-    }
-} catch (ContaminationException e) {
-    System.err.println("EMERGENCY STOP: " + e.getMessage());
-}
