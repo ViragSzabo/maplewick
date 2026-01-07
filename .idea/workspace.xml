@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/AIapi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/EthicalUI.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Checked, rewrote some stuff here to be more readable, better as an exam prep.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/companion/AIReflectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/companion/AIReflectionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Control/ControlRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/CoolingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Nhlium.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Nhlium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/SplittingRod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/NuclearPowerPlant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/Reactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Reactor/SplitResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week8/NuclearPowerplant/Fuel/StendaaniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week8/NuclearPowerplant/Fuel/StendaaniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +134,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StendaaniumTest">
+  <component name="RunManager" selected="Application.EthicalUI">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -284,9 +274,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="Application.EthicalUI" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="JUnit.CostCuttingTreatmentTest" />
         <item itemvalue="JUnit.InventoryTest" />
       </list>
@@ -339,7 +329,7 @@
       <workItem from="1766320956823" duration="5059000" />
       <workItem from="1766401236792" duration="5154000" />
       <workItem from="1767527764826" duration="32257000" />
-      <workItem from="1767781223197" duration="5701000" />
+      <workItem from="1767781223197" duration="7202000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -653,14 +643,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767648313232</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Checked, rewrote some stuff here to be more readable, better as an exam prep.">
+      <option name="closed" value="true" />
+      <created>1767787463653</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1767787463654</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated to automate event triggering!" />
     <MESSAGE value="Wednesday: NuclearPowerPant (Interfaces &amp; Polymorphism)" />
     <MESSAGE value="Add start and shutdown method into main." />
     <MESSAGE value="Thursday: EcoSystemManager" />
@@ -685,7 +682,8 @@
     <MESSAGE value="Add test to the strategy" />
     <MESSAGE value="A little The Resident practice" />
     <MESSAGE value="A little project applying AI." />
-    <option name="LAST_COMMIT_MESSAGE" value="A little project applying AI." />
+    <MESSAGE value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

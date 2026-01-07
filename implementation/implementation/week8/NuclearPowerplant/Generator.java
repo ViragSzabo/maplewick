@@ -23,7 +23,14 @@ public class Generator implements Statusable
 
     public double generateEnergy(double steam)
     {
-        return this.totalProducedKwh += steam * ENERGY_PER_STEAM_UNIT;
+        // 1. Calculate the current energy
+        double currentEnergy = steam * ENERGY_PER_STEAM_UNIT;
+
+        // 2. Add to the total
+        this.totalProducedKwh += currentEnergy;
+
+        // 3. Return the result
+        return currentEnergy;
     }
 
     public Status getStatus()
