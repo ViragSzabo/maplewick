@@ -41,8 +41,8 @@ public class Reactor implements Statusable
             if (this.splittingRods.contains(splittingRod))
             {
                 SplitResult result = splittingRod.split(time, temperature);
-                totalSteam += result.getSteamInCubicMeters();
-                totalResidualHeat += result.getResidualHeat();
+                totalSteam += result.steamInCubicMeters();
+                totalResidualHeat += result.residualHeat();
             }
         }
 

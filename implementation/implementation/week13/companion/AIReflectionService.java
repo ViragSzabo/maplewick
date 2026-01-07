@@ -13,10 +13,14 @@ public class AIReflectionService
 {
     private static String API_KEY;
 
-    static {
-        try {
+    static
+    {
+        try
+        {
             API_KEY = Files.readString(Path.of("implementation/implementation/week13/companion/AIapi")).trim();
-        } catch (IOException e) {
+        }
+        catch (IOException e)
+        {
             System.err.println("⚠️ CRITICAL ERROR: Could not read 'AIapi' file.");
             System.err.println("Please create a file named 'AIapi' in your project root with your API key inside.");
             API_KEY = "MISSING_KEY";
@@ -25,17 +29,17 @@ public class AIReflectionService
 
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=" + API_KEY;
 
-    public String analyseScenario(Scenario scenario) {
-        try {
+    public String analyseScenario(Scenario scenario)
+    {
+        try
+        {
             // 1. Prepare the Prompt
-            // We ask Gemini to act as an ethical guide, not a judge.
             String prompt = "You are an ethical decision companion. Analyze this situation: " +
                     scenario.getDescription() +
                     ". Stakeholders: " + scenario.getStakeholders() +
                     ". distinctively list 2 ethical tensions and ask 1 reflective question. Keep it brief.";
 
-            // 2. Build the JSON Body (Manually, to avoid external libraries)
-            // We must escape quotes in the prompt to avoid breaking JSON format
+            // 2. Build the JSON Body
             String jsonBody = "{ \"contents\": [{ \"parts\": [{ \"text\": \""
                     + escapeJson(prompt) + "\" }] }] }";
 
@@ -51,20 +55,26 @@ public class AIReflectionService
             // 4. Send Request and Get Response
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-            if (response.statusCode() == 200) {
+            if (response.statusCode() == 200)
+            {
                 return extractTextFromResponse(response.body());
-            } else {
+            }
+            else
+            {
                 return "Error calling AI: " + response.statusCode() + " - " + response.body();
             }
 
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             e.printStackTrace();
             return "Failed to connect to AI Companion. (Check internet or API Key)";
         }
     }
 
     // Helper: Simple manual JSON parser to extract the "text" field from Gemini response
-    private String extractTextFromResponse(String jsonResponse) {
+    private String extractTextFromResponse(String jsonResponse)
+    {
         String marker = "\"text\": \"";
         int startIndex = jsonResponse.indexOf(marker);
         if (startIndex == -1) return "Could not parse AI response.";
@@ -79,7 +89,8 @@ public class AIReflectionService
     }
 
     // Helper: Escapes quotes in your prompt so JSON doesn't break
-    private String escapeJson(String input) {
+    private String escapeJson(String input)
+    {
         if (input == null) return "";
         return input.replace("\"", "\\\"").replace("\n", " ");
     }

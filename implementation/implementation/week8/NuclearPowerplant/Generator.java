@@ -5,11 +5,15 @@ import implementation.week8.NuclearPowerplant.Control.Statusable;
 
 public class Generator implements Statusable
 {
+    private static final int MAX_CUMULATIVE_KWH_LIMIT = 560;
+    private static final int ENERGY_PER_STEAM_UNIT = 12;
+    private static final int INITIAL_TOTAL_PRODUCE_KWH = 0;
+
     private double totalProducedKwh;
 
     public Generator()
     {
-        this.totalProducedKwh = 0;
+        this.totalProducedKwh = INITIAL_TOTAL_PRODUCE_KWH;
     }
 
     public double getTotalProducedKwh()
@@ -19,17 +23,12 @@ public class Generator implements Statusable
 
     public double generateEnergy(double steam)
     {
-        int STEAM_ENERGY_NUMBER = 12;
-
-        this.totalProducedKwh += steam * STEAM_ENERGY_NUMBER;
-        return this.totalProducedKwh;
+        return this.totalProducedKwh += steam * ENERGY_PER_STEAM_UNIT;
     }
 
     public Status getStatus()
     {
-        int MAX_PRODUCE_KWH = 560;
-
-        if (this.totalProducedKwh > MAX_PRODUCE_KWH)
+        if (this.totalProducedKwh > MAX_CUMULATIVE_KWH_LIMIT)
         {
             return Status.UNSTABLE;
         }

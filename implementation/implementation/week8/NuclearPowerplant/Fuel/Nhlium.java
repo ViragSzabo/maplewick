@@ -4,6 +4,18 @@ import implementation.week8.NuclearPowerplant.Reactor.SplitResult;
 
 public class Nhlium extends SplittingRod
 {
+    private static final int CRITICAL_TIME_LIMIT = 60;
+    private static final int CRITICAL_HEAT_LIMIT = 100;
+
+    private static final double MIN_FUEL_THRESHOLD = 0.1;
+    private static final double FUEL_CONSUMPTION_RATE = 0.06;
+
+    private static final int STABLE_TEMP_LIMIT = 90;
+    private static final double REACTION_FACTOR = 0.9;
+    private static final double STEAM_DIVISOR = 70.0;
+    private static final double RESIDUAL_HEAT_FACTOR_LOW_TEMP = 3.0;
+    private static final double RESIDUAL_HEAT_FACTOR_HIGH_TEMP = 10.0;
+
     public Nhlium()
     {
         super();
@@ -12,41 +24,65 @@ public class Nhlium extends SplittingRod
     @Override
     public SplitResult split(int time, int temperature) throws MeltdownException
     {
-        double steam;
-        double residualHeat;
-        final int MAX_TIME = 60;
-        final double CALCULATE_HELPER = 0.9;
-        final double HELPER_STEAM_NUMBER = 70;
-        final int MAX_RESIDUAL_HEAT_TEMP = 100;
-        final double CHECK_MELTDOWN_NUMBER = 0.1;
-        final double HELPER_RESIDUAL_NUMBER = 10;
-        final int NUMBER_OF_TIMES_RESIDUAL_HEAT = 3;
-        final int MAX_TEMP_FOR_REMAIN_PERCENTAGE = 90;
-        final double MULTIPLE_FOR_REMAIN_PERCENTAGE = 0.06;
+        // 1. Guard Check: The critical point
+        checkCriticalLimits(time, temperature);
 
-        if (time > MAX_TIME && temperature > MAX_RESIDUAL_HEAT_TEMP)
+        // 2. Fuel Consumption
+        applyFuelConsumption(time);
+
+        // 3. Output: The calculation point
+        double steam = calculateSteam(time, temperature);
+        double residualHeat = calculateResidualHeat(time, temperature);
+
+        // 4. Lastly: The check point
+        checkFuelLevel();
+
+        return new SplitResult(steam, residualHeat);
+    }
+
+    private void checkCriticalLimits(int time, int temp) throws MeltdownException
+    {
+        if (time > CRITICAL_TIME_LIMIT && temp > CRITICAL_HEAT_LIMIT)
         {
-            throw new MeltdownException("Oh My God! Something went wrong.");
+            throw new MeltdownException("Critical time limit exceeded");
         }
+    }
 
-        this.remainPercentage -= (MULTIPLE_FOR_REMAIN_PERCENTAGE * time);
+    private void applyFuelConsumption(int time)
+    {
+        double decreasedAmount = (FUEL_CONSUMPTION_RATE * time);
+        decreasePercentage(decreasedAmount);
+    }
 
-        if (temperature < MAX_TEMP_FOR_REMAIN_PERCENTAGE)
+    private double calculateSteam(int time, int temp)
+    {
+        if (temp < STABLE_TEMP_LIMIT)
         {
-            steam = ((double) temperature / HELPER_STEAM_NUMBER) * time * CALCULATE_HELPER;
-            residualHeat = time * NUMBER_OF_TIMES_RESIDUAL_HEAT;
+            return ((double) temp / STEAM_DIVISOR) * time * REACTION_FACTOR;
         }
         else
         {
-            steam = CALCULATE_HELPER * (temperature * CALCULATE_HELPER / time) * Math.sqrt(3) * time;
-            residualHeat = (double) time / HELPER_RESIDUAL_NUMBER;
+            return REACTION_FACTOR * (temp * REACTION_FACTOR / time) * Math.sqrt(3) * time;
         }
+    }
 
-        if (this.remainPercentage < CHECK_MELTDOWN_NUMBER)
+    private double calculateResidualHeat(int time, int temp)
+    {
+        if (temp < STABLE_TEMP_LIMIT)
         {
-            throw new MeltdownException("Oh My God! Something went wrong.");
+            return time * RESIDUAL_HEAT_FACTOR_LOW_TEMP;
         }
+        else
+        {
+            return (double) time / RESIDUAL_HEAT_FACTOR_HIGH_TEMP;
+        }
+    }
 
-        return new SplitResult(steam, residualHeat);
+    private void checkFuelLevel() throws MeltdownException
+    {
+        if (getPercentageLeft() < MIN_FUEL_THRESHOLD)
+        {
+            throw new MeltdownException("Fuel is below critical level!");
+        }
     }
 }

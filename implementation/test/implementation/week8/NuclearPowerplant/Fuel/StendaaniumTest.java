@@ -17,22 +17,17 @@ class StendaaniumTest
     }
 
     @Test
-    void split_decreaseRemainPercentage_whenTempIsAvgOrHigh()
+    void split_decreaseRemainPercentage_whenTempIsAvgOrHigh() throws MeltdownException
     {
+        // Arrange
         int time = 10;
         int temp = 100;
-
         double before = stendaanium.getPercentageLeft();
 
-        try
-        {
-            stendaanium.split(time, temp);
-        }
-        catch (MeltdownException e)
-        {
-            throw new RuntimeException(e);
-        }
+        // Act
+        stendaanium.split(time, temp);
 
+        // Assert
         double expectedDecrease = 0.00007 * temp * time + 0.0004;
         double after = stendaanium.getPercentageLeft();
 
@@ -40,22 +35,17 @@ class StendaaniumTest
     }
 
     @Test
-    void split_doesNotDecreaseRemainPercentage_whenTempIsLow()
+    void split_doesNotDecreaseRemainPercentage_whenTempIsLow() throws MeltdownException
     {
+        // Arrange
         int time = 10;
         int temp = 40;
-
         double before = stendaanium.getPercentageLeft();
 
-        try
-        {
-            stendaanium.split(time, temp);
-        }
-        catch (MeltdownException e)
-        {
-            throw new RuntimeException(e);
-        }
+        // Act
+        stendaanium.split(time, temp);
 
+        // Assert
         double after = stendaanium.getPercentageLeft();
 
         assertEquals(before, after);

@@ -4,11 +4,12 @@ import implementation.week8.NuclearPowerplant.Reactor.SplitResult;
 
 public abstract class SplittingRod
 {
-    protected double remainPercentage;
+    private static final double INITIAL_PERCENTAGE = 100.0;
+    private double remainPercentage;
 
     public SplittingRod()
     {
-        this.remainPercentage = 100.0;
+        this.remainPercentage = INITIAL_PERCENTAGE;
     }
 
     public double getPercentageLeft()
@@ -16,8 +17,15 @@ public abstract class SplittingRod
         return this.remainPercentage;
     }
 
-    public SplitResult split(int time, int temperature) throws MeltdownException
+    protected void decreasePercentage(double amount)
     {
-        return new SplitResult(time, temperature);
+        this.remainPercentage -= amount;
+
+        if (this.remainPercentage < 0)
+        {
+            this.remainPercentage = 0;
+        }
     }
+
+    public abstract SplitResult split(int time, int temperature) throws MeltdownException;
 }

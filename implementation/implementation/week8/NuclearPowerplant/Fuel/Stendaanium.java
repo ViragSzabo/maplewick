@@ -4,6 +4,11 @@ import implementation.week8.NuclearPowerplant.Reactor.SplitResult;
 
 public class Stendaanium extends SplittingRod
 {
+    private static final int MELTDOWN_THRESHOLD_TEMP = 150;
+    private static final int REACTION_MIN_TEMP = 50;
+    private static final double DECAY_FACTOR_TIME = 0.00007;
+    private static final double DECAY_BASE_AMOUNT = 0.0004;
+
     public Stendaanium()
     {
         super();
@@ -12,27 +17,26 @@ public class Stendaanium extends SplittingRod
     @Override
     public SplitResult split(int time, int temperature) throws MeltdownException
     {
-        final int MIN_TEMP = 150;
-        final int AVG_TEMP = 50;
-        final double CALC_ONE = 0.00007;
-        final double CALC_TWO = 0.0004;
-        final int NO_DECREASE = 0;
-
-        if (temperature > MIN_TEMP)
+        // 1. Guard Check: The critical point
+        if (temperature > MELTDOWN_THRESHOLD_TEMP)
         {
-            throw new MeltdownException("Oh My God!");
+            throw new MeltdownException("Critical temperature exceeded temperature threshold!");
         }
 
-        if (temperature >= AVG_TEMP)
+        // 2. Business Logic: The reaction point
+        if (temperature >= REACTION_MIN_TEMP)
         {
-            this.remainPercentage -= CALC_ONE * temperature * time + CALC_TWO;
-        }
-
-        if (temperature < AVG_TEMP)
-        {
-            this.remainPercentage -= NO_DECREASE;
+            applyUsageCalculation(time, temperature);
         }
 
         return new SplitResult(time, temperature);
+    }
+
+    // HELPER: To calculate how much fuel will be decreased
+    protected void applyUsageCalculation(int time, int temp)
+    {
+        double usage = (DECAY_FACTOR_TIME * temp * time + DECAY_BASE_AMOUNT);
+
+        decreasePercentage(usage);
     }
 }

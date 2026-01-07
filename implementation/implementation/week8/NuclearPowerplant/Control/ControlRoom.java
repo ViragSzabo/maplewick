@@ -1,29 +1,30 @@
 package implementation.week8.NuclearPowerplant.Control;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class ControlRoom
 {
-    private final HashSet<Statusable> statuses;
+    private final Set<Statusable> monitoredComponents;
 
     public ControlRoom()
     {
-        this.statuses = new HashSet<>();
+        this.monitoredComponents = new HashSet<>();
     }
 
     public void add(Statusable statusable)
     {
         if (statusable == null)
         {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Cannot monitor null component");
         }
 
-        this.statuses.add(statusable);
+        this.monitoredComponents.add(statusable);
     }
 
     public boolean isStable()
     {
-        for (Statusable statusable : this.statuses)
+        for (Statusable statusable : this.monitoredComponents)
         {
             if (statusable.getStatus() != Status.STABLE)
             {
