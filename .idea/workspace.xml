@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Created a new exam practice Bio Refinery">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/CentralMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/BacteriaCulture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/SuperBacteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/TurboYeast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/BioRefinery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/Distiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/WasteFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/ContaminationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Monitorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week13/bio/bacterias/SuperBacteriaTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Remove">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,71 +34,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.ArtherForge.executor": "Run",
-    "Application.BBQ.executor": "Run",
-    "Application.BBQApp.executor": "Run",
-    "Application.Blockbuster.executor": "Run",
-    "Application.CelestialFestival.executor": "Run",
-    "Application.ChefApp.executor": "Run",
-    "Application.Clockmaker.executor": "Run",
-    "Application.CodeChef.executor": "Run",
-    "Application.DunderAndMifflinPaperCompany.executor": "Run",
-    "Application.EcoAdventurePlanner.executor": "Run",
-    "Application.EcoFriendlyTravelPlanner.executor": "Run",
-    "Application.EcoSystemManager.executor": "Run",
-    "Application.EthicalUI.executor": "Run",
-    "Application.FileHandling.executor": "Run",
-    "Application.Final.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MichaelScottPaperCompany.executor": "Run",
-    "Application.MidnightLibrary.executor": "Run",
-    "Application.PetAdoptionApp.executor": "Run",
-    "Application.Remembering.executor": "Run",
-    "Application.TryCatch.executor": "Run",
-    "Application.VeggieGarden.executor": "Run",
-    "Application.World.executor": "Run",
-    "Application.implementation.week10.Examination.CodeChef.executor": "Run",
-    "Application.implementation.week10.Examination.TryCatch.TryCatch.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor": "Run",
-    "Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AttendeeTest.executor": "Run",
-    "JUnit.ConductorTest.executor": "Run",
-    "JUnit.ConductorTest.orchestrateResonance.executor": "Run",
-    "JUnit.CostCuttingTreatmentTest.executor": "Run",
-    "JUnit.InventoryTest.executor": "Run",
-    "JUnit.MaplewickEventTest.executor": "Run",
-    "JUnit.MaplewickTicketTest.executor": "Run",
-    "JUnit.StendaaniumTest.executor": "Run",
-    "JUnit.SuperBacteriaTest.executor": "Run",
-    "JUnit.implementation.week10.QuickMorningSprints in maplewick.executor": "Run",
-    "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2911932",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArtherForge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BBQApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Blockbuster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CelestialFestival.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChefApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Clockmaker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CodeChef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DunderAndMifflinPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoAdventurePlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoFriendlyTravelPlanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcoSystemManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EthicalUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Final.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MichaelScottPaperCompany.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MidnightLibrary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PetAdoptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remembering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VeggieGarden.executor&quot;: &quot;Run&quot;,
+    &quot;Application.World.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.Examination.CodeChef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.Examination.TryCatch.TryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Tuesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AttendeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConductorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConductorTest.orchestrateResonance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CostCuttingTreatmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InventoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StendaaniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SuperBacteriaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week10.QuickMorningSprints in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.implementation.week9.ChefMyFridge in maplewick.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/maplewick&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/szabo/OneDrive/Dokumentumok/GitHub/oop2-homework-2025-2026-ViragSzabo/java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2911932&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\out\test\src\implementation\week9\Events" />
@@ -341,7 +328,8 @@
       <workItem from="1766320956823" duration="5059000" />
       <workItem from="1766401236792" duration="5154000" />
       <workItem from="1767527764826" duration="32257000" />
-      <workItem from="1767781223197" duration="13798000" />
+      <workItem from="1767781223197" duration="15892000" />
+      <workItem from="1767961118977" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -671,15 +659,29 @@
       <option name="project" value="LOCAL" />
       <updated>1767788961442</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Bio assignment finished, wait for a little check-in">
+      <option name="closed" value="true" />
+      <created>1767796686525</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1767796686525</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Remove">
+      <option name="closed" value="true" />
+      <created>1767796756139</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1767796756139</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add start and shutdown method into main." />
-    <MESSAGE value="Thursday: EcoSystemManager" />
     <MESSAGE value="Update Friday" />
     <MESSAGE value="Update simulation" />
     <MESSAGE value="Update tests and add new nighty practice" />
@@ -703,7 +705,9 @@
     <MESSAGE value="A little project applying AI." />
     <MESSAGE value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
     <MESSAGE value="Created a new exam practice Bio Refinery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new exam practice Bio Refinery" />
+    <MESSAGE value="Bio assignment finished, wait for a little check-in" />
+    <MESSAGE value="Remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
