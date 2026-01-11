@@ -13,7 +13,8 @@ public class SuperBacteria extends BacteriaCulture
     private static final int STANDARD_WASTE_PRODUCTION_DECAY = 5;
 
     @Override
-    public FermentationResult ferment(double sugarGrams, int timeSeconds) throws ContaminationException {
+    public FermentationResult ferment(double sugarGrams, int timeSeconds) throws ContaminationException
+    {
         // 1. Exception Checks
         checkException(sugarGrams);
 

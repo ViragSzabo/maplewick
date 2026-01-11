@@ -16,11 +16,16 @@ public class Result
 
     public Classification getTempClass()
     {
-        if(temp < 10.0) {
+        if(temp < 10.0)
+        {
             return Classification.COLD;
-        } else if (this.temp > 10 && this.temp < 70) {
+        }
+        else if (this.temp > 10 && this.temp < 70)
+        {
             return Classification.MEDIUM;
-        } else {
+        }
+        else
+        {
             return Classification.HOT;
         }
     }

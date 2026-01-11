@@ -52,6 +52,7 @@ public class Fridge implements Measurable
         return (Vegetable) getNextItem(Types.VEGETABLE);
     }
 
+    // without enum type; check names!
     public Food getNextItem(Types type) throws FridgeIsEmptyException, NoMoreFoodException
     {
         if (!this.foods.isEmpty())
@@ -78,7 +79,8 @@ public class Fridge implements Measurable
                 }
             }
         }
-        else {
+        else
+        {
             throw new FridgeIsEmptyException();
         }
         throw new NoMoreFoodException(type.name());

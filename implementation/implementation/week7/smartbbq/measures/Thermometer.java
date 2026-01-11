@@ -1,9 +1,12 @@
 package implementation.week7.smartbbq.measures;
 
+import implementation.week7.smartbbq.fridge.Fridge;
+
 public class Thermometer
 {
-    public Result measure(Measurable measurable)
+    // CHECK AGAIN!!
+    public Result measure(Fridge fridge)
     {
-        return new Result(measurable.getTemperature());
+        return new Result(fridge.getTemperature());
     }
 }

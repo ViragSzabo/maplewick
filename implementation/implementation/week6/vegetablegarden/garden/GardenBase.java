@@ -6,6 +6,6 @@ import java.util.HashSet;
 
 public interface GardenBase
 {
-    public void addVegetable(Vegetable vegetable) throws TooManyVegetablesException;
-    public HashSet<Vegetable> getReadyForHarvest();
+    void addVegetable(Vegetable vegetable) throws TooManyVegetablesException;
+    HashSet<Vegetable> getReadyForHarvest();
 }

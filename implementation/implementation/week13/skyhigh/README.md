@@ -5,7 +5,10 @@
 > **Deadline:** 3 Hours (Holiday Rush!)
 
 ## 📖 Overview
-This project implements the control logic for an autonomous drone delivery fleet. The system manages drone dispatching, maintenance tracking, and fleet statistics. It includes specific physics simulations for different drone models, robust safety checks to prevent crashes, and a central dashboard for system health monitoring.
+This project implements the control logic for an autonomous drone delivery fleet. 
+The system manages drone dispatching, maintenance tracking, and fleet statistics. 
+It includes specific physics simulations for different drone models, robust safety checks to prevent crashes, 
+and a central dashboard for system health monitoring.
 
 ## 🏗 System Architecture
 
@@ -54,7 +57,8 @@ To prevent accidents, the system must throw a `CrashException` if the following 
 
 ## 📊 Dashboard & Monitoring
 
-The system includes a **Dashboard** that monitors all components via a `checkStatus()` method. Components return a status color (`GREEN`, `ORANGE`, `RED`).
+The system includes a **Dashboard** that monitors all components via a `checkStatus()` method. 
+Components return a status color (`GREEN`, `ORANGE`, `RED`).
 
 | Component             | 🟠 ORANGE Condition                   | 🔴 RED Condition                      |
 |:----------------------|:--------------------------------------|:--------------------------------------|
@@ -63,13 +67,16 @@ The system includes a **Dashboard** that monitors all components via a `checkSta
 | **Statistics Server** | —                                     | Total Fleet Distance > **10,000 km**. |
 
 > **System Health:** The Dashboard's `isSystemHealthy()` method returns `false` if **any** component is not `GREEN`.
+> loop through all components and check green
+> Interface: checkStatus()
 
 ---
 
 ## ✅ Implementation Guide
 
 ### Assignment 1: Core Logic
-* Implement the class structure using **Inheritance** (Abstract Drone class) and **Composition** (Delivery Service containing Port, Depot, Server).
+* Implement the class structure using **Inheritance** (Abstract Drone class) 
+* and **Composition** (Delivery Service containing Port, Depot, Server).
 * Implement the math formulas from the table above.
 
 ### Assignment 2: Exception Handling

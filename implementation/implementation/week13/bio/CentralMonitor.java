@@ -25,6 +25,17 @@ public class CentralMonitor
         this.components.add(monitorable);
     }
 
+    public void removeComponent(Monitorable monitorable)
+    {
+        for (Monitorable m : this.components)
+        {
+            if (m.equals(monitorable))
+            {
+                this.components.remove(m);
+            }
+        }
+    }
+
     public boolean isRefineryStable()
     {
         for (Monitorable monitorable : this.components)

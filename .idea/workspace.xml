@@ -4,9 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Remove">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Heavylift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Speedster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/exceptions/CrashException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DronePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/FlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/MaintenanceDepot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/StatisticsServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/CentralMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/CentralMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/SuperBacteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/SuperBacteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/Distiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/Distiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Monitorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Monitorable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GardenBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GardenBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GridGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GridGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Sellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Pepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Classification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Measurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Measurable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Thermometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -133,7 +157,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuperBacteriaTest">
+  <component name="RunManager" selected="JUnit.StendaaniumTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -273,10 +297,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="JUnit.SuperBacteriaTest" />
         <item itemvalue="Application.EthicalUI" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StendaaniumTest" />
         <item itemvalue="JUnit.CostCuttingTreatmentTest" />
       </list>
     </recent_temporary>
@@ -329,7 +353,8 @@
       <workItem from="1766401236792" duration="5154000" />
       <workItem from="1767527764826" duration="32257000" />
       <workItem from="1767781223197" duration="15892000" />
-      <workItem from="1767961118977" duration="3468000" />
+      <workItem from="1767961118977" duration="7197000" />
+      <workItem from="1768128974678" duration="5595000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -675,14 +700,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767796756139</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="New exam prep on the level of the nuclear power assignment.">
+      <option name="closed" value="true" />
+      <created>1767992643461</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1767992643461</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Friday" />
     <MESSAGE value="Update simulation" />
     <MESSAGE value="Update tests and add new nighty practice" />
     <MESSAGE value="Celestial Ball" />
@@ -707,7 +739,8 @@
     <MESSAGE value="Created a new exam practice Bio Refinery" />
     <MESSAGE value="Bio assignment finished, wait for a little check-in" />
     <MESSAGE value="Remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove" />
+    <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="New exam prep on the level of the nuclear power assignment." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,6 +8,7 @@ public class Pepper extends Vegetable implements Sellable
     {
         super(0.000044, 0.0013, 7, Colour.GREEN);
     }
+
     @Override
     public void growth(int lux, int mm, int amountOfDays)
     {

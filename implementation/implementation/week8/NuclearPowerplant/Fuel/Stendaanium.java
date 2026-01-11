@@ -33,7 +33,7 @@ public class Stendaanium extends SplittingRod
     }
 
     // HELPER: To calculate how much fuel will be decreased
-    protected void applyUsageCalculation(int time, int temp)
+    private void applyUsageCalculation(int time, int temp)
     {
         double usage = (DECAY_FACTOR_TIME * temp * time + DECAY_BASE_AMOUNT);
 

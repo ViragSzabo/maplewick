@@ -5,10 +5,11 @@ import implementation.week13.bio.status.Status;
 
 public class Distiller implements Monitorable
 {
-    private double totalOfFuelProduced;
     private static final double INITIAL_TOTAL_OF_FUEL_PRODUCED = 0.0;
     private static final double DECAY_RAW_ETHANOL = 0.0009;
     private static final double MAX_FUEL_PRODUCED = 5000.0;
+
+    private double totalOfFuelProduced;
 
     public Distiller()
     {

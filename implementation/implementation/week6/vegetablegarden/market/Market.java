@@ -25,13 +25,14 @@ public class Market
     {
         double profit = 0.0;
 
-        for(Sellable sellable : sellables)
+        for (Sellable sellable : sellables)
         {
-            if(sellable.isSellable())
+            if (sellable.isSellable())
             {
                 profit += sellable.getPrice();
             }
         }
+
         return profit;
     }
 }

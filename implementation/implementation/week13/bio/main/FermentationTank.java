@@ -68,6 +68,7 @@ public class FermentationTank implements Monitorable
                 return Status.CHECK;
             }
         }
+
         return Status.OK;
     }
 }
