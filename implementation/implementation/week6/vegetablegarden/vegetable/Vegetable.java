@@ -10,12 +10,15 @@ public abstract class Vegetable
     private Status status;
 
     /** Constructor */
-    public Vegetable(double cmPerLux, double cmPerMilimeter, int ripeLength, Colour colour) {
+    public Vegetable(double cmPerLux, double cmPerMilimeter, int ripeLength, Colour colour)
+    {
         this.sizeInCm = 0;
-        this.cmPerLux = cmPerLux;
-        this.cmPerMilimeter = cmPerMilimeter;
-        this.ripeLength = ripeLength;
-        this.colour = colour;
+
+        setCmPerLux(cmPerLux);
+        setCmPerMilimeter(cmPerMilimeter);
+        setRipeLength(ripeLength);
+        setColour(colour);
+
         this.status = Status.GROWING;
     }
 
@@ -31,6 +34,11 @@ public abstract class Vegetable
 
     public void setCmPerLux(double cmPerLux)
     {
+        if (cmPerLux < 0.0)
+        {
+            throw new IllegalArgumentException("cmPerLux cannot be less than 0");
+        }
+
         this.cmPerLux = cmPerLux;
     }
 
@@ -41,6 +49,11 @@ public abstract class Vegetable
 
     public void setCmPerMilimeter(double cmPerMilimeter)
     {
+        if (cmPerMilimeter < 0.0)
+        {
+            throw new IllegalArgumentException("cmPerMilimeter cannot be less than 0");
+        }
+
         this.cmPerMilimeter = cmPerMilimeter;
     }
 
@@ -51,6 +64,11 @@ public abstract class Vegetable
 
     public void setRipeLength(int ripeLength)
     {
+        if (ripeLength < 0)
+        {
+            throw new IllegalArgumentException("Ripe length cannot be less than 0");
+        }
+
         this.ripeLength = ripeLength;
     }
 
@@ -59,8 +77,13 @@ public abstract class Vegetable
         return this.colour;
     }
 
-    public void setColor(Colour colour)
+    public void setColour(Colour colour)
     {
+        if (colour == null)
+        {
+            throw new IllegalArgumentException("Colour cannot be null");
+        }
+
         this.colour = colour;
     }
 
@@ -78,7 +101,7 @@ public abstract class Vegetable
     {
         this.sizeInCm += sizeInCm;
 
-        if(this.getSizeInCm() >= this.getRipeLength())
+        if (this.getSizeInCm() >= this.getRipeLength())
         {
             this.setStatus(Status.READY_TO_HARVEST);
         }

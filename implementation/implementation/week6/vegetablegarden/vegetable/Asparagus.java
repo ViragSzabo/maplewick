@@ -4,6 +4,8 @@ import implementation.week6.vegetablegarden.market.Sellable;
 
 public class Asparagus  extends Vegetable implements Sellable
 {
+    // final static variables !!!
+
     public Asparagus()
     {
         super(0.000027, 0.0049, 20, Colour.ORANGE);
@@ -12,7 +14,7 @@ public class Asparagus  extends Vegetable implements Sellable
     @Override
     public void growth(int lux, int mm, int amountOfDays)
     {
-        if(amountOfDays == 10 && mm < 14)
+        if (amountOfDays == 10 && mm < 14)
         {
             this.setStatus(Status.DESTROYED);
             return;
@@ -24,12 +26,12 @@ public class Asparagus  extends Vegetable implements Sellable
     @Override
     public boolean isSellable()
     {
-        return this.getStatus() == Status.READY_TO_HARVEST && this.getSizeInCm() <= 29.0;
+        return this.getStatus() == Status.READY_TO_HARVEST && this.getSizeInCm() <= 29.0; // constant
     }
 
     @Override
     public double getPrice()
     {
-        return this.getSizeInCm() * 0.12;
+        return this.getSizeInCm() * 0.12; // constant
     }
 }

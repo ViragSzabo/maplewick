@@ -2,8 +2,8 @@ package implementation.week7.smartbbq.fridge;
 
 public class NoMoreFoodException extends Exception
 {
-    public NoMoreFoodException(String type)
+    public NoMoreFoodException(String message)
     {
-        super("No more food of type, " + type +"!");
+        super(message);
     }
 }

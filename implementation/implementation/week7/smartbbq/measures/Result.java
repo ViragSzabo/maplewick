@@ -2,7 +2,7 @@ package implementation.week7.smartbbq.measures;
 
 public class Result
 {
-    private final double temp;
+    private double temp;
 
     public Result(double temp)
     {
@@ -16,7 +16,7 @@ public class Result
 
     public Classification getTempClass()
     {
-        if(temp < 10.0)
+        if (temp < 10.0)
         {
             return Classification.COLD;
         }

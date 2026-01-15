@@ -2,8 +2,8 @@ package implementation.week7.smartbbq.fridge;
 
 public class FridgeIsEmptyException extends Exception
 {
-    public FridgeIsEmptyException()
+    public FridgeIsEmptyException(String message)
     {
-        super("The fridge is empty...");
+        super(message);
     }
 }

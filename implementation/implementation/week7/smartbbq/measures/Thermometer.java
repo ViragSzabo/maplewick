@@ -4,9 +4,8 @@ import implementation.week7.smartbbq.fridge.Fridge;
 
 public class Thermometer
 {
-    // CHECK AGAIN!!
-    public Result measure(Fridge fridge)
+    public Result measure(Measurable obj)
     {
-        return new Result(fridge.getTemperature());
+        return new Result(obj.getTemperature());
     }
 }

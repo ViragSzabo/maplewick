@@ -18,6 +18,11 @@ public class Market
 
     public void addSellables(Sellable sellable)
     {
+        if (sellable == null)
+        {
+            throw new NullPointerException("Sellable is null");
+        }
+
         this.sellables.add(sellable);
     }
 

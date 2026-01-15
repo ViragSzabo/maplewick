@@ -5,32 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Heavylift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Speedster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/exceptions/CrashException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DronePort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/MaintenanceDepot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/StatisticsServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hydroelectricdam/HydroElectricCriticalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hydroelectricdam/HydroElectricDam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hydroelectricdam/PowerGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/hydroelectricdam/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/HydroElectricDam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DeliveryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/StatusColours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/Statusable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week13/skyhigh/drones/HeavyliftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week7/smartbbq/bbq/SmartBBQTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/CentralMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/CentralMonitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/SuperBacteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/bacterias/SuperBacteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/Distiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/Distiller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/FermentationTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Monitorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/status/Monitorable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GardenBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GardenBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/WasteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/bio/main/WasteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Heavylift.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Heavylift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Speedster.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/drones/Speedster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DronePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/DronePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/FlightService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/MaintenanceDepot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/MaintenanceDepot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/StatisticsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week13/skyhigh/services/StatisticsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/VeggieGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/VeggieGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/Garden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GridGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/garden/GridGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/greenhouse/Greenhouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/greenhouse/Greenhouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/market/Sellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Asparagus.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Asparagus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Kale.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Kale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Pepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week6/vegetablegarden/vegetable/Vegetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/BBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/BBQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/SmartBBQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/bbq/SmartBBQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/food/Vegetable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/Fridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Classification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Measurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Measurable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/FridgeIsEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/FridgeIsEmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/NoMoreFoodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/fridge/NoMoreFoodException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week7/smartbbq/measures/Thermometer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week8/NuclearPowerplant/Fuel/Stendaanium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +56,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -93,6 +109,7 @@
     &quot;JUnit.ConductorTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ConductorTest.orchestrateResonance.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CostCuttingTreatmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HeavyLiftTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.InventoryTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MaplewickEventTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MaplewickTicketTest.executor&quot;: &quot;Run&quot;,
@@ -132,11 +149,11 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week13\skyhigh" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10\Examination\FileHandling" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week11\MidnightLibrary" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10\QuickMorningSprints" />
-      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\Week5" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -145,11 +162,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week7.smartbbq.bbq" />
+      <recent name="implementation.week13.skyhigh.drones" />
       <recent name="implementation.week13.bio.bacterias" />
       <recent name="implementation.week13.hospitalmanagement.treatments" />
       <recent name="implementation.week8.NuclearPowerplant.Fuel" />
-      <recent name="implementation.week12.highcourt.inventory" />
-      <recent name="implementation.week11.CelestialOrchestra" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -157,7 +174,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StendaaniumTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -224,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EthicalUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week13.companion.EthicalUI" />
+    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week7.smartbbq.bbq.BBQ" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week13.companion.*" />
+          <option name="PATTERN" value="implementation.week7.smartbbq.bbq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,16 +267,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CostCuttingTreatmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeggieGarden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="implementation.week6.vegetablegarden.VeggieGarden" />
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week13.hospitalmanagement.treatments.*" />
+          <option name="PATTERN" value="implementation.week6.vegetablegarden.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="implementation.week13.hospitalmanagement.treatments" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week13.hospitalmanagement.treatments.CostCuttingTreatmentTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeavyLiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week13.skyhigh.drones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week13.skyhigh.drones" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week13.skyhigh.drones.HeavyLiftTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,28 +310,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperBacteriaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week13.bio.bacterias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="implementation.week13.bio.bacterias" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week13.bio.bacterias.SuperBacteriaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StendaaniumTest" />
-        <item itemvalue="JUnit.SuperBacteriaTest" />
-        <item itemvalue="Application.EthicalUI" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CostCuttingTreatmentTest" />
+        <item itemvalue="Application.VeggieGarden" />
+        <item itemvalue="Application.BBQ" />
+        <item itemvalue="JUnit.HeavyLiftTest" />
+        <item itemvalue="JUnit.StendaaniumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +369,10 @@
       <workItem from="1767527764826" duration="32257000" />
       <workItem from="1767781223197" duration="15892000" />
       <workItem from="1767961118977" duration="7197000" />
-      <workItem from="1768128974678" duration="5595000" />
+      <workItem from="1768128974678" duration="6440000" />
+      <workItem from="1768226734416" duration="14789000" />
+      <workItem from="1768386633716" duration="9660000" />
+      <workItem from="1768474276630" duration="5353000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -708,14 +726,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767992643461</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="After tutoring">
+      <option name="closed" value="true" />
+      <created>1768148862114</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1768148862114</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update simulation" />
     <MESSAGE value="Update tests and add new nighty practice" />
     <MESSAGE value="Celestial Ball" />
     <MESSAGE value="Celestial Ball 1.0" />
@@ -740,7 +765,8 @@
     <MESSAGE value="Bio assignment finished, wait for a little check-in" />
     <MESSAGE value="Remove" />
     <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="New exam prep on the level of the nuclear power assignment." />
+    <MESSAGE value="After tutoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="After tutoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,7 +10,7 @@ public class Greenhouse extends Garden
         int lux = WeatherGenerator.getLux();
         int mm = WeatherGenerator.getMm();
 
-        for(Vegetable vegetable : this.getVegetables())
+        for (Vegetable vegetable : this.getVegetables())
         {
             vegetable.growth(lux, mm, 1);
         }

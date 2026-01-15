@@ -24,11 +24,13 @@ public class Fridge implements Measurable
         {
             instance = new Fridge();
         }
+
         return instance;
     }
 
     @Override
-    public double getTemperature() {
+    public double getTemperature()
+    {
         return this.temperature;
     }
 
@@ -39,6 +41,11 @@ public class Fridge implements Measurable
 
     public void addFood(Food food)
     {
+        if (food == null)
+        {
+            throw new IllegalArgumentException("Food cannot be null");
+        }
+
         this.foods.add(food);
     }
 
@@ -52,14 +59,14 @@ public class Fridge implements Measurable
         return (Vegetable) getNextItem(Types.VEGETABLE);
     }
 
-    // without enum type; check names!
     public Food getNextItem(Types type) throws FridgeIsEmptyException, NoMoreFoodException
     {
         if (!this.foods.isEmpty())
         {
-            for(int i = 0; i < this.foods.size(); i++)
+            for (int i = 0; i < this.foods.size(); i++)
             {
                 Food food = this.foods.get(i);
+
                 switch (type)
                 {
                     case VEGETABLE:
@@ -81,9 +88,10 @@ public class Fridge implements Measurable
         }
         else
         {
-            throw new FridgeIsEmptyException();
+            throw new FridgeIsEmptyException("The fridge is empty...");
         }
-        throw new NoMoreFoodException(type.name());
+
+        throw new NoMoreFoodException("No more food of type, " + type.name() +"!");
     }
 
     public void clear()

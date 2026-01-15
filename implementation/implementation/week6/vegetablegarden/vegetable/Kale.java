@@ -2,6 +2,8 @@ package implementation.week6.vegetablegarden.vegetable;
 
 public class Kale extends Vegetable
 {
+    // static final variables!!
+
     public Kale()
     {
         super(0.0057, 0.032, 16, Colour.PINK);

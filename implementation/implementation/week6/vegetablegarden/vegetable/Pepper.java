@@ -4,6 +4,8 @@ import implementation.week6.vegetablegarden.market.Sellable;
 
 public class Pepper extends Vegetable implements Sellable
 {
+    // static final variables!!
+
     public Pepper()
     {
         super(0.000044, 0.0013, 7, Colour.GREEN);
@@ -12,13 +14,13 @@ public class Pepper extends Vegetable implements Sellable
     @Override
     public void growth(int lux, int mm, int amountOfDays)
     {
-        if(amountOfDays > 4 && mm > 31)
+        if (amountOfDays > 4 && mm > 31)
         {
             this.setStatus(Status.DESTROYED);
             return;
         }
 
-        if(amountOfDays > 10 && mm > 25)
+        if (amountOfDays > 10 && mm > 25)
         {
             return;
         }

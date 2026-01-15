@@ -9,8 +9,11 @@ import java.util.TimerTask;
 
 public class SmartBBQ extends TimerTask implements Measurable
 {
+    private static final int MAX_FOOD_PIECES = 6;
+    private static final int MAX_TEMP = 250;
+
     private final ArrayList<Food> food;
-    private int temperature;
+    private double temperature;
     private Timer timer;
 
     public SmartBBQ()
@@ -24,9 +27,14 @@ public class SmartBBQ extends TimerTask implements Measurable
         return temperature;
     }
 
-    public void setTemperature(int temperature)
+    public void setTemperature(double temp)
     {
-        this.temperature = temperature;
+        if (temp > MAX_TEMP)
+        {
+            throw new IllegalArgumentException("Temperature should be less than 250.");
+        }
+
+        this.temperature = temp;
     }
 
     public ArrayList<Food> getFood()
@@ -36,12 +44,18 @@ public class SmartBBQ extends TimerTask implements Measurable
 
     public void addFood(Food food)
     {
+        if (this.food.size() > MAX_FOOD_PIECES)
+        {
+            throw new IllegalArgumentException("The fridge is full!");
+        }
+
         this.food.add(food);
     }
 
-    public void turnOn(int temp)
+    public void turnOn(double temp)
     {
-        this.temperature = temp;
+        setTemperature(temp);
+        checkTimer();
         this.timer = new Timer();
         this.timer.schedule(this, 0, 1000);
     }
@@ -49,14 +63,22 @@ public class SmartBBQ extends TimerTask implements Measurable
     public void turnOff()
     {
         this.temperature = 0;
-        this.timer.cancel();
-        this.timer = null;
+        checkTimer();
+    }
+
+    private void checkTimer()
+    {
+        if (this.timer != null)
+        {
+            this.timer.cancel();
+            throw new IllegalArgumentException("The timer is cancelled!");
+        }
     }
 
     @Override
     public void run()
     {
-        for(Food food : food)
+        for (Food food : food)
         {
             food.grill(this.temperature);
         }

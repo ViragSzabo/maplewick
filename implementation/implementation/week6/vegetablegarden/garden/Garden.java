@@ -5,8 +5,10 @@ import implementation.week6.vegetablegarden.market.*;
 
 import java.util.HashSet;
 
-public class Garden {
+public class Garden
+{
     private static final int MAX_VEGETABLES = 27;
+
     private final HashSet<Vegetable> vegetables;
     private final Market market;
 
@@ -23,7 +25,7 @@ public class Garden {
 
     public void addVegetable(Vegetable vegetable) throws TooManyVegetablesException
     {
-        if(this.vegetables.size() < MAX_VEGETABLES)
+        if (this.vegetables.size() < MAX_VEGETABLES)
         {
             this.vegetables.add(vegetable);
         }
@@ -32,7 +34,7 @@ public class Garden {
             throw new TooManyVegetablesException();
         }
 
-        if(vegetable instanceof Sellable)
+        if (vegetable instanceof Sellable)
         {
             this.market.addSellables((Sellable) vegetable);
         }
@@ -42,9 +44,9 @@ public class Garden {
     {
         HashSet<Vegetable> readyForHarvest = new HashSet<>();
 
-        for(Vegetable vegetable : this.vegetables)
+        for (Vegetable vegetable : this.vegetables)
         {
-            if(vegetable.getStatus() == Status.READY_TO_HARVEST)
+            if (vegetable.getStatus() == Status.READY_TO_HARVEST)
             {
                 readyForHarvest.add(vegetable);
             }

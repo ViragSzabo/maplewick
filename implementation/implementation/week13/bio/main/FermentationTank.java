@@ -10,8 +10,9 @@ import java.util.Set;
 
 public class FermentationTank implements Monitorable
 {
-    private Set<BacteriaCulture> bacteriaCultures;
     private static final double CHECK_VITALITY_PERCENTAGE = 15.0;
+
+    private Set<BacteriaCulture> bacteriaCultures;
 
     public FermentationTank()
     {
@@ -25,12 +26,12 @@ public class FermentationTank implements Monitorable
 
     public void addBacteriaCulture(BacteriaCulture bacteriaCulture)
     {
-        this.bacteriaCultures.add(bacteriaCulture);
-
         if (bacteriaCulture == null || this.bacteriaCultures.contains(bacteriaCulture))
         {
             throw new IllegalArgumentException("BacteriaCulture already exists");
         }
+
+        this.bacteriaCultures.add(bacteriaCulture);
     }
 
     public void removeBacteriaCulture(BacteriaCulture bacteriaCulture)
@@ -51,6 +52,7 @@ public class FermentationTank implements Monitorable
         for (BacteriaCulture culture : bacteriaCultures)
         {
             FermentationResult result = culture.ferment(sugar, time);
+
             totalWaste += result.toxicWasteMg();
             totalEthanol += result.rawEthanolMl();
         }

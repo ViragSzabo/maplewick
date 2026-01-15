@@ -1,42 +1,75 @@
 package implementation.week13.skyhigh.drones;
 
 import implementation.week13.skyhigh.exceptions.CrashException;
-import implementation.week13.skyhigh.services.FlightService;
+import implementation.week13.skyhigh.services.DeliveryResult;
 
-public class Heavylift extends Drone implements FlightService
+public class Heavylift extends Drone
 {
-    public Heavylift(double time, double weight)
+    private static final double DISTANCE_WEAR_PERCENTAGE = 100.0;
+    private static final double CRITICAL_WEIGHT = 20.0;
+    private static final int CRITICAL_TIME = 60;
+    private static final int SHORT_FLIGHT_LIMIT = 10;
+
+    private static final double FLAT_CONSUMPTION_SHORT_FLIGHT = 1.0;
+    private static final double CONSUMPTION_FACTOR = 0.05;
+    private static final double CONSUMPTION_BASE = 0.2;
+
+    public Heavylift()
     {
-        super(time, weight);
+        super();
+    }
+
+    @Override
+    public DeliveryResult delivery(double weight, double time) throws CrashException
+    {
+        // 1. Safety Checks
+        safetyCheck(weight, time);
+
+        // 2. Battery Update
+        updateBattery(weight, time);
+
+        // 3. Physics Calculation
+        double distance = getDistance(weight, time);
+        double wear = getWear(weight, time);
+
+        return new DeliveryResult(distance, wear);
     }
 
     @Override
     public double getBatteryConsumption(double time, double weight)
     {
-        double consumption = 0.0;
-
-        if (time >= 10)
+        if (time <= SHORT_FLIGHT_LIMIT)
         {
-            consumption = (0.05 * weight * time) + 0.002;
-        }
-
-        return consumption;
-    }
-
-    @Override
-    public void calculateFlightPhysics(double weight, double time) throws CrashException
-    {
-        double distance = 0.0;
-        double wear = 0.0;
-
-        if (time > 60 && weight > 20)
-        {
-            throw new CrashException("The flight is too long and weight is too large.");
+            return FLAT_CONSUMPTION_SHORT_FLIGHT;
         }
         else
         {
-            distance = time * 0.5;
-            wear = (weight * time) / 100;
+            return (CONSUMPTION_FACTOR * weight * time) * CONSUMPTION_BASE;
         }
+    }
+
+    @Override
+    public double getDistance(double weight, double time) throws CrashException
+    {
+        return time * 0.5;
+    }
+
+    @Override
+    public double getWear(double weight, double time) throws CrashException
+    {
+        return (weight * time) / DISTANCE_WEAR_PERCENTAGE;
+    }
+
+    private void safetyCheck(double weight, double time) throws CrashException
+    {
+        if (time > CRITICAL_TIME && weight > CRITICAL_WEIGHT)
+        {
+            throw new CrashException("Heavylift Unsafe: Long flight with too heavy lift!");
+        }
+    }
+
+    private void updateBattery(double weight, double time)
+    {
+        setBatteryLevel(getBatteryConsumption(weight, time));
     }
 }

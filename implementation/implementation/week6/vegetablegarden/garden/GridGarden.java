@@ -7,6 +7,7 @@ public class GridGarden implements GardenBase
 {
     private static final int AMOUNT_OF_COLUMNS = 16;
     private static final int AMOUNT_OF_ROWS = 34;
+
     private final Vegetable[][] garden;
 
     public GridGarden()
@@ -24,7 +25,6 @@ public class GridGarden implements GardenBase
                 if (this.garden[row][column] == null)
                 {
                     this.garden[row][column] = vegetable;
-
                     return;
                 }
             }

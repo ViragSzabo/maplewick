@@ -1,46 +1,45 @@
 package implementation.week13.skyhigh.services;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class StatisticsServer
+public class StatisticsServer implements Statusable
 {
-    private List<DronePort> ports;
+    private static final double INITIAL_VALUES = 0.0;
+    private static final double MAX_FLEET_DISTANCE = 10000.0;
+
+    private double totalFleetDistance;
 
     public StatisticsServer()
     {
-        this.ports = new ArrayList<>();
+        setTotalFleetDistance(INITIAL_VALUES);
     }
 
-    public void addDronePort(DronePort port)
+    public double getTotalFleetDistance()
     {
-        if (this.ports.contains(port))
-        {
-            throw new IllegalArgumentException("Drone port already exists");
-        }
-
-        if (port == null)
-        {
-            throw new IllegalArgumentException("Drone port is null");
-        }
-
-        this.ports.add(port);
+        return totalFleetDistance;
     }
 
-    public void removeDronePort(DronePort port)
+    public void setTotalFleetDistance(double totalFleetDistance)
     {
-        if (!this.ports.contains(port))
+        if (totalFleetDistance < 0)
         {
-            throw new IllegalArgumentException("Drone port does not exist");
+            throw new IllegalArgumentException("Total fleet distance cannot be negative");
         }
 
-        this.ports.remove(port);
+        this.totalFleetDistance = totalFleetDistance;
     }
 
-    public int totalServiceCost()
+    public void logDistance(double distanceKm)
     {
-        int total = 0;
+        this.totalFleetDistance += distanceKm;
+    }
 
-        return 0;
+    @Override
+    public StatusColours checkStatus()
+    {
+        if (this.totalFleetDistance > MAX_FLEET_DISTANCE)
+        {
+            return StatusColours.RED;
+        }
+
+        return StatusColours.GREEN;
     }
 }

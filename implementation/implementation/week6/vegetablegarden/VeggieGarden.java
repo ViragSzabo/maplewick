@@ -7,17 +7,20 @@ import implementation.week6.vegetablegarden.vegetable.*;
 import java.util.HashSet;
 
 public class VeggieGarden {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Garden garden = new Garden();
         Greenhouse greenhouse = new Greenhouse();
 
-        try {
+        try
+        {
             // Plant some vegetables
             garden.addVegetable(new Asparagus());
             garden.addVegetable(new Pepper());
 
             // Make the sun shine and rain over 10 days
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 10; i++)
+            {
                 int sunshine = WeatherGenerator.getLux();
                 int rain = WeatherGenerator.getMm();
                 greenhouse.run();
@@ -29,16 +32,20 @@ public class VeggieGarden {
             HashSet<Vegetable> harvest = garden.getReadyForHarvest();
             System.out.println("Vegetables ready to harvest: " + harvest.size());
 
-            for (Vegetable v : harvest) {
+            for (Vegetable v : harvest)
+            {
                 System.out.println(v.getClass().getSimpleName() + " is ready with size " + v.getRipeLength() + " cm");
             }
 
             // Test too many vegetables exception
-            for (int i = 0; i < 28; i++) {
+            for (int i = 0; i < 28; i++)
+            {
                 garden.addVegetable(new Kale());
             }
 
-        } catch (TooManyVegetablesException e) {
+        }
+        catch (TooManyVegetablesException e)
+        {
             System.out.println(e.getMessage());
         }
     }
