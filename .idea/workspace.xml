@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="After tutoring and new exam practices">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/management/Reception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Penthouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/RoomDirtyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Standard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Suite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/grandhotel/room/SuiteTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Hotel exercise!">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/CargoPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/ControlTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/InsufficientFuelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/Maintenance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/airport/CargoPlaneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,8 @@
     "Application.implementation.week10.QuickMorningSprints.Wednesday.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.AttendeeTest.executor": "Run",
+    "JUnit.CargoPlaneTest.executor": "Run",
+    "JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption.executor": "Run",
     "JUnit.ConductorTest.executor": "Run",
     "JUnit.ConductorTest.orchestrateResonance.executor": "Run",
     "JUnit.CostCuttingTreatmentTest.executor": "Run",
@@ -129,11 +132,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week14.airport" />
       <recent name="implementation.week14.grandhotel.room" />
       <recent name="implementation.week7.smartbbq.bbq" />
       <recent name="implementation.week13.skyhigh.drones" />
       <recent name="implementation.week13.bio.bacterias" />
-      <recent name="implementation.week13.hospitalmanagement.treatments" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -141,7 +144,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuiteTest">
+  <component name="RunManager" selected="JUnit.CargoPlaneTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -208,19 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BBQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week7.smartbbq.bbq.BBQ" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week7.smartbbq.bbq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="implementation.week13.companion.Main" />
       <module name="maplewick" />
@@ -247,17 +237,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeavyLiftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CargoPlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week13.skyhigh.drones.*" />
+          <option name="PATTERN" value="implementation.week14.airport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="implementation.week13.skyhigh.drones" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week13.skyhigh.drones.HeavyLiftTest" />
+      <option name="PACKAGE_NAME" value="implementation.week14.airport" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.airport.CargoPlaneTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week14.airport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week14.airport" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.airport.CargoPlaneTest" />
+      <option name="METHOD_NAME" value="fly_calculateFuelWithLoad_correctConsumption" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CargoPlaneTest" />
+        <item itemvalue="JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" />
         <item itemvalue="JUnit.SuiteTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.VeggieGarden" />
-        <item itemvalue="Application.BBQ" />
-        <item itemvalue="JUnit.HeavyLiftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +347,10 @@
       <workItem from="1768386633716" duration="9660000" />
       <workItem from="1768474276630" duration="8060000" />
       <workItem from="1768574059990" duration="543000" />
-      <workItem from="1768583076946" duration="4339000" />
+      <workItem from="1768583076946" duration="5581000" />
+      <workItem from="1768746118280" duration="1288000" />
+      <workItem from="1768771411468" duration="610000" />
+      <workItem from="1768775746496" duration="8800000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -711,14 +720,21 @@
       <option name="project" value="LOCAL" />
       <updated>1768514527046</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Hotel exercise!">
+      <option name="closed" value="true" />
+      <created>1768661159515</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1768661159515</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Celestial Ball" />
     <MESSAGE value="Celestial Ball 1.0" />
     <MESSAGE value="Celestial Ball 2.0" />
     <MESSAGE value="Celestial Ball 2.0 = Score" />
@@ -743,7 +759,8 @@
     <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
     <MESSAGE value="After tutoring" />
     <MESSAGE value="After tutoring and new exam practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="After tutoring and new exam practices" />
+    <MESSAGE value="Hotel exercise!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotel exercise!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
