@@ -31,12 +31,12 @@ All robots must implement the abstract method performTask().
 
 ## 2. 📝 Assignments
 ### 2.1. Assignment 1: Structure
-1. [ ] Design the Robot class (Abstract) and the three subclasses.
-2. [ ] Implement inheritance, constructors, and Getters/Setters.
-3. [ ] Validation: Ensure inputs are valid (e.g., Battery must be 0-100).
+1. [X] Design the Robot class (Abstract) and the three subclasses.
+2. [X] Implement inheritance, constructors, and Getters/Setters.
+3. [X] Validation: Ensure inputs are valid (e.g., Battery must be 0-100).
 
 ### 2.2. Assignment 2: Exceptions & Logic
-1. [ ] Create a custom exception: LowBatteryException.
+1. [X] Create a custom exception: LowBatteryException.
 2. [ ] Update specific methods (operate, doRounds, deliver):
    - Calculate required battery before action. 
    - If battery < required: Throw LowBatteryException.
