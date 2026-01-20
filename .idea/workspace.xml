@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Hotel exercise!">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/CargoPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/ControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/InsufficientFuelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/Maintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/airport/CargoPlaneTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Aircraft exam practice">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +343,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="8800000" />
+      <workItem from="1768775746496" duration="10138000" />
     </task>
     <task id="LOCAL-00001" summary="Assignments implementation">
       <option name="closed" value="true" />
@@ -728,14 +721,21 @@
       <option name="project" value="LOCAL" />
       <updated>1768661159515</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Aircraft exam practice">
+      <option name="closed" value="true" />
+      <created>1768947645635</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1768947645635</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Celestial Ball 1.0" />
     <MESSAGE value="Celestial Ball 2.0" />
     <MESSAGE value="Celestial Ball 2.0 = Score" />
     <MESSAGE value="Verdict according to AI." />
@@ -760,7 +760,8 @@
     <MESSAGE value="After tutoring" />
     <MESSAGE value="After tutoring and new exam practices" />
     <MESSAGE value="Hotel exercise!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel exercise!" />
+    <MESSAGE value="Aircraft exam practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aircraft exam practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
