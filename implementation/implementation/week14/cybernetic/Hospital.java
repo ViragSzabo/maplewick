@@ -19,7 +19,7 @@ public class Hospital
     {
         for (Robot robot : robotList)
         {
-            System.out.println(robot.getSerialNumber() + robot.selfCheck());
+            System.out.println(robot.getSerialNumber() + "'s status: " + robot.selfCheck());
         }
     }
 

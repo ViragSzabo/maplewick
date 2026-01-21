@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Cybernetic Hospital done">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Diagnostic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -352,15 +352,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="16299000" />
-    </task>
-    <task id="LOCAL-00002" summary="Huge cleanup!">
-      <option name="closed" value="true" />
-      <created>1756815121215</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1756815121215</updated>
+      <workItem from="1768775746496" duration="16942000" />
     </task>
     <task id="LOCAL-00003" summary="Add King Quest">
       <option name="closed" value="true" />
@@ -746,14 +738,21 @@
       <option name="project" value="LOCAL" />
       <updated>1768950689466</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Cybernetic Hospital done">
+      <option name="closed" value="true" />
+      <created>1769002311867</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1769002311867</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Verdict according to AI." />
     <MESSAGE value="Update the main README file" />
     <MESSAGE value="Little brain training" />
     <MESSAGE value="Clocks exam practice" />
@@ -778,7 +777,8 @@
     <MESSAGE value="Aircraft exam practice" />
     <MESSAGE value="New Case" />
     <MESSAGE value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
+    <MESSAGE value="Cybernetic Hospital done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cybernetic Hospital done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,13 +19,13 @@ class TransportBotTest
     public void checkDeliver_Within10KM_Succeed() throws LowBatteryException
     {
         this.bot.performTask();
-        assertEquals(80, this.bot.getBatteryLevel());
+        assertEquals(97.75, this.bot.getBatteryLevel());
     }
 
     @Test
-    public void checkDeliver_WithCurrentLoad_UnSuccessful() throws LowBatteryException
+    public void checkDeliver_WithLowBattery_UnSuccessful() throws LowBatteryException
     {
-        this.bot.setCurrentLoad(1);
+        this.bot.setBatteryLevel(0.01);
         assertThrows(LowBatteryException.class, () -> this.bot.performTask());
     }
 }

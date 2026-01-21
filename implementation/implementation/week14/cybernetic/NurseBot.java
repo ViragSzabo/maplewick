@@ -1,6 +1,6 @@
 package implementation.week14.cybernetic;
 
-public class NurseBot extends Robot
+public class NurseBot extends Robot implements Diagnostic
 {
     private static final int AVG_COST_PER_ROUNDS = 10;
 
@@ -22,7 +22,7 @@ public class NurseBot extends Robot
     private void doRounds() throws LowBatteryException
     {
         // 1. Check
-        if (!selfCheck() && getBatteryLevel() < AVG_COST_PER_ROUNDS)
+        if (getBatteryLevel() < AVG_COST_PER_ROUNDS)
         {
             throw new LowBatteryException("Low battery");
         }

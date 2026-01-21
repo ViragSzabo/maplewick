@@ -1,6 +1,6 @@
 package implementation.week14.cybernetic;
 
-public class SurgeonBot extends Robot
+public class SurgeonBot extends Robot implements Diagnostic
 {
     private static final double MIN_DIFFICULTY = 5.0;
 
@@ -25,7 +25,7 @@ public class SurgeonBot extends Robot
         double cost = difficulty * 2;
 
         // 2. Check
-        if (getBatteryLevel() < cost && !selfCheck())
+        if (getBatteryLevel() < cost)
         {
             throw new LowBatteryException("Low battery");
         }

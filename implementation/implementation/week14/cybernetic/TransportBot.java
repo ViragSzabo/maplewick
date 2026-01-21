@@ -1,8 +1,8 @@
 package implementation.week14.cybernetic;
 
-public class TransportBot extends Robot
+public class TransportBot extends Robot implements Diagnostic
 {
-    private static final double DISTANCE_PERCENTAGE = 100;
+    private static final double DISTANCE_PERCENTAGE = 0.1;
     private static final double LOAD_PERCENTAGE = 0.05;
 
     private double maxWeight;
@@ -11,6 +11,8 @@ public class TransportBot extends Robot
     public TransportBot(String serialNumber, double maxWeight, double currentLoad)
     {
         super(serialNumber);
+        setMaxWeight(maxWeight);
+        setCurrentLoad(currentLoad);
     }
 
     @Override
@@ -25,13 +27,13 @@ public class TransportBot extends Robot
         double cost = (DISTANCE_PERCENTAGE * distance) + (LOAD_PERCENTAGE * getCurrentLoad());
 
         // 2. Check
-        if (!selfCheck() && getBatteryLevel() < cost)
+        if (getBatteryLevel() < cost)
         {
             throw new LowBatteryException("Low battery");
         }
 
         // 3. Update
-        setBatteryLevel(getBatteryLevel() - (distance * 2));
+        setBatteryLevel(getBatteryLevel() - cost);
         System.out.println("Surgery succeeded!");
     }
 

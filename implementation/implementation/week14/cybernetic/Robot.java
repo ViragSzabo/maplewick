@@ -1,6 +1,6 @@
 package implementation.week14.cybernetic;
 
-public abstract class Robot
+public abstract class Robot implements Diagnostic
 {
     private String serialNumber;
     private double batteryLevel; // 0 - 100
@@ -14,7 +14,6 @@ public abstract class Robot
     }
 
     public abstract void performTask() throws LowBatteryException;
-    public abstract boolean selfCheck();
     public String getSerialNumber()
     {
         return serialNumber;
@@ -22,7 +21,7 @@ public abstract class Robot
 
     public void setSerialNumber(String serialNumber)
     {
-        if (serialNumber != null)
+        if (serialNumber == null)
         {
             throw new IllegalArgumentException("Serial number cannot be null");
         }
