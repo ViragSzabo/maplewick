@@ -1,11 +1,13 @@
 package implementation.week14.menagerie.creatures;
 
 import implementation.week14.menagerie.enums.Diet;
+import implementation.week14.menagerie.exceptions.CreatureExhaustedException;
 import implementation.week14.menagerie.interfaces.Visible;
 
 public class Phoenix extends Creature implements Visible
 {
-    private static final int FULL_ENERGY_TO_IGNITE = 100;
+    private static final int ENERGY_COST = 100;
+
     private int rebirthCount;
 
     public Phoenix(String name, Diet diet)
@@ -13,11 +15,38 @@ public class Phoenix extends Creature implements Visible
         super(name, Diet.MAGIC_EATER);
     }
 
-    public void ignite()
+    @Override
+    public void eat(Diet foodType)
     {
-        if (getEnergyLevel() != FULL_ENERGY_TO_IGNITE)
+        if (foodType != Diet.MAGIC_EATER)
         {
-            throw new IllegalArgumentException("Ignitre is not possible yet.");
+            throw new IllegalArgumentException("Yuck!");
+        }
+        else if (getEnergyLevel() == 100)
+        {
+            throw new IllegalArgumentException(getName() + " is full.");
+        }
+
+        setEnergyLevel(getEnergyLevel() + 20);
+    }
+
+    @Override
+    public void performMagic() throws CreatureExhaustedException
+    {
+        if (getEnergyLevel() < ENERGY_COST)
+        {
+            throw new CreatureExhaustedException("Creature too exhausted.");
+        }
+
+        ignite();
+        System.out.println(this.getName() + " ignites.");
+    }
+
+    private void ignite()
+    {
+        if (getEnergyLevel() != ENERGY_COST)
+        {
+            throw new IllegalArgumentException("Ignite is not possible yet.");
         }
 
         setEnergyLevel(getEnergyLevel() - 100);

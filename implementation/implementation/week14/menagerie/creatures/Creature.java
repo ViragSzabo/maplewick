@@ -1,6 +1,7 @@
 package implementation.week14.menagerie.creatures;
 
 import implementation.week14.menagerie.enums.Diet;
+import implementation.week14.menagerie.exceptions.CreatureExhaustedException;
 
 public abstract class Creature
 {
@@ -16,6 +17,10 @@ public abstract class Creature
         setDiet(diet);
         setEnergyLevel(DEFAULT_ENERGY_LEVEL);
     }
+
+    public abstract void eat(Diet foodType);
+
+    public abstract void performMagic() throws CreatureExhaustedException;
 
     public String getName()
     {

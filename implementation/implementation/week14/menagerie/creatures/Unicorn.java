@@ -1,10 +1,13 @@
 package implementation.week14.menagerie.creatures;
 
 import implementation.week14.menagerie.enums.Diet;
+import implementation.week14.menagerie.exceptions.CreatureExhaustedException;
 import implementation.week14.menagerie.interfaces.Visible;
 
 public class Unicorn extends Creature implements Visible
 {
+    private static final int ENERGY_COST = 5;
+
     private boolean isPure;
 
     public Unicorn(String name, Diet diet, boolean isPure)
@@ -13,7 +16,34 @@ public class Unicorn extends Creature implements Visible
         setPure(isPure);
     }
 
-    public void purifyWater()
+    @Override
+    public void eat(Diet foodType)
+    {
+        if (foodType != Diet.HERBIVORE)
+        {
+            throw new IllegalArgumentException("Yuck!");
+        }
+        else if (getEnergyLevel() == 100)
+        {
+            throw new IllegalArgumentException(getName() + " is full.");
+        }
+
+        setEnergyLevel(getEnergyLevel() + 20);
+    }
+
+    @Override
+    public void performMagic() throws CreatureExhaustedException
+    {
+        if (getEnergyLevel() < ENERGY_COST)
+        {
+            throw new CreatureExhaustedException("Creature too exhausted.");
+        }
+
+        purifyWater();
+        System.out.println(this.getName() + " purifies water.");
+    }
+
+    private void purifyWater()
     {
         setEnergyLevel(getEnergyLevel() - 5);
     }

@@ -40,15 +40,15 @@ _Note: All creatures implement Visible._
 
 ### 2.2. Assignment 2: Logic & Exceptions
 1. [X] Create a custom exception: CreatureExhaustedException.
-2. [] Implement a method performMagic() in the Abstract Class.
+2. [X] Implement a method performMagic() in the Abstract Class.
     - It is abstract.
     - Each subclass implements it by calling their specific behavior (e.g., Dragon calls breathFire, Phoenix calls ignite).
     - **Rule:** If energy < cost, throw CreatureExhaustedException.
     - **Success:** Subtract energy and print the action.
 
 ### 2.3. Assignment 3: Feeding System (Enums in Action)
-1. [] Add a method eat(Diet foodType) to the Creature class.
-2. [] **Logic:**
+1. [X] Add a method eat(Diet foodType) to the Creature class.
+2. [X] **Logic:**
     - If the foodType matches the creature's diet: Energy +20 (Max 100).
     - If the foodType is wrong (e.g., Dragon eating Salad): Throw an IllegalArgumentException ("Yuck!").
     - Special Rule: OMNIVORE can eat CARNIVORE or HERBIVORE food.
@@ -69,4 +69,5 @@ _Note: All creatures implement Visible._
 ## 3. 💡 Key Formulas Cheat Sheet
 * **Dragon Energy Cost:** 20
 * **Unicorn Energy Cost:** 5
+* **Phoenix Energy Cost:** 100 (Must be full)
 * **Feeding:** Wrong Enum = Exception. Correct Enum = +20 Energy.

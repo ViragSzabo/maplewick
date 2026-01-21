@@ -1,10 +1,13 @@
 package implementation.week14.menagerie.creatures;
 
 import implementation.week14.menagerie.enums.Diet;
+import implementation.week14.menagerie.exceptions.CreatureExhaustedException;
 import implementation.week14.menagerie.interfaces.Visible;
 
 public class Dragon extends Creature implements Visible
 {
+    private static final int ENERGY_COST = 20;
+
     private int firePower;
 
     public Dragon(String name, Diet diet, int firePower)
@@ -14,12 +17,39 @@ public class Dragon extends Creature implements Visible
     }
 
     @Override
+    public void eat(Diet foodType)
+    {
+        if (foodType != Diet.CARNIVORE)
+        {
+            throw new IllegalArgumentException("Yuck!");
+        }
+        else if (getEnergyLevel() == 100)
+        {
+            throw new IllegalArgumentException(getName() + " is full.");
+        }
+
+        setEnergyLevel(getEnergyLevel() + 20);
+    }
+
+    @Override
+    public void performMagic() throws CreatureExhaustedException
+    {
+        if (getEnergyLevel() < ENERGY_COST)
+        {
+            throw new CreatureExhaustedException("Creature too exhausted.");
+        }
+
+        breathFire();
+        System.out.println(this.getName() + " breathes fire.");
+    }
+
+    @Override
     public void interactWithVisitors()
     {
         System.out.println(this.getName() + " is interacting with the visitors.");
     }
 
-    public void breathFire()
+    private void breathFire()
     {
         setEnergyLevel(getEnergyLevel() - 20);
     }
