@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Cybernetic Hospital done">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Diagnostic.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Critical mistakes fixed!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,15 +346,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="16942000" />
-    </task>
-    <task id="LOCAL-00003" summary="Add King Quest">
-      <option name="closed" value="true" />
-      <created>1756818179065</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1756818179065</updated>
+      <workItem from="1768775746496" duration="17070000" />
     </task>
     <task id="LOCAL-00004" summary="Add an ecofriendly travel planner">
       <option name="closed" value="true" />
@@ -746,14 +732,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769002311867</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Critical mistakes fixed!">
+      <option name="closed" value="true" />
+      <created>1769003034077</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1769003034077</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update the main README file" />
     <MESSAGE value="Little brain training" />
     <MESSAGE value="Clocks exam practice" />
     <MESSAGE value="Add a new exam practice. :)" />
@@ -778,7 +771,8 @@
     <MESSAGE value="New Case" />
     <MESSAGE value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
     <MESSAGE value="Cybernetic Hospital done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cybernetic Hospital done" />
+    <MESSAGE value="Critical mistakes fixed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Critical mistakes fixed!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

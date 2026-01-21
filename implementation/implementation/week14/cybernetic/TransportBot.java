@@ -34,7 +34,7 @@ public class TransportBot extends Robot implements Diagnostic
 
         // 3. Update
         setBatteryLevel(getBatteryLevel() - cost);
-        System.out.println("Surgery succeeded!");
+        System.out.println("Delivery succeeded!");
     }
 
     @Override
