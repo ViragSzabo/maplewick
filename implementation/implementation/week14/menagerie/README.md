@@ -22,11 +22,11 @@ and manage their interactions with visitors.
 * **Explanation:** Creatures in the public exhibit must implement this.
 
 #### 1.2.2. Creature Types
-| Creature Type    | Diet (Enum)            | Unique Properties | Specific Behaviour | Visitor Interaction (Visible) |
-|:-----------------|:-----------------------|:------------------|:-------------------------------------------------|
-| **Dragon**   | CARNIVORE      | firePower (int)  | breathFire(): Consumes 20 energy. | Visitor Interaction (Visible) |
-| **Unicorn**     | HERBIVORE     | isPure (boolean) | purifyWater(): Consumes 5 energy. | Returns: "The Unicorn bows politely." |
-| **Phoenix** | MAGIC_EATER | rebirthCount (int) | ignite(): Consumes 100 energy (Must be full!). Instantly sets energy to 0, then back to 50, and increments rebirthCount. | Returns: "The Phoenix flashes with blinding light."
+| Creature Type | Diet (Enum) | Unique Properties  | Specific Behaviour                                                                                                       | Visitor Interaction (Visible)                       |
+|:--------------|:------------|:-------------------|:-------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
+| **Dragon**    | CARNIVORE   | firePower (int)    | breathFire(): Consumes 20 energy.                                                                                        | Visitor Interaction (Visible)                       |
+| **Unicorn**   | HERBIVORE   | isPure (boolean)   | purifyWater(): Consumes 5 energy.                                                                                        | Returns: "The Unicorn bows politely."               |
+| **Phoenix**   | MAGIC_EATER | rebirthCount (int) | ignite(): Consumes 100 energy (Must be full!). Instantly sets energy to 0, then back to 50, and increments rebirthCount. | Returns: "The Phoenix flashes with blinding light." |
 
 ---
 

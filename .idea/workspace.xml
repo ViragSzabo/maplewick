@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Last Copy-Paste Error fixed. (Not surgery, but delivery!)">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Magical exam practice added.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Diet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -347,15 +347,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="18309000" />
-    </task>
-    <task id="LOCAL-00005" summary="EcoFriendly adventure practice.">
-      <option name="closed" value="true" />
-      <created>1759847615001</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1759847615001</updated>
+      <workItem from="1768775746496" duration="18902000" />
     </task>
     <task id="LOCAL-00006" summary="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions.">
       <option name="closed" value="true" />
@@ -741,14 +733,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769003100093</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Magical exam practice added.">
+      <option name="closed" value="true" />
+      <created>1769004343809</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1769004343809</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clocks exam practice" />
     <MESSAGE value="Add a new exam practice. :)" />
     <MESSAGE value="Cleanup + confidence boost." />
     <MESSAGE value="Last practice before the exam. I'm ready." />
@@ -773,7 +772,8 @@
     <MESSAGE value="Cybernetic Hospital done" />
     <MESSAGE value="Critical mistakes fixed!" />
     <MESSAGE value="Last Copy-Paste Error fixed. (Not surgery, but delivery!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last Copy-Paste Error fixed. (Not surgery, but delivery!)" />
+    <MESSAGE value="Magical exam practice added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Magical exam practice added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
