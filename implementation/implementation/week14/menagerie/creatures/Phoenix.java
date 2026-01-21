@@ -10,7 +10,7 @@ public class Phoenix extends Creature implements Visible
 
     private int rebirthCount;
 
-    public Phoenix(String name, Diet diet)
+    public Phoenix(String name)
     {
         super(name, Diet.MAGIC_EATER);
     }

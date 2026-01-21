@@ -10,7 +10,7 @@ public class Dragon extends Creature implements Visible
 
     private int firePower;
 
-    public Dragon(String name, Diet diet, int firePower)
+    public Dragon(String name, int firePower)
     {
         super(name, Diet.CARNIVORE);
         setFirePower(firePower);

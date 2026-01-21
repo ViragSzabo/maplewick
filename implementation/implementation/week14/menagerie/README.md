@@ -54,12 +54,12 @@ _Note: All creatures implement Visible._
     - Special Rule: OMNIVORE can eat CARNIVORE or HERBIVORE food.
 
 ### 2.4. Assignment 4: The Sanctuary Manager
-1. [] Create a Sanctuary class with a List<Creature>.
-2. [ ] **Report:** Create a method openToPublic():
+1. [X] Create a Sanctuary class with a List<Creature>.
+2. [X] **Report:** Create a method openToPublic():
    - Iterates through the list.
    - If the creature implements Visible, call interactWithVisitors() and print the result.
    - If the creature does not implement Visible, print "[Restricted Area]".
-3. [] **Unit Test:** Create a test for the Phoenix.
+3. [X] **Unit Test:** Create a test for the Phoenix.
    - Test the ignite() method logic.
    - Verify that it fails if energy is 99.
    - Verify that rebirthCount increases after a successful ignite.

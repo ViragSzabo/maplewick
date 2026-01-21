@@ -10,7 +10,7 @@ public class Unicorn extends Creature implements Visible
 
     private boolean isPure;
 
-    public Unicorn(String name, Diet diet, boolean isPure)
+    public Unicorn(String name, boolean isPure)
     {
         super(name, Diet.HERBIVORE);
         setPure(isPure);

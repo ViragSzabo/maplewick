@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Assignment 2 and 3">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Assignment 4 Part 1">
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/menagerie/creatures/PhoenixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -76,6 +78,7 @@
     "JUnit.InventoryTest.executor": "Run",
     "JUnit.MaplewickEventTest.executor": "Run",
     "JUnit.MaplewickTicketTest.executor": "Run",
+    "JUnit.PhoenixTest.executor": "Run",
     "JUnit.StendaaniumTest.executor": "Run",
     "JUnit.SuiteTest.executor": "Run",
     "JUnit.SuperBacteriaTest.executor": "Run",
@@ -127,11 +130,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week14.menagerie.creatures" />
       <recent name="implementation.week14.cybernetic" />
       <recent name="implementation.week14.airport" />
       <recent name="implementation.week14.grandhotel.room" />
       <recent name="implementation.week7.smartbbq.bbq" />
-      <recent name="implementation.week13.skyhigh.drones" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -139,7 +142,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransportBotTest">
+  <component name="RunManager" selected="JUnit.PhoenixTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -206,19 +209,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week13.companion.Main" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week13.companion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CargoPlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
@@ -246,6 +236,21 @@
       <option name="MAIN_CLASS_NAME" value="implementation.week14.airport.CargoPlaneTest" />
       <option name="METHOD_NAME" value="fly_calculateFuelWithLoad_correctConsumption" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoenixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week14.menagerie.creatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week14.menagerie.creatures" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.menagerie.creatures.PhoenixTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoenixTest" />
         <item itemvalue="JUnit.TransportBotTest" />
         <item itemvalue="JUnit.CargoPlaneTest" />
         <item itemvalue="JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" />
         <item itemvalue="JUnit.SuiteTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -347,15 +352,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="21605000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update Blockbuster app. :)">
-      <option name="closed" value="true" />
-      <created>1760783655134</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1760783655135</updated>
+      <workItem from="1768775746496" duration="22014000" />
     </task>
     <task id="LOCAL-00010" summary="Planning morning: Oct. 20-24">
       <option name="closed" value="true" />
@@ -741,14 +738,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769007434930</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Assignment 4 Part 1">
+      <option name="closed" value="true" />
+      <created>1769007688032</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1769007688032</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exam: remade after first tutoring lesson." />
     <MESSAGE value="Change names" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update nuclear power plant project" />
@@ -773,7 +777,8 @@
     <MESSAGE value="Fix table" />
     <MESSAGE value="Assignment 1 + exception!" />
     <MESSAGE value="Assignment 2 and 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 and 3" />
+    <MESSAGE value="Assignment 4 Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 4 Part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
