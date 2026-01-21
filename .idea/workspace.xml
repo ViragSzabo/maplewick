@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Critical mistakes fixed!">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Last Copy-Paste Error fixed. (Not surgery, but delivery!)">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,15 +347,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="17070000" />
-    </task>
-    <task id="LOCAL-00004" summary="Add an ecofriendly travel planner">
-      <option name="closed" value="true" />
-      <created>1759571148774</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1759571148774</updated>
+      <workItem from="1768775746496" duration="18309000" />
     </task>
     <task id="LOCAL-00005" summary="EcoFriendly adventure practice.">
       <option name="closed" value="true" />
@@ -740,14 +733,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769003034077</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Last Copy-Paste Error fixed. (Not surgery, but delivery!)">
+      <option name="closed" value="true" />
+      <created>1769003100093</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1769003100093</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Little brain training" />
     <MESSAGE value="Clocks exam practice" />
     <MESSAGE value="Add a new exam practice. :)" />
     <MESSAGE value="Cleanup + confidence boost." />
@@ -772,7 +772,8 @@
     <MESSAGE value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
     <MESSAGE value="Cybernetic Hospital done" />
     <MESSAGE value="Critical mistakes fixed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Critical mistakes fixed!" />
+    <MESSAGE value="Last Copy-Paste Error fixed. (Not surgery, but delivery!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Copy-Paste Error fixed. (Not surgery, but delivery!)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

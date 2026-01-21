@@ -52,7 +52,7 @@ All robots must implement the abstract method performTask().
 ### 2.4. Assignment 4: Testing & Management
 1. [X] Central Computer: Create a class with a List<Robot>.
 - Implement printReport(): Iterates list and prints Serial Number + selfCheck() result.
-2. [ ] Unit Test (TransportBot):
+2. [X] Unit Test (TransportBot):
 - Test the deliver method.
 - Verify battery reduction matches the formula: (0.1 * distance) + (0.05 * load).
 
