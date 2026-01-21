@@ -32,14 +32,14 @@ and manage their interactions with visitors.
 
 ## 2. 📝 Assignments
 ### 2.1. Assignment 1: Structure & Enums
-1. [] Create the Enum Diet with the specified values.
-2. [] Create the Abstract Class Creature.
-3. [] Create the Interface Visible.
-4. [] Implement the three subclasses (Dragon, Unicorn, Phoenix).
+1. [X] Create the Enum Diet with the specified values.
+2. [X] Create the Abstract Class Creature.
+3. [X] Create the Interface Visible.
+4. [X] Implement the three subclasses (Dragon, Unicorn, Phoenix).
 _Note: All creatures implement Visible._
 
 ### 2.2. Assignment 2: Logic & Exceptions
-1. [] Create a custom exception: CreatureExhaustedException.
+1. [X] Create a custom exception: CreatureExhaustedException.
 2. [] Implement a method performMagic() in the Abstract Class.
     - It is abstract.
     - Each subclass implements it by calling their specific behavior (e.g., Dragon calls breathFire, Phoenix calls ignite).

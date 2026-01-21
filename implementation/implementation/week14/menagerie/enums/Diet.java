@@ -1,4 +1,4 @@
-package implementation.week14.menagerie.creatures;
+package implementation.week14.menagerie.enums;
 
 public enum Diet
 {

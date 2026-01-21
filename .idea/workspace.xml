@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Magical exam practice added.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Diet.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Fix table">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/exceptions/CreatureExhaustedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/interfaces/Visible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Diet.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/enums/Diet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -347,15 +353,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="18902000" />
-    </task>
-    <task id="LOCAL-00006" summary="PetAdoption Center added as practice for the exam with enums, abstract class, interfaces, lists, exceptions.">
-      <option name="closed" value="true" />
-      <created>1760024590828</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1760024590828</updated>
+      <workItem from="1768775746496" duration="20132000" />
     </task>
     <task id="LOCAL-00007" summary="Add Chef&amp;My Fridge - part 1.">
       <option name="closed" value="true" />
@@ -741,14 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769004343809</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Fix table">
+      <option name="closed" value="true" />
+      <created>1769004939192</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1769004939192</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a new exam practice. :)" />
     <MESSAGE value="Cleanup + confidence boost." />
     <MESSAGE value="Last practice before the exam. I'm ready." />
     <MESSAGE value="Exam: remade after first tutoring lesson." />
@@ -773,7 +778,8 @@
     <MESSAGE value="Critical mistakes fixed!" />
     <MESSAGE value="Last Copy-Paste Error fixed. (Not surgery, but delivery!)" />
     <MESSAGE value="Magical exam practice added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Magical exam practice added." />
+    <MESSAGE value="Fix table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
