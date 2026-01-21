@@ -11,7 +11,15 @@ public class Sanctuary
 
     public Sanctuary()
     {
-        this.creatures = new ArrayList<Creature>();
+        this.creatures = new ArrayList<>();
+    }
+
+    public void openToPublic()
+    {
+        for (Creature creature : creatures)
+        {
+            creature.interactWithVisitors();
+        }
     }
 
     public List<Creature> getCreatures()

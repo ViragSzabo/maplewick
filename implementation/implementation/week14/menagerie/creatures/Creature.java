@@ -2,8 +2,9 @@ package implementation.week14.menagerie.creatures;
 
 import implementation.week14.menagerie.enums.Diet;
 import implementation.week14.menagerie.exceptions.CreatureExhaustedException;
+import implementation.week14.menagerie.interfaces.Visible;
 
-public abstract class Creature
+public abstract class Creature implements Visible
 {
     private static final int DEFAULT_ENERGY_LEVEL = 50;
 
