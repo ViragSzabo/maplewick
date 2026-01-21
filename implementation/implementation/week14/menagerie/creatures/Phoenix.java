@@ -16,21 +16,6 @@ public class Phoenix extends Creature implements Visible
     }
 
     @Override
-    public void eat(Diet foodType)
-    {
-        if (foodType != Diet.MAGIC_EATER)
-        {
-            throw new IllegalArgumentException("Yuck!");
-        }
-        else if (getEnergyLevel() == 100)
-        {
-            throw new IllegalArgumentException(getName() + " is full.");
-        }
-
-        setEnergyLevel(getEnergyLevel() + 20);
-    }
-
-    @Override
     public void performMagic() throws CreatureExhaustedException
     {
         if (getEnergyLevel() < ENERGY_COST)

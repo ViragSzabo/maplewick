@@ -19,7 +19,40 @@ public abstract class Creature implements Visible
         setEnergyLevel(DEFAULT_ENERGY_LEVEL);
     }
 
-    public abstract void eat(Diet foodType);
+    public void eat(Diet foodType)
+    {
+        boolean canEat = false;
+
+        // 1. Omnivore Diet
+        if (this.diet == Diet.OMNIVORE)
+        {
+            if (foodType != Diet.MAGIC_EATER)
+            {
+                canEat = true;
+            }
+        }
+
+        // 2. Normal Diet
+        else if (this.diet == foodType)
+        {
+            canEat = true;
+        }
+
+        // 3. Execution
+        if (!canEat)
+        {
+            throw new IllegalArgumentException("Yuck!");
+        }
+
+        // 4. Common Logic
+        if (this.energyLevel >= 100)
+        {
+            throw new IllegalArgumentException("Full!");
+        }
+
+        setEnergyLevel(Math.min(100, energyLevel + 20));
+        System.out.println(this.name + " eats " + foodType);
+    }
 
     public abstract void performMagic() throws CreatureExhaustedException;
 
@@ -45,7 +78,7 @@ public abstract class Creature implements Visible
 
     public void setEnergyLevel(int energyLevel)
     {
-        if (energyLevel < 0 && energyLevel > 100)
+        if (energyLevel < 0 || energyLevel > 100)
         {
             throw new IllegalArgumentException("Energy level must be greater than 0 and less than 100.");
         }

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Assignment 4 Part 1">
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/menagerie/creatures/PhoenixTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Assignment 4 Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/enums/Diet.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/enums/Diet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,15 +354,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="22014000" />
-    </task>
-    <task id="LOCAL-00010" summary="Planning morning: Oct. 20-24">
-      <option name="closed" value="true" />
-      <created>1760905961923</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1760905961923</updated>
+      <workItem from="1768775746496" duration="22787000" />
     </task>
     <task id="LOCAL-00011" summary="Monday: VegetableGarden (OOP Basics &amp; Collections)">
       <option name="closed" value="true" />
@@ -746,14 +740,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769007688032</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Assignment 4 Done">
+      <option name="closed" value="true" />
+      <created>1769008114247</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1769008114247</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change names" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update nuclear power plant project" />
     <MESSAGE value="Add test to the strategy" />
@@ -778,7 +779,8 @@
     <MESSAGE value="Assignment 1 + exception!" />
     <MESSAGE value="Assignment 2 and 3" />
     <MESSAGE value="Assignment 4 Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 4 Part 1" />
+    <MESSAGE value="Assignment 4 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 4 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

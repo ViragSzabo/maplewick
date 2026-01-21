@@ -4,5 +4,6 @@ public enum Diet
 {
     CARNIVORE,
     HERBIVORE,
-    MAGIC_EATER
+    MAGIC_EATER,
+    OMNIVORE
 }
