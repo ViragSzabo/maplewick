@@ -13,8 +13,8 @@ public abstract class Robot
         setActive(true);
     }
 
-    public abstract void performTask();
-
+    public abstract void performTask() throws LowBatteryException;
+    public abstract boolean selfCheck();
     public String getSerialNumber()
     {
         return serialNumber;

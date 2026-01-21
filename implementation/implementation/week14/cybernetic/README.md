@@ -15,11 +15,11 @@ All robots share these common traits:
   * isActive defaults to true.
 
 ### 1.2. Robot Types & Logic
-| Robot Type | Unique Properties | Specific Logic Method |
-| :--- | :--- | :--- |
-| **SurgeonBot** | precision (0-100) | operate(int difficulty) |
-| **NurseBot** | patientCount (int) | doRounds() |
-| **TransportBot** | maxWeight, currentLoad | deliver(int distance) |
+| Robot Type       | Unique Properties      | Specific Logic Method   |
+|:-----------------|:-----------------------|:------------------------|
+| **SurgeonBot**   | precision (0-100)      | operate(int difficulty) |
+| **NurseBot**     | patientCount (int)     | doRounds()              | 
+| **TransportBot** | maxWeight, currentLoad | deliver(int distance)   |
 
 ### 1.3. Shared Behavior (Abstract)
 All robots must implement the abstract method performTask().
@@ -37,20 +37,20 @@ All robots must implement the abstract method performTask().
 
 ### 2.2. Assignment 2: Exceptions & Logic
 1. [X] Create a custom exception: LowBatteryException.
-2. [ ] Update specific methods (operate, doRounds, deliver):
+2. [X] Update specific methods (operate, doRounds, deliver):
    - Calculate required battery before action. 
    - If battery < required: Throw LowBatteryException.
    - If successful: Subtract battery and print "Task Complete".
 
 ### 2.3. Assignment 3: Interfaces
-1. [ ] Create interface Diagnostic with method boolean selfCheck().
-2. [ ] Implement logic in all robots:
+1. [X] Create interface Diagnostic with method boolean selfCheck().
+2. [X] Implement logic in all robots:
    - SurgeonBot: True if precision > 90.
    - NurseBot: True if patientCount < 5.
    - TransportBot: True if currentLoad == 0.
 
 ### 2.4. Assignment 4: Testing & Management
-1. [ ] Central Computer: Create a class with a List<Robot>.
+1. [X] Central Computer: Create a class with a List<Robot>.
 - Implement printReport(): Iterates list and prints Serial Number + selfCheck() result.
 2. [ ] Unit Test (TransportBot):
 - Test the deliver method.

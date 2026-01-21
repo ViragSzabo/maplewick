@@ -2,6 +2,8 @@ package implementation.week14.cybernetic;
 
 public class NurseBot extends Robot
 {
+    private static final int AVG_COST_PER_ROUNDS = 10;
+
     private int patientCount;
 
     public NurseBot(String serialNumber, int patientCount)
@@ -11,14 +13,29 @@ public class NurseBot extends Robot
     }
 
     @Override
-    public void performTask()
+    public void performTask() throws LowBatteryException
     {
         doRounds();
+        System.out.println("NurseBot performed task");
     }
 
-    private void doRounds()
+    private void doRounds() throws LowBatteryException
     {
+        // 1. Check
+        if (!selfCheck() && getBatteryLevel() < AVG_COST_PER_ROUNDS)
+        {
+            throw new LowBatteryException("Low battery");
+        }
 
+        // 3. Update
+        setBatteryLevel(getBatteryLevel() - AVG_COST_PER_ROUNDS);
+        System.out.println("Task Complete");
+    }
+
+    @Override
+    public boolean selfCheck()
+    {
+        return patientCount < 5;
     }
 
     public int getPatientCount()

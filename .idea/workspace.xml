@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="New Case">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/LowBatteryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/cybernetic/TransportBotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/NurseBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/SurgeonBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,6 +84,7 @@
     "JUnit.StendaaniumTest.executor": "Run",
     "JUnit.SuiteTest.executor": "Run",
     "JUnit.SuperBacteriaTest.executor": "Run",
+    "JUnit.TransportBotTest.executor": "Run",
     "JUnit.implementation.week10.QuickMorningSprints in maplewick.executor": "Run",
     "JUnit.implementation.week9.ChefMyFridge in maplewick.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -130,11 +132,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week14.cybernetic" />
       <recent name="implementation.week14.airport" />
       <recent name="implementation.week14.grandhotel.room" />
       <recent name="implementation.week7.smartbbq.bbq" />
       <recent name="implementation.week13.skyhigh.drones" />
-      <recent name="implementation.week13.bio.bacterias" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -142,7 +144,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CargoPlaneTest">
+  <component name="RunManager" selected="JUnit.TransportBotTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -222,19 +224,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VeggieGarden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.week6.vegetablegarden.VeggieGarden" />
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week6.vegetablegarden.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CargoPlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
@@ -281,13 +270,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransportBotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week14.cybernetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week14.cybernetic" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.cybernetic.TransportBotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransportBotTest" />
         <item itemvalue="JUnit.CargoPlaneTest" />
         <item itemvalue="JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" />
         <item itemvalue="JUnit.SuiteTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.VeggieGarden" />
       </list>
     </recent_temporary>
   </component>
@@ -348,15 +352,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="11277000" />
-    </task>
-    <task id="LOCAL-00001" summary="Assignments implementation">
-      <option name="closed" value="true" />
-      <created>1756720620351</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1756720620351</updated>
+      <workItem from="1768775746496" duration="16299000" />
     </task>
     <task id="LOCAL-00002" summary="Huge cleanup!">
       <option name="closed" value="true" />
@@ -742,14 +738,21 @@
       <option name="project" value="LOCAL" />
       <updated>1768949617019</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created.">
+      <option name="closed" value="true" />
+      <created>1768950689464</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1768950689466</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Celestial Ball 2.0 = Score" />
     <MESSAGE value="Verdict according to AI." />
     <MESSAGE value="Update the main README file" />
     <MESSAGE value="Little brain training" />
@@ -774,7 +777,8 @@
     <MESSAGE value="Hotel exercise!" />
     <MESSAGE value="Aircraft exam practice" />
     <MESSAGE value="New Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Case" />
+    <MESSAGE value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
