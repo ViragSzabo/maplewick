@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Fixed the exam practice to perfect.">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Here every creature is visible for the public.">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,11 +114,11 @@
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\oop2-homework-2025-2026-ViragSzabo\week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week14\brewery" />
+      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week14" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week13\skyhigh" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10\Examination\FileHandling" />
       <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week11\MidnightLibrary" />
-      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10" />
-      <recent name="C:\Users\szabo\OneDrive\Dokumentumok\GitHub\maplewick\implementation\implementation\week10\QuickMorningSprints" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -349,15 +349,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="22976000" />
-    </task>
-    <task id="LOCAL-00012" summary="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)">
-      <option name="closed" value="true" />
-      <created>1761024323091</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1761024323091</updated>
+      <workItem from="1768775746496" duration="23595000" />
     </task>
     <task id="LOCAL-00013" summary="Updated to automate event triggering!">
       <option name="closed" value="true" />
@@ -743,14 +735,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769009000972</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Here every creature is visible for the public.">
+      <option name="closed" value="true" />
+      <created>1769009091357</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1769009091357</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update nuclear power plant project" />
     <MESSAGE value="Add test to the strategy" />
     <MESSAGE value="A little The Resident practice" />
     <MESSAGE value="A little project applying AI." />
@@ -775,7 +774,8 @@
     <MESSAGE value="Assignment 4 Part 1" />
     <MESSAGE value="Assignment 4 Done" />
     <MESSAGE value="Fixed the exam practice to perfect." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the exam practice to perfect." />
+    <MESSAGE value="Here every creature is visible for the public." />
+    <option name="LAST_COMMIT_MESSAGE" value="Here every creature is visible for the public." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
