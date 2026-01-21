@@ -57,11 +57,3 @@ and prevent dangerous explosions.
 3. [ ] Create a Factory class with a List<Vat>.
 4. [ ] method checkSafety(): Iterate through all vats. 
 If getDangerLevel() > 0.9 (90%), print "WARNING: Vat [ID] Critical!".
-
---- 
-
-## 3. 💡 Key Formulas Cheat Sheet
-* **Dragon Energy Cost:** 20
-* **Unicorn Energy Cost:** 5
-* **Phoenix Energy Cost:** 100 (Must be full)
-* **Feeding:** Wrong Enum = Exception. Correct Enum = +20 Energy.
