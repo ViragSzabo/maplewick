@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Assignment 4 Done">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Fixed the exam practice to perfect.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Phoenix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Unicorn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/enums/Diet.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/enums/Diet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -354,15 +349,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="22787000" />
-    </task>
-    <task id="LOCAL-00011" summary="Monday: VegetableGarden (OOP Basics &amp; Collections)">
-      <option name="closed" value="true" />
-      <created>1760938556659</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1760938556659</updated>
+      <workItem from="1768775746496" duration="22976000" />
     </task>
     <task id="LOCAL-00012" summary="Tuesday: Tuesday – SmartBBQ (Events &amp; Delegates)">
       <option name="closed" value="true" />
@@ -748,14 +735,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769008114247</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Fixed the exam practice to perfect.">
+      <option name="closed" value="true" />
+      <created>1769009000972</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1769009000972</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update" />
     <MESSAGE value="Update nuclear power plant project" />
     <MESSAGE value="Add test to the strategy" />
     <MESSAGE value="A little The Resident practice" />
@@ -780,7 +774,8 @@
     <MESSAGE value="Assignment 2 and 3" />
     <MESSAGE value="Assignment 4 Part 1" />
     <MESSAGE value="Assignment 4 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 4 Done" />
+    <MESSAGE value="Fixed the exam practice to perfect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the exam practice to perfect." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

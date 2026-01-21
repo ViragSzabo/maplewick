@@ -19,14 +19,7 @@ public class Sanctuary
     {
         for (Creature creature : creatures)
         {
-            if (creature instanceof Visible)
-            {
-                creature.interactWithVisitors();
-            }
-            else
-            {
-                System.out.println(creature.getName() + ": [Restricted Area]");
-            }
+            creature.interactWithVisitors();
         }
     }
 
