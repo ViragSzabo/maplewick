@@ -1,5 +1,7 @@
 package implementation.week14.galactic.ships;
 
+import implementation.week14.galactic.exceptions.IllegalCargoException;
+import implementation.week14.galactic.exceptions.InsufficientFuelException;
 import implementation.week14.galactic.enums.MissionType;
 
 public abstract class Starship
@@ -15,16 +17,16 @@ public abstract class Starship
         setShieldStrength(100);
     }
 
-    public abstract MissionType performMission(MissionType mission);
+    public abstract void performMission(MissionType mission) throws InsufficientFuelException, IllegalCargoException;
 
     public String getCallSign()
     {
-        return callSign;
+        return this.callSign;
     }
 
     public void setCallSign(String callSign)
     {
-        if (callSign != null)
+        if (callSign == null)
         {
             throw new IllegalArgumentException("callSign cannot be null");
         }
@@ -34,7 +36,7 @@ public abstract class Starship
 
     public double getFuelLevel()
     {
-        return fuelLevel;
+        return this.fuelLevel;
     }
 
     public void setFuelLevel(double fuelLevel)
@@ -49,12 +51,12 @@ public abstract class Starship
 
     public int getShieldStrength()
     {
-        return shieldStrength;
+        return this.shieldStrength;
     }
 
     public void setShieldStrength(int shieldStrength)
     {
-        if (fuelLevel <= 0)
+        if (shieldStrength <= 0)
         {
             throw new IllegalArgumentException("shieldStrength cannot be less or exactly 0");
         }

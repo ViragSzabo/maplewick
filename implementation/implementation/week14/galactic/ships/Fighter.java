@@ -1,6 +1,7 @@
 package implementation.week14.galactic.ships;
 
 import implementation.week14.galactic.enums.MissionType;
+import implementation.week14.galactic.exceptions.InsufficientFuelException;
 
 public class Fighter extends Starship
 {
@@ -14,9 +15,21 @@ public class Fighter extends Starship
     }
 
     @Override
-    public MissionType performMission(MissionType mission)
+    public void performMission(MissionType mission) throws InsufficientFuelException
     {
-        return null;
+        if (mission != MissionType.BATTLE)
+        {
+            throw new IllegalArgumentException("Battle Mission Cancelled");
+        }
+
+        if (getFuelLevel() < 20)
+        {
+            throw new InsufficientFuelException("Fuel level is not good enough!");
+        }
+
+        setTorpedoCount(getTorpedoCount() - 1);
+        setFuelLevel(getFuelLevel() - 20);
+        System.out.println("Fox One deployed!");
     }
 
     public int getTorpedoCount()
@@ -28,7 +41,7 @@ public class Fighter extends Starship
     {
         if (torpedoCount < 0)
         {
-            throw new IllegalArgumentException("torpedoCount cannot be less than 0");
+            throw new IllegalArgumentException("Out of ammount of torpedo");
         }
 
         this.torpedoCount = torpedoCount;

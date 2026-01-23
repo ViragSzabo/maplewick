@@ -1,10 +1,14 @@
 package implementation.week14.galactic.ships;
 
 import implementation.week14.galactic.enums.MissionType;
+import implementation.week14.galactic.exceptions.InsufficientFuelException;
 import implementation.week14.galactic.interfaces.WarpCapable;
 
 public class Explorer extends Starship implements WarpCapable
 {
+    private static final int MIN_FUEL = 10;
+    private static final int YEARLY_FUEL_CONSUMES = 5;
+
     private int scanRange;
 
     public Explorer(String callSign, int scanRange)
@@ -15,15 +19,26 @@ public class Explorer extends Starship implements WarpCapable
     }
 
     @Override
-    public MissionType performMission(MissionType mission)
+    public void performMission(MissionType mission)
     {
-        return null;
+        if (mission == MissionType.EXPLORATION || mission == MissionType.PATROL)
+        {
+            setFuelLevel(getFuelLevel() - MIN_FUEL);
+            System.out.println("Sector Scanned");
+        }
     }
 
     @Override
-    public void warpJump(int lightYears)
+    public void warpJump(int lightYears) throws InsufficientFuelException
     {
+        double cost = lightYears * YEARLY_FUEL_CONSUMES;
 
+        if (getFuelLevel() < MIN_FUEL)
+        {
+            throw new InsufficientFuelException("Not enough fuel!");
+        }
+
+        setFuelLevel(getFuelLevel() - cost);
     }
 
     public int getScanRange()

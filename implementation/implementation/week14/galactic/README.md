@@ -39,39 +39,39 @@ You need to build a system to manage the diverse fleet of starships protecting t
 _Tip: Only Explorer and Freighter should implement WarpCapable._
 
 ### 2.2. Assignment 2: The Fighter Logic (State & Exceptions)
-1. [] Implement performMission for the Fighter.
-2. [] Logic Flow:
+1. [X] Implement performMission for the Fighter.
+2. [X] Logic Flow:
    - Check if mission is BATTLE. If not -> Throw IllegalArgumentException.
    - Check if torpedoCount > 0. If not -> Throw IllegalStateException ("Out of ammo!").
    - Check Fuel (Cost: 20). If low -> Throw InsufficientFuelException.
    - Action: Decrease Torpedoes by 1. Decrease Fuel by 20. Print "Fox One deployed!".
 
 ### 2.3. Assignment 3: The Freighter Logic (Lists & Enums)
-1. [] Add methods loadCargo(Cargo c) and getCargoBay() to Freighter.
-2. [] Implement performMission for the Freighter.
+1. [X] Add methods loadCargo(Cargo c) and getCargoBay() to Freighter.
+2. [X] Implement performMission for the Freighter.
    - Mission Check: Must be TRANSPORT.
    - The Inspection: If the cargoBay contains ALIEN_ARTIFACTS -> Throw IllegalCargoException ("Contraband detected!").
    - Fuel Check: Consumes 30 Fuel.
    - Success: clear() the cargo bay (delivery complete) and update fuel.
 
 ### 2.4. Assignment 4: Fleet Management
-1. [] Create a Fleet class with a List<Starship>.
-2. [] Method deployFleet(MissionType mission):
+1. [X] Create a Fleet class with a List<Starship>.
+2. [X] Method deployFleet(MissionType mission):
    - Loops through all ships.
    - Tries to call performMission(mission).
    - Exception Handling: Wrap the call in a try-catch block inside the loop.
 
 ### 2.5. Assignment 5: Quality Assurance (Unit Testing)
-1. [] Create a Test Class FighterTest.
-2. [] Use @BeforeEach to initialize a Fighter (e.g., "Red Leader") before every test.
-3. [] Test 1: Success Scenario:
+1. [X] Create a Test Class FighterTest.
+2. [X] Use @BeforeEach to initialize a Fighter (e.g., "Red Leader") before every test.
+3. [X] Test 1: Success Scenario:
    - Call performMission(MissionType.BATTLE).
    - Assert that fuelLevel decreased by 20.
    - Assert that torpedoCount decreased by 1.
-4. [] Test 2: Wrong Mission Failure:
+4. [X] Test 2: Wrong Mission Failure:
    - Call performMission(MissionType.EXPLORATION).
    - Assert that it throws IllegalArgumentException.
-5. [ ] Test 3: Ammo Failure:
+5. [X] Test 3: Ammo Failure:
    - Setup: Create a loop to fire all torpedoes (or use a setter if you made one) until count is 0.
    - Act: Call performMission(MissionType.BATTLE) one more time.
    - Assert: Verify it throws IllegalStateException.

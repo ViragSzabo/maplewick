@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Case: The Galactic Fleet Command">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/enums/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/enums/MissionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/exceptions/IllegalCargoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/exceptions/InsufficientFuelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Galactic - assignment 1">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/Fleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/galactic/ships/FighterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,6 +78,7 @@
     "JUnit.ConductorTest.executor": "Run",
     "JUnit.ConductorTest.orchestrateResonance.executor": "Run",
     "JUnit.CostCuttingTreatmentTest.executor": "Run",
+    "JUnit.FighterTest.executor": "Run",
     "JUnit.HeavyLiftTest.executor": "Run",
     "JUnit.InventoryTest.executor": "Run",
     "JUnit.MaplewickEventTest.executor": "Run",
@@ -137,11 +136,11 @@
       <recent name="implementation.week8.NuclearPowerplant.Reactor" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="implementation.week14.galactic.ships" />
       <recent name="implementation.week14.menagerie.creatures" />
       <recent name="implementation.week14.cybernetic" />
       <recent name="implementation.week14.airport" />
       <recent name="implementation.week14.grandhotel.room" />
-      <recent name="implementation.week7.smartbbq.bbq" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -149,7 +148,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuiteTest">
+  <component name="RunManager" selected="JUnit.FighterTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -231,18 +230,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week14.airport.*" />
+          <option name="PATTERN" value="implementation.week14.galactic.ships.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="implementation.week14.airport" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week14.airport.CargoPlaneTest" />
-      <option name="METHOD_NAME" value="fly_calculateFuelWithLoad_correctConsumption" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="implementation.week14.galactic.ships" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.galactic.ships.FighterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="JUnit.SuiteTest" />
         <item itemvalue="JUnit.PhoenixTest" />
         <item itemvalue="JUnit.TransportBotTest" />
         <item itemvalue="JUnit.CargoPlaneTest" />
-        <item itemvalue="JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" />
       </list>
     </recent_temporary>
   </component>
@@ -359,15 +357,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="45271000" />
-    </task>
-    <task id="LOCAL-00018" summary="Update Friday">
-      <option name="closed" value="true" />
-      <created>1761282676147</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1761282676147</updated>
+      <workItem from="1768775746496" duration="48324000" />
     </task>
     <task id="LOCAL-00019" summary="Update simulation">
       <option name="closed" value="true" />
@@ -753,14 +743,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769173592424</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Galactic - assignment 1">
+      <option name="closed" value="true" />
+      <created>1769202410383</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1769202410384</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bio assignment finished, wait for a little check-in" />
     <MESSAGE value="Remove" />
     <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
     <MESSAGE value="After tutoring" />
@@ -785,7 +782,8 @@
     <MESSAGE value="Brewery is done! :)" />
     <MESSAGE value="Perfectly fixed!" />
     <MESSAGE value="Case: The Galactic Fleet Command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Case: The Galactic Fleet Command" />
+    <MESSAGE value="Galactic - assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Galactic - assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
