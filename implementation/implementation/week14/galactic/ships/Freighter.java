@@ -24,10 +24,15 @@ public class Freighter extends Starship implements WarpCapable
     }
 
     @Override
-    public void performMission(MissionType mission) throws IllegalCargoException
+    public void performMission(MissionType mission) throws IllegalCargoException, InsufficientFuelException
     {
         if (mission == MissionType.TRANSPORT)
         {
+            if (getFuelLevel() < MIN_FUEL)
+            {
+                throw new InsufficientFuelException("Not enough fuel!");
+            }
+
             if (cargoBay.contains(Cargo.ALIEN_ARTIFACTS))
             {
                 throw new IllegalCargoException("Contraband detected!");
@@ -42,7 +47,8 @@ public class Freighter extends Starship implements WarpCapable
     public void warpJump(int lightYears) throws InsufficientFuelException
     {
         double cost = lightYears * YEARLY_FUEL_CONSUMES;
-        if (getFuelLevel() < MIN_FUEL)
+
+        if (getFuelLevel() < cost)
         {
             throw new InsufficientFuelException("Not enough fuel!");
         }

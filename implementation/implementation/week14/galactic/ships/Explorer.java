@@ -19,10 +19,15 @@ public class Explorer extends Starship implements WarpCapable
     }
 
     @Override
-    public void performMission(MissionType mission)
+    public void performMission(MissionType mission) throws InsufficientFuelException
     {
         if (mission == MissionType.EXPLORATION || mission == MissionType.PATROL)
         {
+            if (getFuelLevel() < MIN_FUEL)
+            {
+                throw new InsufficientFuelException("Not enough fuel!");
+            }
+
             setFuelLevel(getFuelLevel() - MIN_FUEL);
             System.out.println("Sector Scanned");
         }
@@ -33,7 +38,7 @@ public class Explorer extends Starship implements WarpCapable
     {
         double cost = lightYears * YEARLY_FUEL_CONSUMES;
 
-        if (getFuelLevel() < MIN_FUEL)
+        if (getFuelLevel() < cost)
         {
             throw new InsufficientFuelException("Not enough fuel!");
         }

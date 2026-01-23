@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Galactic - assignment 1">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/Fleet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/galactic/ships/FighterTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Galactic assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,15 +351,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="48324000" />
-    </task>
-    <task id="LOCAL-00019" summary="Update simulation">
-      <option name="closed" value="true" />
-      <created>1761283562995</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1761283562995</updated>
+      <workItem from="1768775746496" duration="48630000" />
     </task>
     <task id="LOCAL-00020" summary="Update tests and add new nighty practice">
       <option name="closed" value="true" />
@@ -751,14 +737,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769202410384</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Galactic assignment">
+      <option name="closed" value="true" />
+      <created>1769205541252</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1769205541252</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove" />
     <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
     <MESSAGE value="After tutoring" />
     <MESSAGE value="After tutoring and new exam practices" />
@@ -783,7 +776,8 @@
     <MESSAGE value="Perfectly fixed!" />
     <MESSAGE value="Case: The Galactic Fleet Command" />
     <MESSAGE value="Galactic - assignment 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Galactic - assignment 1" />
+    <MESSAGE value="Galactic assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Galactic assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
