@@ -40,17 +40,17 @@ public class TransportBot extends Robot implements Diagnostic
     @Override
     public boolean selfCheck()
     {
-        return currentLoad == 0;
+        return this.currentLoad == 0;
     }
 
     public double getMaxWeight()
     {
-        return maxWeight;
+        return this.maxWeight;
     }
 
     public void setMaxWeight(double maxWeight)
     {
-        if (maxWeight < 0)
+        if (maxWeight < 0.0)
         {
             throw new IllegalArgumentException("maxWeight cannot be negative");
         }
@@ -60,12 +60,12 @@ public class TransportBot extends Robot implements Diagnostic
 
     public double getCurrentLoad()
     {
-        return currentLoad;
+        return this.currentLoad;
     }
 
     public void setCurrentLoad(double currentLoad)
     {
-        if (currentLoad < 0)
+        if (currentLoad < 0.0)
         {
             throw new IllegalArgumentException("currentLoad cannot be negative");
         }

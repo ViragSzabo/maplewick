@@ -13,8 +13,8 @@ class SuiteTest
     @BeforeEach
     void setUp()
     {
-        this.suite = new Suite(10, 50, true, 2);
-        this.suite2 = new Suite(10, 50, true, 5);
+        this.suite = new Suite(10, 50, true, 2, 100);
+        this.suite2 = new Suite(10, 50, true, 5, 100);
     }
 
     @Test
@@ -36,20 +36,19 @@ class SuiteTest
     }
 
     @Test
-    void calculateBill_checkFor2NightsFor5_expected1250()
+    void calculateBill_checkFor2NightsFor5_expected650()
     {
-        assertEquals(200, suite2.calculateBill(2));
+        assertEquals(650, suite2.calculateBill(2));
     }
 
     @Test
     void cleanRoom_checkCleanliness_100()
     {
-        suite2.isBooked();
+        suite2.setBooked(true);
         suite2.calculateBill(2);
         suite2.setBooked(false);
-        assertEquals(80, suite2.getCleanlinessScore());
-
         suite2.cleanRoom();
+
         assertEquals(100, suite2.getCleanlinessScore());
     }
 }

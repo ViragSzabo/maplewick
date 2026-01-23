@@ -36,12 +36,12 @@ public class PassengerPlane extends Aircraft implements Maintenance
     @Override
     public boolean performCheck()
     {
-        return bookedSeats <= maxPassengers;
+        return this.bookedSeats <= this.maxPassengers;
     }
 
     public int getMaxPassengers()
     {
-        return maxPassengers;
+        return this.maxPassengers;
     }
 
     public void setMaxPassengers(int maxPassengers)

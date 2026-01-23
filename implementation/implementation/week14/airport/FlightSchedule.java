@@ -5,31 +5,31 @@ import java.util.List;
 
 public class FlightSchedule
 {
-    private List<Aircraft> aircrafts;
+    private List<Aircraft> aircraft;
 
     public FlightSchedule()
     {
-        this.aircrafts = new ArrayList<>();
+        this.aircraft = new ArrayList<>();
     }
 
     public List<Aircraft> getAircrafts()
     {
-        return aircrafts;
+        return this.aircraft;
     }
 
     public void addAircraft(Aircraft aircraft)
     {
-        this.aircrafts.add(aircraft);
+        this.aircraft.add(aircraft);
     }
 
     public void removeAircraft(Aircraft aircraft)
     {
-        this.aircrafts.remove(aircraft);
+        this.aircraft.remove(aircraft);
     }
 
     public void printFlightStatus()
     {
-        for (Aircraft aircraft : aircrafts)
+        for (Aircraft aircraft : aircraft)
         {
             if (aircraft instanceof Maintenance)
             {

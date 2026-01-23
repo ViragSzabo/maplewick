@@ -1,7 +1,6 @@
 package implementation.week14.menagerie.management;
 
 import implementation.week14.menagerie.creatures.Creature;
-import implementation.week14.menagerie.interfaces.Visible;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +16,7 @@ public class Sanctuary
 
     public void openToPublic()
     {
-        for (Creature creature : creatures)
+        for (Creature creature : this.creatures)
         {
             creature.interactWithVisitors();
         }

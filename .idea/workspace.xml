@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Here every creature is visible for the public.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Remove extra unnecessaries">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/enums/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/exceptions/BrewingFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/exceptions/VatExplosionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/interfaces/Monitorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/management/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/management/Reception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Penthouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Penthouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Standard.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Standard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/grandhotel/room/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/grandhotel/room/SuiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -102,6 +124,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2911932",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,7 +162,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhoenixTest">
+  <component name="RunManager" selected="JUnit.SuiteTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -284,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuiteTest" />
         <item itemvalue="JUnit.PhoenixTest" />
         <item itemvalue="JUnit.TransportBotTest" />
         <item itemvalue="JUnit.CargoPlaneTest" />
         <item itemvalue="JUnit.CargoPlaneTest.fly_calculateFuelWithLoad_correctConsumption" />
-        <item itemvalue="JUnit.SuiteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -349,23 +372,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="23595000" />
-    </task>
-    <task id="LOCAL-00013" summary="Updated to automate event triggering!">
-      <option name="closed" value="true" />
-      <created>1761025324441</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1761025324441</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Wednesday: NuclearPowerPant (Interfaces &amp; Polymorphism)">
-      <option name="closed" value="true" />
-      <created>1761111189190</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1761111189190</updated>
+      <workItem from="1768775746496" duration="37720000" />
     </task>
     <task id="LOCAL-00015" summary="Add start and shutdown method into main.">
       <option name="closed" value="true" />
@@ -743,15 +750,29 @@
       <option name="project" value="LOCAL" />
       <updated>1769009091357</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="The Magical Potion Brewery; a high-tech potion factory!">
+      <option name="closed" value="true" />
+      <created>1769009881099</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1769009881099</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Remove extra unnecessaries">
+      <option name="closed" value="true" />
+      <created>1769009938477</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1769009938477</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add test to the strategy" />
-    <MESSAGE value="A little The Resident practice" />
     <MESSAGE value="A little project applying AI." />
     <MESSAGE value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
     <MESSAGE value="Created a new exam practice Bio Refinery" />
@@ -775,7 +796,9 @@
     <MESSAGE value="Assignment 4 Done" />
     <MESSAGE value="Fixed the exam practice to perfect." />
     <MESSAGE value="Here every creature is visible for the public." />
-    <option name="LAST_COMMIT_MESSAGE" value="Here every creature is visible for the public." />
+    <MESSAGE value="The Magical Potion Brewery; a high-tech potion factory!" />
+    <MESSAGE value="Remove extra unnecessaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove extra unnecessaries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

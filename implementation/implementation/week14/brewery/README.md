@@ -28,32 +28,33 @@ and prevent dangerous explosions.
 
 ## 2. 📝 Assignments
 ### 2.1. Assignment 1: Structure & Enums
-1. [ ] Create the Enum Ingredient.
-2. [ ] Create the Abstract Class Vat with the List<Ingredient>.
-3. [ ] Implement the three subclasses (CopperVat, IronVat, CrystalVat).
+1. [X] Create the Enum Ingredient.
+2. [X] Create the Abstract Class Vat with the List<Ingredient>.
+3. [X] Implement the three subclasses (CopperVat, IronVat, CrystalVat).
 
 ### 2.2. Assignment 2: Logic & Exceptions
-1. [ ] Create a custom exception: VatExplosionException.
-2. [ ] Implement heatUp() in each subclass:
-    - [ ] **Step 1:** Calculate the new temperature.
-    - [ ] **Step 2:** Check if it exceeds Max Temp.
-    - [ ] **Step 3:** If yes, throw VatExplosionException ("BOOM!").
-    - [ ] **Step 4:** If no, update currentTemperature.
+1. [X] Create a custom exception: VatExplosionException.
+2. [X] Implement heatUp() in each subclass:
+    - [X] **Step 1:** Calculate the new temperature.
+    - [X] **Step 2:** Check if it exceeds Max Temp.
+    - [X] **Step 3:** If yes, throw VatExplosionException ("BOOM!").
+    - [X] **Step 4:** If no, update currentTemperature.
 
 ### 2.3. Assignment 3: Brewing Logic
-1. [ ] Create a custom exception: BrewingFailedException.
-2. [ ] Implement brew() in each subclass:
-    - [ ] Copper Vat: If contents size != 3 -> Throw Exception.
-    - [ ] Iron Vat: If contents does not contain DRAGON_SCALE -> Throw Exception.
-    - [ ] Crystal Vat: If contents contains TOADSTOOL -> Throw Exception.
-    - [ ] Success: Reset contents to empty (potion bottled), keep temperature, print result.
+1. [X] Create a custom exception: BrewingFailedException.
+2. [X] Implement brew() in each subclass:
+    - [X] Copper Vat: If contents size != 3 -> Throw Exception.
+    - [X] Iron Vat: If contents does not contain DRAGON_SCALE -> Throw Exception.
+    - [X] Crystal Vat: If contents contains TOADSTOOL -> Throw Exception.
+    - [X
+    - ] Success: Reset contents to empty (potion bottled), keep temperature, print result.
 
 ### 2.4. Assignment 4: The Sanctuary Manager
-1. [ ] Create an Interface Monitorable with method double getDangerLevel().
-    - [ ] Copper: currentTemp / 100
-    - [ ] Iron: currentTemp / 500
-    - [ ] Crystal: currentTemp / 80
-2. [ ] Implement this interface in all Vats.
-3. [ ] Create a Factory class with a List<Vat>.
-4. [ ] method checkSafety(): Iterate through all vats. 
+1. [X] Create an Interface Monitorable with method double getDangerLevel().
+    - [X] Copper: currentTemp / 100
+    - [X] Iron: currentTemp / 500
+    - [X] Crystal: currentTemp / 80
+2. [X] Implement this interface in all Vats.
+3. [X] Create a Factory class with a List<Vat>.
+4. [x] method checkSafety(): Iterate through all vats. 
 If getDangerLevel() > 0.9 (90%), print "WARNING: Vat [ID] Critical!".

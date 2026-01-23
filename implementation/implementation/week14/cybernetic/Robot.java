@@ -2,6 +2,8 @@ package implementation.week14.cybernetic;
 
 public abstract class Robot implements Diagnostic
 {
+    private static final double INITIAL_BATTERY_PERCENTAGE = 100.0;
+
     private String serialNumber;
     private double batteryLevel; // 0 - 100
     private boolean isActive;
@@ -9,11 +11,12 @@ public abstract class Robot implements Diagnostic
     public Robot(String serialNumber)
     {
         this.serialNumber = serialNumber;
-        setBatteryLevel(100);
+        setBatteryLevel(INITIAL_BATTERY_PERCENTAGE);
         setActive(true);
     }
 
     public abstract void performTask() throws LowBatteryException;
+
     public String getSerialNumber()
     {
         return serialNumber;
@@ -31,12 +34,12 @@ public abstract class Robot implements Diagnostic
 
     public double getBatteryLevel()
     {
-        return batteryLevel;
+        return this.batteryLevel;
     }
 
     public void setBatteryLevel(double batteryLevel)
     {
-        if (batteryLevel < 0 || batteryLevel > 100)
+        if (batteryLevel < 0.0 || batteryLevel > INITIAL_BATTERY_PERCENTAGE)
         {
             throw new IllegalArgumentException("Battery level cannot be negative or above 100");
         }

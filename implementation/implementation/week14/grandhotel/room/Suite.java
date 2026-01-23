@@ -4,11 +4,11 @@ public class Suite extends Room
 {
     private int size; //m2
 
-    public Suite(int roomNumber, double basePrice, boolean hasView, int guests)
+    public Suite(int roomNumber, double basePrice, boolean hasView, int numberOfGuests, int size)
     {
-        super(roomNumber, basePrice, hasView, guests);
+        super(roomNumber, basePrice, hasView, numberOfGuests);
 
-        this.size = 100;
+        setSize(size);
     }
 
     @Override
@@ -16,10 +16,10 @@ public class Suite extends Room
     {
         setCleanlinessScore(getCleanlinessScore() - (10 * nights));
 
-        if (getGuests() > 2)
+        if (getNumberOfGuests() > 2)
         {
-            int extra = getGuests() - 2;
-            return (getBasePrice() + (extra * 50));
+            int extra = getNumberOfGuests() - 2;
+            return ((getBasePrice() + (this.size * 2))  * nights) + (extra * 50);
         }
         else
         {

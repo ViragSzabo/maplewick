@@ -8,15 +8,15 @@ public abstract class Room
     private double basePrice;
     private int cleanlinessScore;
     private boolean hasView;
-    private int guests;
+    private int numberOfGuests;
     private boolean booked;
 
-    public Room(int roomNumber, double basePrice, boolean hasView, int guests)
+    public Room(int roomNumber, double basePrice, boolean hasView, int numberOfGuests)
     {
         setRoomNumber(roomNumber);
         setBasePrice(basePrice);
         setHasView(hasView);
-        setGuests(guests);
+        setNumberOfGuests(numberOfGuests);
         this.cleanlinessScore = INITIAL_CLEANLINESS_SCORE;
         this.booked = false;
     }
@@ -28,12 +28,17 @@ public abstract class Room
 
     public void setRoomNumber(int roomNumber)
     {
+        if (roomNumber < 0)
+        {
+            throw new IllegalArgumentException("Room number cannot be negative");
+        }
+
         this.roomNumber = roomNumber;
     }
 
     public int getCleanlinessScore()
     {
-        return cleanlinessScore;
+        return this.cleanlinessScore;
     }
 
     public void setCleanlinessScore(int cleanlinessScore)
@@ -43,7 +48,7 @@ public abstract class Room
 
     public double getBasePrice()
     {
-        return basePrice;
+        return this.basePrice;
     }
 
     public void setBasePrice(double basePrice)
@@ -51,9 +56,9 @@ public abstract class Room
         this.basePrice = basePrice;
     }
 
-    public boolean isHasView()
+    public boolean hasView()
     {
-        return hasView;
+        return this.hasView;
     }
 
     public void setHasView(boolean hasView)
@@ -61,14 +66,14 @@ public abstract class Room
         this.hasView = hasView;
     }
 
-    public int getGuests()
+    public int getNumberOfGuests()
     {
-        return this.guests;
+        return this.numberOfGuests;
     }
 
-    public void setGuests(int guests)
+    public void setNumberOfGuests(int guests)
     {
-        this.guests = guests;
+        this.numberOfGuests = guests;
     }
 
     public boolean isBooked()
@@ -95,6 +100,6 @@ public abstract class Room
 
     public void cleanRoom()
     {
-        setCleanlinessScore(100);
+        setCleanlinessScore(INITIAL_CLEANLINESS_SCORE);
     }
 }

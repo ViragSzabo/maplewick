@@ -19,26 +19,37 @@ public class Reception
     {
         List<Room> availableRooms = new ArrayList<>();
 
-        for (Room room : rooms)
+        for (Room room : this.rooms)
         {
-            if (room.isBooked() && room.getCleanlinessScore() < 50)
-            {
-                throw new RoomDirtyException("Room is not available!");
-            }
-            else
-            {
-                availableRooms.add(room);
-            }
+            extracted(room);
+            extracted1(room);
+            availableRooms.add(room);
         }
 
         return availableRooms;
+    }
+
+    private static void extracted1(Room room) throws RoomDirtyException
+    {
+        if (room.getCleanlinessScore() < 50)
+        {
+            throw new RoomDirtyException("Room is not clean!");
+        }
+    }
+
+    private static void extracted(Room room) throws RoomDirtyException
+    {
+        if (room.isBooked())
+        {
+            throw new RoomDirtyException("Room is not available!");
+        }
     }
 
     public double generateRevenueReport()
     {
         double total = 0.0;
 
-        for (Room room : rooms)
+        for (Room room : this.rooms)
         {
             total += room.calculateBill(1);
         }

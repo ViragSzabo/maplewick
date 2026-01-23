@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Hospital
 {
-
     private String hospitalName;
     private List<Robot> robotList;
 
@@ -17,7 +16,7 @@ public class Hospital
 
     public void printReport()
     {
-        for (Robot robot : robotList)
+        for (Robot robot : this.robotList)
         {
             System.out.println(robot.getSerialNumber() + "'s status: " + robot.selfCheck());
         }
@@ -25,7 +24,7 @@ public class Hospital
 
     public String getHospitalName()
     {
-        return hospitalName;
+        return this.hospitalName;
     }
 
     public void setHospitalName(String hospitalName)
