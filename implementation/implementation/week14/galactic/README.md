@@ -32,10 +32,10 @@ You need to build a system to manage the diverse fleet of starships protecting t
 
 ## 2. 📝 Assignments
 ### 2.1. Assignment 1: Structure & Interfaces
-1. [] Create the Enums MissionType and Cargo.
-2. [] Create the Custom Exceptions: InsufficientFuelException and IllegalCargoException.
-3. [] Create the Interface WarpCapable.
-4. [] Implement the Abstract Class Starship and the three subclasses.
+1. [X] Create the Enums MissionType and Cargo.
+2. [X] Create the Custom Exceptions: InsufficientFuelException and IllegalCargoException.
+3. [X] Create the Interface WarpCapable.
+4. [X] Implement the Abstract Class Starship and the three subclasses.
 _Tip: Only Explorer and Freighter should implement WarpCapable._
 
 ### 2.2. Assignment 2: The Fighter Logic (State & Exceptions)

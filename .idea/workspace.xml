@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Perfectly fixed!">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Case: The Galactic Fleet Command">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/enums/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/enums/MissionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/exceptions/IllegalCargoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/exceptions/InsufficientFuelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/interfaces/WarpCapable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Explorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Freighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/ships/Starship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,15 +359,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="40764000" />
-    </task>
-    <task id="LOCAL-00017" summary="Update Friday">
-      <option name="closed" value="true" />
-      <created>1761198982348</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1761198982348</updated>
+      <workItem from="1768775746496" duration="45271000" />
     </task>
     <task id="LOCAL-00018" summary="Update Friday">
       <option name="closed" value="true" />
@@ -744,14 +745,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769171210905</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Case: The Galactic Fleet Command">
+      <option name="closed" value="true" />
+      <created>1769173592424</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1769173592424</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a new exam practice Bio Refinery" />
     <MESSAGE value="Bio assignment finished, wait for a little check-in" />
     <MESSAGE value="Remove" />
     <MESSAGE value="New exam prep on the level of the nuclear power assignment." />
@@ -776,7 +784,8 @@
     <MESSAGE value="Remove extra unnecessaries" />
     <MESSAGE value="Brewery is done! :)" />
     <MESSAGE value="Perfectly fixed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perfectly fixed!" />
+    <MESSAGE value="Case: The Galactic Fleet Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Case: The Galactic Fleet Command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
