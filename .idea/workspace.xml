@@ -4,31 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Remove extra unnecessaries">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/enums/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/exceptions/BrewingFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/exceptions/VatExplosionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/interfaces/Monitorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Brewery is done! :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/FlightSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/airport/PassengerPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/cybernetic/TransportBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/management/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/management/Reception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Penthouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Penthouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Standard.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Standard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/grandhotel/room/Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/creatures/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/menagerie/management/Sanctuary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/grandhotel/room/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/grandhotel/room/SuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,15 +353,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="37720000" />
-    </task>
-    <task id="LOCAL-00015" summary="Add start and shutdown method into main.">
-      <option name="closed" value="true" />
-      <created>1761111367379</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1761111367379</updated>
+      <workItem from="1768775746496" duration="38727000" />
     </task>
     <task id="LOCAL-00016" summary="Thursday: EcoSystemManager">
       <option name="closed" value="true" />
@@ -766,14 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769009938477</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Brewery is done! :)">
+      <option name="closed" value="true" />
+      <created>1769170186737</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1769170186738</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A little project applying AI." />
     <MESSAGE value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
     <MESSAGE value="Created a new exam practice Bio Refinery" />
     <MESSAGE value="Bio assignment finished, wait for a little check-in" />
@@ -798,7 +778,8 @@
     <MESSAGE value="Here every creature is visible for the public." />
     <MESSAGE value="The Magical Potion Brewery; a high-tech potion factory!" />
     <MESSAGE value="Remove extra unnecessaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove extra unnecessaries" />
+    <MESSAGE value="Brewery is done! :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brewery is done! :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

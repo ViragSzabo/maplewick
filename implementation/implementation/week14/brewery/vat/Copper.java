@@ -20,10 +20,7 @@ public class Copper extends Vat implements Monitorable
     {
         if (getIngredients().size() == 3)
         {
-            for (Ingredient i : getIngredients())
-            {
-                getIngredients().remove(i);
-            }
+            getIngredients().clear();
 
             return "Simple Potion";
         }
@@ -34,12 +31,14 @@ public class Copper extends Vat implements Monitorable
     @Override
     public void heatUp() throws VatExplosionException
     {
-        if (getCurrentTemperature() > MAX_TEMP)
+        double newTemp = getCurrentTemperature() + INCREASE_TEMP;
+
+        if (newTemp > MAX_TEMP)
         {
             throw new VatExplosionException("BOOM!");
         }
 
-        setCurrentTemperature(getCurrentTemperature() + INCREASE_TEMP);
+        setCurrentTemperature(newTemp);
     }
 
     @Override

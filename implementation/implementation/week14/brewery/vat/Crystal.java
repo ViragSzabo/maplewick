@@ -18,27 +18,28 @@ public class Crystal extends Vat implements Monitorable
     @Override
     public String brew() throws BrewingFailedException
     {
-        for (Ingredient i : getIngredients())
+        if (getIngredients().contains(Ingredient.TOADSTOOL))
         {
-            if (!Ingredient.TOADSTOOL.equals(i))
-            {
-                getIngredients().remove(i);
-                return "Pure Elixir";
-            }
+
+            throw new BrewingFailedException("Not possible. Must not include toad stool!");
         }
 
-        throw new BrewingFailedException("Not possible. Must not include pure elixir!");
+        getIngredients().clear();
+
+        return "Pure Elixir";
     }
 
     @Override
     public void heatUp() throws VatExplosionException
     {
-        if (getCurrentTemperature() > MAX_TEMP)
+        double newTemp = getCurrentTemperature() + INCREASE_TEMP;
+
+        if (newTemp > MAX_TEMP)
         {
             throw new VatExplosionException("BOOM!");
         }
 
-        setCurrentTemperature(getCurrentTemperature() + INCREASE_TEMP);
+        setCurrentTemperature(newTemp);
     }
 
     @Override

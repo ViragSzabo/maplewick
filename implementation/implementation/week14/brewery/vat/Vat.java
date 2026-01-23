@@ -23,7 +23,7 @@ public abstract class Vat implements Monitorable
 
     public String getId()
     {
-        return id;
+        return this.id;
     }
 
     public void setId(String id)
@@ -38,7 +38,7 @@ public abstract class Vat implements Monitorable
 
     public double getCurrentTemperature()
     {
-        return currentTemperature;
+        return this.currentTemperature;
     }
 
     public void setCurrentTemperature(double currentTemperature)

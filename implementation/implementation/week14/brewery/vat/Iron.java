@@ -18,27 +18,28 @@ public class Iron extends Vat implements Monitorable
     @Override
     public String brew() throws BrewingFailedException
     {
-        for (Ingredient i : getIngredients())
+        if (!getIngredients().contains(Ingredient.DRAGON_SCALE))
         {
-            if (Ingredient.DRAGON_SCALE.equals(i))
-            {
-                getIngredients().remove(i);
-                return "Strong Potion";
-            }
+
+            throw new BrewingFailedException("Not possible. Missing Dragon Scale.");
         }
 
-        throw new BrewingFailedException("Not possible. Missing Dragon Scale.");
+        getIngredients().clear();
+
+        return "Strong Potion";
     }
 
     @Override
     public void heatUp() throws VatExplosionException
     {
-        if (getCurrentTemperature() > MAX_TEMP)
+        double newTemp = getCurrentTemperature() + INCREASE_TEMP;
+
+        if (newTemp > MAX_TEMP)
         {
             throw new VatExplosionException("BOOM!");
         }
 
-        setCurrentTemperature(getCurrentTemperature() + INCREASE_TEMP);
+        setCurrentTemperature(newTemp);
     }
 
     @Override
