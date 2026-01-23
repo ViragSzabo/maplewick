@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Brewery is done! :)">
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Perfectly fixed!">
+      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/galactic/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Copper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Crystal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Iron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/brewery/vat/Vat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,15 +350,7 @@
       <workItem from="1768583076946" duration="5581000" />
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
-      <workItem from="1768775746496" duration="38727000" />
-    </task>
-    <task id="LOCAL-00016" summary="Thursday: EcoSystemManager">
-      <option name="closed" value="true" />
-      <created>1761198217628</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1761198217629</updated>
+      <workItem from="1768775746496" duration="40764000" />
     </task>
     <task id="LOCAL-00017" summary="Update Friday">
       <option name="closed" value="true" />
@@ -747,14 +736,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769170186738</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Perfectly fixed!">
+      <option name="closed" value="true" />
+      <created>1769171210905</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1769171210905</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checked, rewrote some stuff here to be more readable, better as an exam prep." />
     <MESSAGE value="Created a new exam practice Bio Refinery" />
     <MESSAGE value="Bio assignment finished, wait for a little check-in" />
     <MESSAGE value="Remove" />
@@ -779,7 +775,8 @@
     <MESSAGE value="The Magical Potion Brewery; a high-tech potion factory!" />
     <MESSAGE value="Remove extra unnecessaries" />
     <MESSAGE value="Brewery is done! :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brewery is done! :)" />
+    <MESSAGE value="Perfectly fixed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perfectly fixed!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
