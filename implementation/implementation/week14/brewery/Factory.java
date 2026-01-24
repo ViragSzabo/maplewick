@@ -11,7 +11,7 @@ public class Factory
 
     public Factory()
     {
-        this.vats = new ArrayList<Vat>();
+        this.vats = new ArrayList<>();
     }
 
     public List<Vat> getVats()

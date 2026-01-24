@@ -18,7 +18,7 @@ public abstract class Vat implements Monitorable
     {
         setId(id);
         setCurrentTemperature(20.0); // room temperature
-        this.ingredients = new ArrayList<Ingredient>();
+        this.ingredients = new ArrayList<Ingredient>(); // HashSet
     }
 
     public String getId()
@@ -58,6 +58,11 @@ public abstract class Vat implements Monitorable
 
     public void addIngredient(Ingredient ingredient)
     {
+        if (ingredient == null)
+        {
+            throw new IllegalArgumentException("The ingredient cannot be null");
+        }
+
         this.ingredients.add(ingredient);
     }
 

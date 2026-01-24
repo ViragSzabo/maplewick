@@ -36,7 +36,7 @@ public class Explorer extends Starship implements WarpCapable
     @Override
     public void warpJump(int lightYears) throws InsufficientFuelException
     {
-        double cost = lightYears * YEARLY_FUEL_CONSUMES;
+        double cost = (double) (lightYears * YEARLY_FUEL_CONSUMES) / 100;
 
         if (getFuelLevel() < cost)
         {

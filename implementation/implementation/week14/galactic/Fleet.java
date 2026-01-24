@@ -14,7 +14,7 @@ public class Fleet
 
     public Fleet()
     {
-        this.starships = new ArrayList<Starship>();
+        this.starships = new ArrayList<Starship>(); // Hashset
     }
 
     public void deployFleet(MissionType mission)

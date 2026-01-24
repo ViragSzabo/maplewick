@@ -41,7 +41,7 @@ public class Fighter extends Starship
     {
         if (torpedoCount < 0)
         {
-            throw new IllegalArgumentException("Out of ammount of torpedo");
+            throw new IllegalArgumentException("Out of amount of torpedo");
         }
 
         this.torpedoCount = torpedoCount;

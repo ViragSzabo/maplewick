@@ -20,7 +20,6 @@ public class Crystal extends Vat implements Monitorable
     {
         if (getIngredients().contains(Ingredient.TOADSTOOL))
         {
-
             throw new BrewingFailedException("Not possible. Must not include toad stool!");
         }
 
@@ -45,6 +44,6 @@ public class Crystal extends Vat implements Monitorable
     @Override
     public double getDangerLevel()
     {
-        return getCurrentTemperature() / 80;
+        return getCurrentTemperature() / MAX_TEMP;
     }
 }

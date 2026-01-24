@@ -20,7 +20,6 @@ public class Iron extends Vat implements Monitorable
     {
         if (!getIngredients().contains(Ingredient.DRAGON_SCALE))
         {
-
             throw new BrewingFailedException("Not possible. Missing Dragon Scale.");
         }
 
@@ -45,6 +44,6 @@ public class Iron extends Vat implements Monitorable
     @Override
     public double getDangerLevel()
     {
-        return getCurrentTemperature() / 500;
+        return getCurrentTemperature() / MAX_TEMP;
     }
 }

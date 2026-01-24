@@ -6,7 +6,8 @@ import implementation.week6.vegetablegarden.vegetable.*;
 
 import java.util.HashSet;
 
-public class VeggieGarden {
+public class VeggieGarden
+{
     public static void main(String[] args)
     {
         Garden garden = new Garden();

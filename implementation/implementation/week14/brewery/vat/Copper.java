@@ -1,6 +1,5 @@
 package implementation.week14.brewery.vat;
 
-import implementation.week14.brewery.enums.Ingredient;
 import implementation.week14.brewery.exceptions.BrewingFailedException;
 import implementation.week14.brewery.exceptions.VatExplosionException;
 import implementation.week14.brewery.interfaces.Monitorable;
@@ -44,6 +43,6 @@ public class Copper extends Vat implements Monitorable
     @Override
     public double getDangerLevel()
     {
-        return getCurrentTemperature() / 100;
+        return getCurrentTemperature() / MAX_TEMP;
     }
 }
