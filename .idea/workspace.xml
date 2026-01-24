@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Smart Home assignment">
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/RobotVacuumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartLightTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Little bit more testing!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartFridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartFridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/RobotVacuum.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/RobotVacuum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/RobotVacuumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/RobotVacuumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmartLightTest">
+  <component name="RunManager" selected="JUnit.RobotVacuumTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -290,8 +289,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmartLightTest" />
         <item itemvalue="JUnit.RobotVacuumTest" />
+        <item itemvalue="JUnit.SmartLightTest" />
         <item itemvalue="JUnit.SmartFridgeTest" />
         <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="JUnit.SuiteTest" />
@@ -356,15 +355,7 @@
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
       <workItem from="1768775746496" duration="54709000" />
-      <workItem from="1769267337185" duration="8003000" />
-    </task>
-    <task id="LOCAL-00023" summary="Celestial Ball 1.0">
-      <option name="closed" value="true" />
-      <created>1761736420445</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1761736420445</updated>
+      <workItem from="1769267337185" duration="9288000" />
     </task>
     <task id="LOCAL-00024" summary="Celestial Ball 2.0">
       <option name="closed" value="true" />
@@ -750,14 +741,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769277465779</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Little bit more testing!">
+      <option name="closed" value="true" />
+      <created>1769278917320</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1769278917320</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hotel exercise!" />
     <MESSAGE value="Aircraft exam practice" />
     <MESSAGE value="New Case" />
     <MESSAGE value="Cybernetic Hospital: Assigment 1: Structure and Assignment 2: Exception has been created." />
@@ -782,7 +780,8 @@
     <MESSAGE value="Perfectly fixed Galactic" />
     <MESSAGE value="After tutoring, write down smart home case." />
     <MESSAGE value="Smart Home assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smart Home assignment" />
+    <MESSAGE value="Little bit more testing!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little bit more testing!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

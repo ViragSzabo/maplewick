@@ -21,12 +21,14 @@ public class RobotVacuum extends SmartDevice implements Rechargeable
     @Override
     public void performTask() throws LowBatteryException
     {
-        // Calculate
-        int usedBatteryLevel = getBatteryLevel() - REQUIRED_BATTERY_LEVEL;
-
         // Check
-        checkIfBatteryNotTooLow(usedBatteryLevel);
-        setBatteryLevel(usedBatteryLevel);
+        checkIfBatteryNotTooLow(getBatteryLevel());
+
+        // Calculate
+        int newBatteryLevel = getBatteryLevel() - REQUIRED_BATTERY_LEVEL;
+
+        // Update
+        setBatteryLevel(newBatteryLevel);
 
         // Perform
         System.out.println("Cleaning floors...");
@@ -38,8 +40,17 @@ public class RobotVacuum extends SmartDevice implements Rechargeable
         // Check
         checkBatteryLevel(percentage);
 
+        // Calculate
+        int newBatteryLevel = getBatteryLevel() + percentage;
+
+        // Check
+        checkBatteryLevel(newBatteryLevel);
+
+        // Cap at 100 using Math.min
+        int safeLevel = Math.min(newBatteryLevel, MAX_BATTERY_LEVEL);
+
         // Update
-        setBatteryLevel(getBatteryLevel() + percentage);
+        setBatteryLevel(safeLevel);
     }
 
     @Override
@@ -55,9 +66,9 @@ public class RobotVacuum extends SmartDevice implements Rechargeable
     }
 
     /** HELPER method: Check if battery level is not lower than the requested used one */
-    private void checkIfBatteryNotTooLow(int usedBatteryLevel) throws LowBatteryException
+    private void checkIfBatteryNotTooLow(int newBatteryLevel) throws LowBatteryException
     {
-        if (batteryLevel < usedBatteryLevel)
+        if (newBatteryLevel < REQUIRED_BATTERY_LEVEL)
         {
             throw new LowBatteryException("The battery is too low!");
         }

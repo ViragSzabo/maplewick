@@ -31,7 +31,7 @@ class RobotVacuumTest
     {
         // Act & Assert
         this.robotVacuum.setBatteryLevel(10);
-        assertThrows(IllegalArgumentException.class, () -> this.robotVacuum.performTask());
+        assertThrows(LowBatteryException.class, () -> this.robotVacuum.performTask());
     }
 
     @Test
