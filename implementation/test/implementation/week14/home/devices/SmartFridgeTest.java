@@ -18,7 +18,7 @@ class SmartFridgeTest
     }
 
     @Test
-    void testPerformTask_WithSandwich_Successfully() throws ItemNotFoundException
+    void testPerformTask_withSandwich_successfully() throws ItemNotFoundException
     {
         // Assist
         this.fridge.addContent(Content.SANDWICH);
@@ -31,7 +31,7 @@ class SmartFridgeTest
     }
 
     @Test
-    void testPerformTask_WithNoContent_ThrowsException() throws ItemNotFoundException
+    void testPerformTask_withNoContent_throwsException() throws ItemNotFoundException
     {
         // Act & Assert
         assertThrows(ItemNotFoundException.class, () -> this.fridge.performTask());

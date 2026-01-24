@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="After tutoring, write down smart home case.">
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/RobotVacuum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/SmartDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/SmartFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/devices/SmartLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/enums/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/enums/PowerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/exceptions/DeviceOffException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/exceptions/ItemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/exceptions/LowBatteryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/interfaces/Rechargeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/management/HomeHub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartFridgeTest.java" afterDir="false" />
+    <list default="true" id="a4d93ea6-3c20-4fed-90e3-f91a9e7b9b1f" name="Changes" comment="Smart Home assignment">
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/RobotVacuumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartLightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implementation/implementation/week14/home/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/implementation/week14/home/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartFridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/implementation/test/implementation/week14/home/devices/SmartFridgeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +79,9 @@
     "JUnit.MaplewickEventTest.executor": "Run",
     "JUnit.MaplewickTicketTest.executor": "Run",
     "JUnit.PhoenixTest.executor": "Run",
+    "JUnit.RobotVacuumTest.executor": "Run",
     "JUnit.SmartFridgeTest.executor": "Run",
+    "JUnit.SmartLightTest.executor": "Run",
     "JUnit.StendaaniumTest.executor": "Run",
     "JUnit.SuiteTest.executor": "Run",
     "JUnit.SuperBacteriaTest.executor": "Run",
@@ -154,7 +146,7 @@
       <command value="void " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmartFridgeTest">
+  <component name="RunManager" selected="JUnit.SmartLightTest">
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="week5" />
       <option name="ENV_FILES" value="" />
@@ -236,16 +228,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoenixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RobotVacuumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="implementation.week14.menagerie.creatures.*" />
+          <option name="PATTERN" value="implementation.week14.home.devices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="implementation.week14.menagerie.creatures" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week14.menagerie.creatures.PhoenixTest" />
+      <option name="PACKAGE_NAME" value="implementation.week14.home.devices" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.home.devices.RobotVacuumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,6 +258,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmartLightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maplewick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="implementation.week14.home.devices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="implementation.week14.home.devices" />
+      <option name="MAIN_CLASS_NAME" value="implementation.week14.home.devices.SmartLightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maplewick" />
       <extension name="coverage">
@@ -281,28 +288,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportBotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maplewick" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.week14.cybernetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="implementation.week14.cybernetic" />
-      <option name="MAIN_CLASS_NAME" value="implementation.week14.cybernetic.TransportBotTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmartLightTest" />
+        <item itemvalue="JUnit.RobotVacuumTest" />
         <item itemvalue="JUnit.SmartFridgeTest" />
         <item itemvalue="JUnit.FighterTest" />
         <item itemvalue="JUnit.SuiteTest" />
-        <item itemvalue="JUnit.PhoenixTest" />
-        <item itemvalue="JUnit.TransportBotTest" />
       </list>
     </recent_temporary>
   </component>
@@ -364,15 +356,7 @@
       <workItem from="1768746118280" duration="1288000" />
       <workItem from="1768771411468" duration="610000" />
       <workItem from="1768775746496" duration="54709000" />
-      <workItem from="1769267337185" duration="6799000" />
-    </task>
-    <task id="LOCAL-00022" summary="Celestial Ball">
-      <option name="closed" value="true" />
-      <created>1761735916822</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1761735916823</updated>
+      <workItem from="1769267337185" duration="8003000" />
     </task>
     <task id="LOCAL-00023" summary="Celestial Ball 1.0">
       <option name="closed" value="true" />
@@ -758,14 +742,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769272819807</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Smart Home assignment">
+      <option name="closed" value="true" />
+      <created>1769277465779</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1769277465779</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="After tutoring and new exam practices" />
     <MESSAGE value="Hotel exercise!" />
     <MESSAGE value="Aircraft exam practice" />
     <MESSAGE value="New Case" />
@@ -790,7 +781,8 @@
     <MESSAGE value="Galactic assignment" />
     <MESSAGE value="Perfectly fixed Galactic" />
     <MESSAGE value="After tutoring, write down smart home case." />
-    <option name="LAST_COMMIT_MESSAGE" value="After tutoring, write down smart home case." />
+    <MESSAGE value="Smart Home assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smart Home assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
