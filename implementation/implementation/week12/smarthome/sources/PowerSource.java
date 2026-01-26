@@ -1,6 +1,8 @@
 package implementation.week12.smarthome.sources;
 
+import implementation.week12.smarthome.HouseholdResult;
 import implementation.week12.smarthome.Weather;
+import implementation.week12.smarthome.exception.BlackoutException;
 
 public abstract class PowerSource
 {
@@ -26,5 +28,5 @@ public abstract class PowerSource
         this.id = id;
     }
 
-    public abstract double getOutput(Weather weather);
+    public abstract HouseholdResult run(Weather weather) throws BlackoutException;
 }

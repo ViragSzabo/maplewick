@@ -80,7 +80,7 @@ public class Car extends Good
     private double getValueOfVehicleBasedOnProductionYear(LocalDate date)
     {
         int productionYear = getProductionDate().getYear();
-        int currentYear = date.getYear();
+        int currentYear = date.getYear(); // LocalDate.now().getYear()
 
         if (productionYear - currentYear <= MAX_NUMBER_OF_PRODUCE_YEARS)
         {

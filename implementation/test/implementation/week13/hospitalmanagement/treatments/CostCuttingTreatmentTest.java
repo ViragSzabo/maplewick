@@ -28,4 +28,8 @@ class CostCuttingTreatmentTest
                 () -> strategy.treat(patient)
         );
     }
+
+    // treatment improves (condition goes down)
+    // no patient provided
+    // strategy is null
 }

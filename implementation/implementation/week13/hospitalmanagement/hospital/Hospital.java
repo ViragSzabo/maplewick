@@ -5,6 +5,8 @@ import implementation.week13.hospitalmanagement.treatments.TreatmentStrategy;
 
 public class Hospital
 {
+    // list of patients
+
     public void applyTreatment(Patient patient, TreatmentStrategy strategy)
     {
         try

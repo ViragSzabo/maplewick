@@ -1,17 +1,11 @@
 package implementation.week12.highcourt.court;
 
 import implementation.week12.highcourt.Client;
-import implementation.week12.highcourt.inventory.Good;
-import implementation.week12.highcourt.strategies.StrategyResult;
-
-import java.util.HashSet;
 
 public class Writ
 {
     private Client client;
-    // private StrategyResult strategyResult; created in a method as a result of something
     private double outstandingDebt;
-    private HashSet<Good> goodsToSeized;
 
     public Writ(Client client, double outstandingDebt)
     {
@@ -48,6 +42,4 @@ public class Writ
 
         this.outstandingDebt = outstandingDebt;
     }
-
-    // Getters, add and remove from the hashset
 }

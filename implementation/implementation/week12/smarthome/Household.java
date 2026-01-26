@@ -5,44 +5,30 @@ import java.util.HashSet;
 
 public class Household
 {
-    private double gridBudget;
-    private double gridPricePerKwh;
     private HashSet<PowerSource> sources;
 
-    public Household(double gridBudget, double gridPricePerKwh)
+    public Household()
     {
-        this.setGridBudget(gridBudget);
-        this.setGridPricePerKwh(gridPricePerKwh);
         this.sources = new HashSet<>();
     }
 
-    public double getGridBudget()
+    public HashSet<PowerSource> getSources()
     {
-        return gridBudget;
+        return this.sources;
     }
 
-    public void setGridBudget(double gridBudget)
+    public void addSource(PowerSource source)
     {
-        if (gridBudget < 0)
+        this.sources.add(source);
+    }
+
+    public void removeSource(PowerSource source)
+    {
+        if (!this.sources.contains(source))
         {
-            throw new IllegalArgumentException("Grid budget cannot be negative");
+            throw new IllegalArgumentException("Source does not exist");
         }
 
-        this.gridBudget = gridBudget;
-    }
-
-    public double getGridPricePerKwh()
-    {
-        return gridPricePerKwh;
-    }
-
-    public void setGridPricePerKwh(double gridPricePerKwh)
-    {
-        if (gridPricePerKwh < 0)
-        {
-            throw new IllegalArgumentException("Grid budget cannot be negative");
-        }
-
-        this.gridPricePerKwh = gridPricePerKwh;
+        this.sources.remove(source);
     }
 }

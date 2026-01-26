@@ -11,7 +11,7 @@ public class CostCuttingTreatment extends TreatmentStrategy
     }
 
     @Override
-    public void treat(Patient patient) throws MalpracticeException
+    public TreatmentResult treat(Patient patient) throws MalpracticeException
     {
         if (patient.getConditionSeverity() <= 5)
         {
@@ -20,6 +20,6 @@ public class CostCuttingTreatment extends TreatmentStrategy
 
         patient.improve(5);
 
-        new TreatmentResult(true, "Treatment applied");
+        return new TreatmentResult(true, "Treatment applied");
     }
 }

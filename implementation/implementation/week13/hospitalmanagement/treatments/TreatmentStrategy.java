@@ -27,5 +27,5 @@ public abstract class TreatmentStrategy
         this.name = name;
     }
 
-    public abstract void treat(Patient patient) throws MalpracticeException;
+    public abstract TreatmentResult treat(Patient patient) throws MalpracticeException;
 }

@@ -50,7 +50,7 @@ public class Inventory extends Good
     private double getValueForElectronics(LocalDate date)
     {
         int productionYear = getProductionDate().getYear();
-        int currentYear = date.getYear();
+        int currentYear = date.getYear(); // LocalDate.now().getYear()
 
         if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEARS)
         {
@@ -65,7 +65,7 @@ public class Inventory extends Good
     private double getValueForKitchenAppliances(LocalDate date)
     {
         int productionYear = getProductionDate().getYear();
-        int currentYear = date.getYear();
+        int currentYear = date.getYear(); // LocalDate.now().getYear()
 
         if (currentYear - productionYear == MAX_NUMBER_OF_PRODUCTION_YEARS)
         {

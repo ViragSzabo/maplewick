@@ -60,13 +60,13 @@ public class Patient
 
     public void worsen(int amount) throws IllegalArgumentException
     {
-        int condition = this.conditionSeverity - amount;
+        int condition = this.conditionSeverity + amount;
         setConditionSeverity(condition);
     }
 
     public void improve(int amount) throws IllegalArgumentException
     {
-        int condition = this.conditionSeverity + amount;
+        int condition = this.conditionSeverity - amount;
         setConditionSeverity(condition);
     }
 }

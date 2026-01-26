@@ -11,7 +11,7 @@ public class EthicalTreatment extends TreatmentStrategy
     }
 
     @Override
-    public void treat(Patient patient) throws MalpracticeException
+    public TreatmentResult treat(Patient patient) throws MalpracticeException
     {
         if (patient.getConditionSeverity() == 0)
         {
@@ -19,6 +19,6 @@ public class EthicalTreatment extends TreatmentStrategy
         }
 
         patient.improve(20);
-        new TreatmentResult(true, "Patient treated ethically");
+        return new TreatmentResult(true, "Patient treated ethically");
     }
 }
